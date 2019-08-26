@@ -57,10 +57,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>2365523.1500999997369945</xmin>
-      <ymin>4212206.18109999969601631</ymin>
-      <xmax>2384720.33790000015869737</xmax>
-      <ymax>4232563.7028999999165535</ymax>
+      <xmin>2365402.47554305987432599</xmin>
+      <ymin>4212001.9167436771094799</ymin>
+      <xmax>2384973.86609761836007237</xmax>
+      <ymax>4232690.66750830784440041</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -307,7 +307,7 @@
             <Option type="List" name="STYLE">
               <Option type="Map">
                 <Option value="2" type="int" name="source"/>
-                <Option value="D:/GitHub/FontanellePalermo/dati/popolazioneFontanelle.qml" type="QString" name="static_value"/>
+                <Option value="D:/GitHub/FontanellePalermo/dati/one_person_one_dot.qml" type="QString" name="static_value"/>
               </Option>
             </Option>
           </Option>
