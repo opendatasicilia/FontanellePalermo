@@ -47,4 +47,4 @@ Il processo e il modello sono gli stessi di quello di sopra cambia solo lo strat
 
 Confronto:
 
-![screen](./imgs/Confronto.png)
+![screen](./imgs/confronto.png)
