@@ -1,0 +1,2744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mappa Fontanelle di Palermo</name>
+    <description>Mappa delle Fontanelle di acqua potabile a Palermo</description>
+    <Style id="icon-1580-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1580-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1580-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1580-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1580-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>fontanelle.xlsx</name>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA DANISINNI, 22<br>Coordinate: 38.112536, 13.34446]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA DANISINNI, 22</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.112536, 13.34446</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.34446,38.112536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA CONCEZIONE, 7<br>Coordinate: 38.117926, 13.353889]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA CONCEZIONE, 7</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.117926, 13.353889</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.353889,38.117926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA SALINE, 29<br>Coordinate: 38.19384, 13.327761]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA SALINE, 29</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.19384, 13.327761</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.327761,38.19384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA PALLAVICINO, 93 <br>Coordinate: 38.17158, 13.327725]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA PALLAVICINO, 93 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.17158, 13.327725</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.327725,38.17158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA MARTINI, 3<br>Coordinate: 38.192242, 13.326659]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA MARTINI, 3</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.192242, 13.326659</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.326659,38.192242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: VIA DEL FANTE, 3<br>Coordinate: 38.148114, 13.343577]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA DEL FANTE, 3</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.148114, 13.343577</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.343577,38.148114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA TOMMASO NATALE, 141<br>Coordinate: 38.189522, 13.285868]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA TOMMASO NATALE, 141</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.189522, 13.285868</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.285868,38.189522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA PARTANNA MONDELLO, 167<br>Coordinate: 38.196281, 13.311114]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA PARTANNA MONDELLO, 167</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.196281, 13.311114</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.311114,38.196281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: CORTILE CATALANO, 23 C<br>Coordinate: 38.201258, 13.313392]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORTILE CATALANO, 23 C</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.201258, 13.313392</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.313392,38.201258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA CATALANO, 43 B<br>Coordinate: 38.199843, 13.313914]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CATALANO, 43 B</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.199843, 13.313914</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.313914,38.199843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA CARBONE, 1<br>Coordinate: 38.198446, 13.318446]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CARBONE, 1</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.198446, 13.318446</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.318446,38.198446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIALE CAVARRETTA, 1<br>Coordinate: 38.196729, 13.315325]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIALE CAVARRETTA, 1</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.196729, 13.315325</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.315325,38.196729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA ALTARELLO, 233<br>Coordinate: 38.109418, 13.320532]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA ALTARELLO, 233</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.109418, 13.320532</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.320532,38.109418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA PAGLIARELLI, 7 <br>Coordinate: 38.090433, 13.331536]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA PAGLIARELLI, 7 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.090433, 13.331536</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.331536,38.090433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA F. LO IACONO, 20<br>Coordinate: 38.132622, 13.345516]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA F. LO IACONO, 20</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.132622, 13.345516</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.345516,38.132622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA G. SCIUTI, 2<br>Coordinate: 38.132229, 13.34349]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA G. SCIUTI, 2</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.132229, 13.34349</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.34349,38.132229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: CORTILE SEMINARIO GRECO,3<br>Coordinate: 38.141415, 13.35695]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORTILE SEMINARIO GRECO,3</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.141415, 13.35695</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.35695,38.141415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA NOSTRA DONNA DEL ROTOLO, 50<br>Coordinate: 38.166993, 13.366562]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA NOSTRA DONNA DEL ROTOLO, 50</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.166993, 13.366562</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.366562,38.166993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA PERPIGNANO, 177<br>Coordinate: 38.119107, 13.331853]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA PERPIGNANO, 177</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.119107, 13.331853</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.331853,38.119107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA MAZZARELLA, 45<br>Coordinate: 38.126114, 13.308807]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA MAZZARELLA, 45</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.126114, 13.308807</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.308807,38.126114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: VIA ALOI, 123 <br>Coordinate: 38.075049, 13.355524]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA ALOI, 123 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.075049, 13.355524</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.355524,38.075049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: VIA CASTELLANA, 95 <br>Coordinate: 38.125687, 13.308799]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CASTELLANA, 95 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.125687, 13.308799</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.308799,38.125687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: CORTILE RAPALLO, 14 <br>Coordinate: 38.067715, 13.425265]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORTILE RAPALLO, 14 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.067715, 13.425265</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.425265,38.067715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA CONTE FEDERICO, 178 <br>Coordinate: 38.093007, 13.388577]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CONTE FEDERICO, 178 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.093007, 13.388577</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.388577,38.093007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: VICOLO MEZZOJUSO<br>Coordinate: 38.113334, 13.366064]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VICOLO MEZZOJUSO</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.113334, 13.366064</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.366064,38.113334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA MESCHITA <br>Coordinate: 38.113609, 13.364339]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA MESCHITA </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.113609, 13.364339</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.364339,38.113609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA BOLOGNA, 24 <br>Coordinate: 38.113426, 13.364561]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA BOLOGNA, 24 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.113426, 13.364561</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.364561,38.113426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA MESSINA MARINE, 637 <br>Coordinate: 38.09748, 13.416208]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA MESSINA MARINE, 637 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.09748, 13.416208</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.416208,38.09748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CORSO DEI MILLE, 384 <br>Coordinate: 38.102967, 13.379517]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORSO DEI MILLE, 384 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.102967, 13.379517</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.379517,38.102967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA SPERONE, 296 <br>Coordinate: 38.09916, 13.401636]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA SPERONE, 296 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.09916, 13.401636</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.401636,38.09916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA SPERONE, 66 A <br>Coordinate: 38.099477, 13.399401]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA SPERONE, 66 A </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.099477, 13.399401</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.399401,38.099477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CORSO DEI MILLE 1620 <br>Coordinate: 38.088055, 13.420907]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORSO DEI MILLE 1620 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.088055, 13.420907</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.420907,38.088055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA BARRESI ,7 <br>Coordinate: 38.079082, 13.373998]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA BARRESI ,7 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.079082, 13.373998</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.373998,38.079082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA DECOLLATI, 14 <br>Coordinate: 38.105165, 13.371716]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA DECOLLATI, 14 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.105165, 13.371716</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.371716,38.105165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA DEL CELSO, 85<br>Coordinate: 38.116145, 13.358085]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA DEL CELSO, 85</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.116145, 13.358085</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.358085,38.116145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZETTA PIETRO SPECIALE, 1 <br>Coordinate: 38.113976, 13.359963]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZETTA PIETRO SPECIALE, 1 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.113976, 13.359963</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.359963,38.113976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA TAVOLA TONDA, 18 <br>Coordinate: 38.120135, 13.365852]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA TAVOLA TONDA, 18 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.120135, 13.365852</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.365852,38.120135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: PIAZZA VITTORIA <br>Coordinate: 38.112656, 13.355584]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA VITTORIA </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.112656, 13.355584</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.355584,38.112656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA AGOSTINO CATALANO, 80  <br>Coordinate: 38.104312, 13.341897]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA AGOSTINO CATALANO, 80  </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.104312, 13.341897</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.341897,38.104312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA SAN GIOVANNI ALLA GUILLA, 4 <br>Coordinate: 38.116226, 13.356055]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA SAN GIOVANNI ALLA GUILLA, 4 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.116226, 13.356055</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.356055,38.116226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZETTA DELLA CANNA, 2 <br>Coordinate: 38.115866, 13.359141]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZETTA DELLA CANNA, 2 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.115866, 13.359141</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.359141,38.115866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA RITIRO SAN PIETRO, 20 <br>Coordinate: 38.109595, 13.35887]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA RITIRO SAN PIETRO, 20 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.109595, 13.35887</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.35887,38.109595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZETTA DELLE API, 6 <br>Coordinate: 38.1169, 13.358557]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZETTA DELLE API, 6 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.1169, 13.358557</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.358557,38.1169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: VIA DELLA LIBERTA' GIARDINO INGLESE <br>Coordinate: 38.131958, 13.350762]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value><![CDATA[VIA DELLA LIBERTA' GIARDINO INGLESE ]]></value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.131958, 13.350762</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.350762,38.131958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA VILLAGRAZIA<br>Coordinate: 38.07816, 13.333445]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA VILLAGRAZIA</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.07816, 13.333445</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.333445,38.07816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: FONDO PECORARO (VIA FALSOMIELE)<br>Coordinate: 38.076736, 13.369887]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>FONDO PECORARO (VIA FALSOMIELE)</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.076736, 13.369887</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.369887,38.076736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA MADONNA DEL SOCCORSO 3<br>Coordinate: 38.110006, 13.325337]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA MADONNA DEL SOCCORSO 3</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.110006, 13.325337</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.325337,38.110006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA LORENZO IANDOLINO, 54<br>Coordinate: 38.196577, 13.312688]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA LORENZO IANDOLINO, 54</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.196577, 13.312688</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.312688,38.196577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA CORTILE CASTELLANA BANDIERA<br>Coordinate: 38.147660, 13.363620]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CORTILE CASTELLANA BANDIERA</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.147660, 13.363620</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.36362,38.14766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: VICOLO SEIDITA IN VIA CASAMICCIOLA<br>Coordinate: 38.125994, 13.311662]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VICOLO SEIDITA IN VIA CASAMICCIOLA</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.125994, 13.311662</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.311662,38.125994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA MESSINA MARINE, 50 <br>Coordinate: 38.10695, 13.383327]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA MESSINA MARINE, 50 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.10695, 13.383327</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.383327,38.10695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: PIAZZETTA VINCENZO DI GIOVANNI <br>Coordinate: 38.115596, 13.356896]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZETTA VINCENZO DI GIOVANNI </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.115596, 13.356896</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.356896,38.115596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: VICOLO DEGLI ORFANI, 15 <br>Coordinate: 38.117089, 13.35538]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VICOLO DEGLI ORFANI, 15 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.117089, 13.35538</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.35538,38.117089,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: LARGO PARISI, 18 <br>Coordinate: 38.079678, 13.361753]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>LARGO PARISI, 18 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.079678, 13.361753</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.361753,38.079678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA CONCERIA, 32 <br>Coordinate: 38.140232, 13.329823]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CONCERIA, 32 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.140232, 13.329823</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.329823,38.140232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: VIA BAIDA 106 <br>Coordinate: 38.109069, 13.305624]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA BAIDA 106 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.109069, 13.305624</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.305624,38.109069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA ROSSI, 1<br>Coordinate: 38.190045, 13.2863]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA ROSSI, 1</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.190045, 13.2863</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.2863,38.190045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: FONDO NAPOLITANO <br>Coordinate: 38.103486, 13.370337]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>FONDO NAPOLITANO </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.103486, 13.370337</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.370337,38.103486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: VILLA A MARE<br>Coordinate: 38.114806, 13.378209]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VILLA A MARE</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.114806, 13.378209</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.378209,38.114806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: PIAZZA GEN. CASCINO<br>Coordinate: 38.148121, 13.357784]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA GEN. CASCINO</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.148121, 13.357784</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.357784,38.148121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANA</name>
+        <description><![CDATA[Indirizzo: VIA VOLTURNO, 2<br>Coordinate: 38.119865, 13.355500]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA VOLTURNO, 2</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.119865, 13.355500</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.3555,38.119865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA SFERRACAVALLO, 8<br>Coordinate: 38.197942, 13.276838]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA SFERRACAVALLO, 8</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.197942, 13.276838</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.276838,38.197942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA MANDORLE, 10<br>Coordinate: 38.188327, 13.289097]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA MANDORLE, 10</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.188327, 13.289097</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.289097,38.188327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA DI BENEDETTO, 19<br>Coordinate: 38.187864, 13.286906]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA DI BENEDETTO, 19</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.187864, 13.286906</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.286906,38.187864,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA PIETRO MICCA, 18<br>Coordinate: 38.109259, 13.308583]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA PIETRO MICCA, 18</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.109259, 13.308583</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.308583,38.109259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA UMBERTO MADDALENA, 232<br>Coordinate: 38.108181, 13.308868]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA UMBERTO MADDALENA, 232</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.108181, 13.308868</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.308868,38.108181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA ASILO INFANTILE, 1<br>Coordinate: 38.195186, 13.312224]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA ASILO INFANTILE, 1</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.195186, 13.312224</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.312224,38.195186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA PORTELLO ,14<br>Coordinate: 38.113467, 13.33033]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA PORTELLO ,14</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.113467, 13.33033</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.33033,38.113467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA MADONNADEL SOCCORSO, 41 A<br>Coordinate: 38.110867, 13.324978]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA MADONNADEL SOCCORSO, 41 A</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.110867, 13.324978</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.324978,38.110867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA MONDELLO, 1<br>Coordinate: 38.20721, 13.326597]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA MONDELLO, 1</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.20721, 13.326597</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.326597,38.20721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA BAIDA, 21 COD SERVIZIO 177024<br>Coordinate: 38.10846, 13.305472]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA BAIDA, 21 COD SERVIZIO 177024</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.10846, 13.305472</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.305472,38.10846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA BARCAIOLI, 44<br>Coordinate: 38.199366, 13.277711]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA BARCAIOLI, 44</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.199366, 13.277711</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.277711,38.199366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA UMBERTO MADDALENA, 113<br>Coordinate: 38.107688, 13.3092]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA UMBERTO MADDALENA, 113</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.107688, 13.3092</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.3092,38.107688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA UMBERTO MADDALENA, 103<br>Coordinate: 38.106864, 13.309612]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA UMBERTO MADDALENA, 103</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.106864, 13.309612</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.309612,38.106864,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CORSO CALATAFIMI,1157<br>Coordinate: 38.093992, 13.307838]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORSO CALATAFIMI,1157</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.093992, 13.307838</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.307838,38.093992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA ALTARELLO, 76<br>Coordinate: 38.109835, 13.323331]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA ALTARELLO, 76</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.109835, 13.323331</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.323331,38.109835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA AMORELLO, 1<br>Coordinate: 38.19924, 13.276028]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA AMORELLO, 1</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.19924, 13.276028</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.276028,38.19924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA SS. COSIMA E DAMIANO<br>Coordinate: 38.198393, 13.276254]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA SS. COSIMA E DAMIANO</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.198393, 13.276254</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.276254,38.198393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA MARINA DI SFERRACAVALLO<br>Coordinate: 38.198261, 13.274645]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA MARINA DI SFERRACAVALLO</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.198261, 13.274645</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.274645,38.198261,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA SFERRACAVALLO, 198<br>Coordinate: 38.196957, 13.277935]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA SFERRACAVALLO, 198</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.196957, 13.277935</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.277935,38.196957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZETTA BAGLICELLO<br>Coordinate: 38.197802, 13.275186]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZETTA BAGLICELLO</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.197802, 13.275186</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.275186,38.197802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA TRABUCCO, 67<br>Coordinate: 38.147962, 13.315455]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA TRABUCCO, 67</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.147962, 13.315455</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.315455,38.147962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA CARBONE, 67<br>Coordinate: 38.198016, 13.316556]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CARBONE, 67</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.198016, 13.316556</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.316556,38.198016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CORSO CALATAFIMI, 217<br>Coordinate: 38.109323, 13.345939]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORSO CALATAFIMI, 217</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.109323, 13.345939</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.345939,38.109323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA GENERALE TURBA<br>Coordinate: 38.101296, 13.338787]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA GENERALE TURBA</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.101296, 13.338787</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.338787,38.101296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA MORICI,1 A<br>Coordinate: 38.165183, 13.367454]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA MORICI,1 A</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.165183, 13.367454</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.367454,38.165183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA TONNARA, 1<br>Coordinate: 38.151374, 13.373589]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA TONNARA, 1</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.151374, 13.373589</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.373589,38.151374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA DELLA LEVA, 40<br>Coordinate: 38.153294, 13.374665]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA DELLA LEVA, 40</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.153294, 13.374665</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.374665,38.153294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CORTILE CASERMAGGIO<br>Coordinate: 38.110888, 13.347125]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORTILE CASERMAGGIO</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.110888, 13.347125</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.347125,38.110888,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA MICHELE FANARA, 2<br>Coordinate: 38.108705, 13.307046]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA MICHELE FANARA, 2</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.108705, 13.307046</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.307046,38.108705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA DANISINNI ANG. LA FIURA<br>Coordinate: 38.111831, 13.346463]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA DANISINNI ANG. LA FIURA</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.111831, 13.346463</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.346463,38.111831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA SCOPARI, 6<br>Coordinate: 38.11757, 13.371578]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA SCOPARI, 6</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.11757, 13.371578</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.371578,38.11757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZETTA CARUSO ARENELLA<br>Coordinate: 38.153135, 13.37399]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZETTA CARUSO ARENELLA</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.153135, 13.37399</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.37399,38.153135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA DEI PESCATORI<br>Coordinate: 38.199397, 13.277714]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA DEI PESCATORI</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.199397, 13.277714</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.277714,38.199397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA UDITORE, 15<br>Coordinate: 38.131648, 13.322712]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA UDITORE, 15</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.131648, 13.322712</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.322712,38.131648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA CASALINI ANG. LEONARDO DA VINCI<br>Coordinate: 38.126913, 13.313684]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CASALINI ANG. LEONARDO DA VINCI</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.126913, 13.313684</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.313684,38.126913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA TOMMASO NATALE, 61<br>Coordinate: 38.174382, 13.301743]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA TOMMASO NATALE, 61</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.174382, 13.301743</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.301743,38.174382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA  MASSAIA GUGLIELMO CARDINALE, 159<br>Coordinate: 38.154213, 13.371165]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA  MASSAIA GUGLIELMO CARDINALE, 159</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.154213, 13.371165</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.371165,38.154213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CORSO CALATAFIMI, 927<br>Coordinate: 38.100284, 13.323104]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORSO CALATAFIMI, 927</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.100284, 13.323104</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.323104,38.100284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA RESUTTANA, 418 <br>Coordinate: 38.153186, 13.334822]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA RESUTTANA, 418 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.153186, 13.334822</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.334822,38.153186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZETTA SCANNASERPE<br>Coordinate: 38.153059, 13.332909]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZETTA SCANNASERPE</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.153059, 13.332909</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.332909,38.153059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA NUOVA 106,  <br>Coordinate: 38.159765, 13.321899]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA NUOVA 106,  </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.159765, 13.321899</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.321899,38.159765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA GIUSINO, 24 <br>Coordinate: 38.172812, 13.334687]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA GIUSINO, 24 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.172812, 13.334687</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.334687,38.172812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA ISAC RABIN, 33<br>Coordinate: 38.144163, 13.357473]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA ISAC RABIN, 33</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.144163, 13.357473</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.357473,38.144163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: SALITA BELMONTE, 40 <br>Coordinate: 38.144994, 13.368535]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>SALITA BELMONTE, 40 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.144994, 13.368535</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.368535,38.144994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA FLORIO, 27 E<br>Coordinate: 38.163538, 13.326594]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA FLORIO, 27 E</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.163538, 13.326594</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.326594,38.163538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA RESUTTANA, 372<br>Coordinate: 38.152231, 13.336199]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA RESUTTANA, 372</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.152231, 13.336199</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.336199,38.152231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VICOLO FELICE, 9<br>Coordinate: 38.137681, 13.327315]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VICOLO FELICE, 9</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.137681, 13.327315</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.327315,38.137681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA FELICE, 4 <br>Coordinate: 38.138468, 13.328337]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA FELICE, 4 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.138468, 13.328337</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.328337,38.138468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CORTILE PRESTIGIACOMO, 10 IN VIA CASTELLANA <br>Coordinate: 38.125969, 13.311333]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORTILE PRESTIGIACOMO, 10 IN VIA CASTELLANA </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.125969, 13.311333</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.311333,38.125969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIZZETTA DI CRISTOFALO, 5 <br>Coordinate: 38.145292, 13.366613]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIZZETTA DI CRISTOFALO, 5 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.145292, 13.366613</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.366613,38.145292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: FONDO MORTILLARO, 6 <br>Coordinate: 38.096828, 13.389449]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>FONDO MORTILLARO, 6 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.096828, 13.389449</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.389449,38.096828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA CARUSO, 43 <br>Coordinate: 38.154404, 13.373851]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CARUSO, 43 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.154404, 13.373851</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.373851,38.154404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA GIARDINA, 2 <br>Coordinate: 38.068478, 13.418855]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA GIARDINA, 2 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.068478, 13.418855</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.418855,38.068478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA GIARDINA, 53 <br>Coordinate: 38.06754, 13.417459]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA GIARDINA, 53 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.06754, 13.417459</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.417459,38.06754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA GIARDINA, 3 <br>Coordinate: 38.067044, 13.416643]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA GIARDINA, 3 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.067044, 13.416643</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.416643,38.067044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CORSO DEI MILLE, 1294 <br>Coordinate: 38.09373, 13.405929]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORSO DEI MILLE, 1294 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.09373, 13.405929</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.405929,38.09373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CORSO DEI MILLE, 1258 <br>Coordinate: 38.093465, 13.406831]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORSO DEI MILLE, 1258 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.093465, 13.406831</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.406831,38.093465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CORSO DEI MILLE, 988 <br>Coordinate: 38.098127, 13.393617]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORSO DEI MILLE, 988 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.098127, 13.393617</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.393617,38.098127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA GIAFAR, 127 <br>Coordinate: 38.093763, 13.387449]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA GIAFAR, 127 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.093763, 13.387449</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.387449,38.093763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA BRANCACCIO, 228 <br>Coordinate: 38.096174, 13.382879]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA BRANCACCIO, 228 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.096174, 13.382879</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.382879,38.096174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA CIACULLI, 240 <br>Coordinate: 38.075933, 13.407128]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CIACULLI, 240 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.075933, 13.407128</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.407128,38.075933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA CIACULLI, 216 <br>Coordinate: 38.07704, 13.40454]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CIACULLI, 216 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.07704, 13.40454</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.40454,38.07704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA GIULIO TENAGLIA, 41 <br>Coordinate: 38.079246, 13.398733]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA GIULIO TENAGLIA, 41 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.079246, 13.398733</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.398733,38.079246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA GUADAGNA, 50 <br>Coordinate: 38.100082, 13.368958]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA GUADAGNA, 50 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.100082, 13.368958</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.368958,38.100082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA VERGINE MARIA, 12 <br>Coordinate: 38.165789, 13.36725]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA VERGINE MARIA, 12 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.165789, 13.36725</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.36725,38.165789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA SPERONE, 204 <br>Coordinate: 38.099475, 13.3994]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA SPERONE, 204 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.099475, 13.3994</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.3994,38.099475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA S. ORSOLA, 7 <br>Coordinate: 38.10116, 13.361543]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA S. ORSOLA, 7 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.10116, 13.361543</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.361543,38.10116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA SAN GREGORIO, 13 <br>Coordinate: 38.118552, 13.355178]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA SAN GREGORIO, 13 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.118552, 13.355178</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.355178,38.118552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA SANT'ALESANDRO, 47 <br>Coordinate: 38.120685, 13.364111]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value><![CDATA[VIA SANT'ALESANDRO, 47 ]]></value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.120685, 13.364111</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.364111,38.120685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA SANTO SPIRITO, 15 <br>Coordinate: 38.11984, 13.370935]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA SANTO SPIRITO, 15 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.11984, 13.370935</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.370935,38.11984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA CHIESA DEI COCCHIERI<br>Coordinate: 38.115299, 13.367446]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA CHIESA DEI COCCHIERI</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.115299, 13.367446</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.367446,38.115299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: ARCO DEI CARTARI, 7 <br>Coordinate: 38.116642, 13.365605]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>ARCO DEI CARTARI, 7 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.116642, 13.365605</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.365605,38.116642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: FONDO MICCIULLA, 11 <br>Coordinate: 38.105585, 13.322962]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>FONDO MICCIULLA, 11 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.105585, 13.322962</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.322962,38.105585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA MULINO A VENTO, 1 <br>Coordinate: 38.127628, 13.358786]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA MULINO A VENTO, 1 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.127628, 13.358786</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.358786,38.127628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZETTA ETTORE XIMENES <br>Coordinate: 38.128977, 13.358075]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZETTA ETTORE XIMENES </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.128977, 13.358075</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.358075,38.128977,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CITTA' DEI RAGAZZI IN VIALE DUCA DEGLI ABRUZZI <br>Coordinate: 38.168224, 13.328953]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value><![CDATA[CITTA' DEI RAGAZZI IN VIALE DUCA DEGLI ABRUZZI ]]></value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.168224, 13.328953</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.328953,38.168224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIZZA PERANNI DOMENICO, 10 <br>Coordinate: 38.114777, 13.352246]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIZZA PERANNI DOMENICO, 10 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.114777, 13.352246</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.352246,38.114777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZETTA SETTECANTONI, 2 <br>Coordinate: 38.113477, 13.357842]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZETTA SETTECANTONI, 2 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.113477, 13.357842</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.357842,38.113477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA VILLAGRAZIA 467<br>Coordinate: 38.07683, 13.332204]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA VILLAGRAZIA 467</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.07683, 13.332204</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.332204,38.07683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZA TOMMASO NATALE, 90<br>Coordinate: 38.190947, 13.285067]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>PIAZZA TOMMASO NATALE, 90</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.190947, 13.285067</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.285067,38.190947,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: SALITACORTILE  LE CHIAVI II, 39<br>Coordinate: 38.146078, 13.366538]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>SALITACORTILE  LE CHIAVI II, 39</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.146078, 13.366538</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.366538,38.146078,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA MATER DOLOROSA, 97<br>Coordinate: 38.173522, 13.330118]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA MATER DOLOROSA, 97</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.173522, 13.330118</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.330118,38.173522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA SS. SALVATORE, 30<br>Coordinate: 38.114269, 13.358899]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA SS. SALVATORE, 30</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.114269, 13.358899</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.358899,38.114269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA CONTE FEDERICO, 61<br>Coordinate: 38.093773, 13.385614]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA CONTE FEDERICO, 61</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.093773, 13.385614</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.385614,38.093773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: CORTILE LOMBINO <br>Coordinate: 38.095768, 13.381778]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>CORTILE LOMBINO </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.095768, 13.381778</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.381778,38.095768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: PIAZZETTA CINA', 97<br>Coordinate: 38.066279, 13.416]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value><![CDATA[PIAZZETTA CINA', 97]]></value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.066279, 13.416</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.416,38.066279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: FORO ITALICO<br>Coordinate: 38.117118, 13.374003]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>FORO ITALICO</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.117118, 13.374003</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.374003,38.117118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA </name>
+        <description><![CDATA[Indirizzo: VIA SAN LORENZO, 202<br>Coordinate: 38.162785, 13.323633]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA SAN LORENZO, 202</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.162785, 13.323633</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.323633,38.162785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FONTANELLA</name>
+        <description><![CDATA[Indirizzo: VIA FAUSTO COPPI<br>Coordinate: 38.180716, 13.318222]]></description>
+        <styleUrl>#icon-1580-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Indirizzo">
+            <value>VIA FAUSTO COPPI</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.180716, 13.318222</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.318222,38.180716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
