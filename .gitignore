@@ -1,0 +1,4 @@
+*.gpkg-shm
+*.gpkg-wal
+*.qgis~
+dati/progetto_base.qgs~
