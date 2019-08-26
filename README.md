@@ -7,5 +7,5 @@ La fonte dati è AMAP, in particolare [questa pagina](https://www.amapspa.it/it/
 
 ## Rielaborazine dati
 
-[Sheet](https://docs.google.com/spreadsheets/d/17L0PdMfRP97FyuruLhPIdkty82EhrZzKERbFWV-X8uw/edit?usp=sharing) che alimenta la [uMap](http://u.osmfr.org/m/357965/) alle informazione contenute nel file KML di Amap Spa sono state aggiunte le informazioni su Circoscrizioni, Quartieri, Unità di primo livello e CAP.
+[Sheet](https://docs.google.com/spreadsheets/d/17L0PdMfRP97FyuruLhPIdkty82EhrZzKERbFWV-X8uw/edit?usp=sharing) che alimenta la [uMap](http://u.osmfr.org/m/357965/) alle informazione contenute nel file KML di Amap Spa sono state aggiunte le informazioni su: Circoscrizioni, Quartieri, Unità di primo livello e CAP.
 
