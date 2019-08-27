@@ -1,3 +1,13 @@
+<!-- TOC -->
+
+- [Progetto base QGIS](#progetto-base-qgis)
+- [Analisi](#analisi)
+  - [Approssimazione quartiere](#approssimazione-quartiere)
+  - [Approssimazione centro abitato quartiere](#approssimazione-centro-abitato-quartiere)
+  - [Come usare i modelli di processing](#come-usare-i-modelli-di-processing)
+
+<!-- /TOC -->
+
 ## Progetto base QGIS
 
 descrizione progetto ...
@@ -48,3 +58,24 @@ Il processo e il modello sono gli stessi di quello di sopra cambia solo lo strat
 Confronto:
 
 ![screen](./imgs/confronto.png)
+
+### Come usare i modelli di processing
+
+I modelli sono memorizzati nel file di progetto e sono disponibili negli strumenti di processing (Menu Processing|Strumenti)
+
+![screen](./imgs/processing.png)
+
+i modelli sono due:
+1. UtentiPotenzialiFontanellePalermoQuartiere
+2. UtentiPotenzialiFontanellePalermoCentroAbitato
+
+il primo è relativo alla prima analisi e il secondo alla seconda analisi.
+
+Dopo l'avvio del modello (doppio clic) si aprirà la mascherà di sotto:
+
+![screen](./imgs/maschera.png)
+
+1. Selezionare il layer `fontanellePalermo`;
+2. Selezionare, dal menu a tendina, il layer corrispondente al modello (in questo caso `centroabitatoquartieri`);
+3. se non compilato creerà un file temporaneo (in memoria), oppure scegliere percorso per salvare il file utilizzando i tre puntini `...`;
+4. se non compilato creerà un file temporaneo (in memoria), oppure scegliere percorso per salvare il file utilizzando i tre puntini `...`;
