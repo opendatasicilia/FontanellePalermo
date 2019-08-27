@@ -3,7 +3,10 @@
 - [Progetto base QGIS](#progetto-base-qgis)
 - [Analisi](#analisi)
   - [Approssimazione quartiere](#approssimazione-quartiere)
+    - [Workflow](#workflow)
+    - [Output](#output)
   - [Approssimazione centro abitato quartiere](#approssimazione-centro-abitato-quartiere)
+    - [Output](#output-1)
   - [Come usare i modelli di processing](#come-usare-i-modelli-di-processing)
 
 <!-- /TOC -->
@@ -24,7 +27,7 @@ Prima analisi con grado di approssimanione a livello di quartiere, cioè come se
 
 
 
-**Workflow**
+#### Workflow
 
 1. determino limiti amministrativi comune di Palermo dissolvendo tutto a partire dallo strato `quartieriPalermo`;
 2. determino i `poligoniVoronoi`  usando lo strato fontanellePalermo;
@@ -35,11 +38,11 @@ Prima analisi con grado di approssimanione a livello di quartiere, cioè come se
 
 Ho creato un modello grafico che realizza i punti sopra descritti: genera due file temporanei di output `popolazione_fontanelle`  e `one-person-one-dotVoronoiFontanelle` (occorre salvarli per conservarli nel tempo) 
 
-PS. il modello è salvato nel progetto, cercatelo tra gli strumenti di Processing gruppo `Modelli di progetto`
+PS. il modello è salvato nel progetto, cercalo tra gli strumenti di Processing gruppo `Modelli di progetto`
 
 ![screen](./imgs/processo.png)
 
-**Output:**
+#### Output
 
 ![screen](./imgs/quartieri.png)
 
@@ -51,7 +54,7 @@ Il processo e il modello sono gli stessi di quello di sopra cambia solo lo strat
 
 ![screen](./imgs/processo2.png)
 
-**Output:**
+#### Output
 
 ![screen](./imgs/CentroAbitatoQuartieri.png)
 

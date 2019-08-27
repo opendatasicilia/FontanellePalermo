@@ -19,6 +19,7 @@ Contenitore di dati:
 3. popolazioneResidente
 4. centroAbitatoQuartieri - elaborazione strato sez_cens_2011
 5. sez_cens_2011 - filtrato solo per Palermo (https://www.istat.it/it/archivio/104317)
+6. LimitiPalermo (vista creata da DBmanager di QGIS)
 
 ### file di stile qml
 
@@ -37,6 +38,6 @@ Progetto base realizzato con QGIS per la visualizzazione, modifica e stampa di a
 1. quartieri di Palermo (strato poligonale);
 2. fontanelle (strato puntuale);
 3. popolazione residente anno 2018 (tabella);
-4. virtual layer;
+4. LimitiPalermo;
 5. centroAbitatoQuartieri;
 6. OSM Standard;
