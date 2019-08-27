@@ -8,7 +8,25 @@ Contenitore di dati:
 1. quartieriPalermo
 2. fontanelle_Palermo
 3. popolazioneResidente
-4. 
+4. centroAbitato
+
+### SQLite
+
+Contenitore di dati:
+1. quartieriPalermo
+2. fontanelle_Palermo
+3. popolazioneResidente
+4. centroAbitato
+
+### file di stile qml
+
+file per tematizzare due layer
+1. fontanellePalermo
+2. one_person_one_dot
+
+### file md
+
+FIle che descrive il contenuto del file di progetto base QGIS e le analisi realizzate
 
 ### File di progetto QGIS
 
