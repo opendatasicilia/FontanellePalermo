@@ -1,13 +1,16 @@
 <!-- TOC -->
 
 - [Progetto base QGIS](#progetto-base-qgis)
-- [Analisi](#analisi)
+- [Analisi OPOD](#analisi-opod)
   - [Approssimazione quartiere](#approssimazione-quartiere)
     - [Workflow](#workflow)
     - [Output](#output)
   - [Approssimazione centro abitato quartiere](#approssimazione-centro-abitato-quartiere)
     - [Output](#output-1)
   - [Come usare i modelli di processing](#come-usare-i-modelli-di-processing)
+- [Analisi densità di popolazione](#analisi-densit%c3%a0-di-popolazione)
+    - [Workflow](#workflow-1)
+    - [Output](#output-2)
 
 <!-- /TOC -->
 
@@ -15,7 +18,7 @@
 
 descrizione progetto ...
 
-## Analisi
+## Analisi OPOD
 
 L'intero processo si basa sui poligoni di [Voronoi](https://it.wikipedia.org/wiki/Diagramma_di_Voronoi) determinati a partire dai punti fontanelle; ogni poligono rappresenterà l'area di competenza della fontanella ovvero l'insieme di tutti i punti più vicini alla fontanella stessa.
 
@@ -24,8 +27,6 @@ Nota la popolazione residente per ogni quartiere (anno 2018), determino uno stra
 ### Approssimazione quartiere
 
 Prima analisi con grado di approssimanione a livello di quartiere, cioè come se l'intera popolazione residente fosse equamente distribuita sull'intero quartiere.
-
-
 
 #### Workflow
 
@@ -82,3 +83,20 @@ Dopo l'avvio del modello (doppio clic) si aprirà la mascherà di sotto:
 2. Selezionare, dal menu a tendina, il layer corrispondente al modello (in questo caso `centroabitatoquartieri`);
 3. se non compilato creerà un file temporaneo (in memoria), oppure scegliere percorso per salvare il file utilizzando i tre puntini `...`;
 4. se non compilato creerà un file temporaneo (in memoria), oppure scegliere percorso per salvare il file utilizzando i tre puntini `...`;
+
+## Analisi densità di popolazione
+
+In questa analisi prendiamo in considerazione la **densità di popolazione residente nel centro abitato**, ovvero, il rapporto tra il numero di residenti e la superficie del centro abitato.
+
+Nota la popolazione residente per ogni quartiere (anno 2018) che ipotizzo sia la popolazione del centro abitato, determino uno strato **densitaPopVoronoi** generato dall'intersezione tra i poligoni di **Voronoi** e i poligoni del **centro abitato** (il campo `sum_pop2018` rappresenta la popolazione residente nel quartiere): prima dell'intersezione aggiungo un campo `densita` nel layer `centroAbitatoQuartieri` e lo popolo con la formula `sum_pop2018/($area/1000000)` che rappresenta la [densità di popolazione](https://it.wikipedia.org/wiki/Densit%C3%A0_di_popolazione), ovvero, la popolazione residente per ogni kmq. L'intersezione genererà più poligoni per ogni poligono di Voronoi, tanti quanti sono i poligono dei centri abitati, che erediteranno le info sulle densità di popolazione. Successivamente ogni valore di densità ereditata verrà moltiplicata per l'area del poligono (in kmq) ottenendo la popolazione potenziale per ogni poligono. Infine si dissolveranno i poligoni per riottenere i poligoni di Voronoi originali con il valore finale della popolazione potenziale.
+
+#### Workflow
+
+1. xxx
+2. yyy
+
+#### Output
+
+Il risultato ottenuto è molto simile al precedente (era prevedibile) e molto più veloce nei calcoli in quanto non deve generare migliaia di punti.
+
+PS. descriverò meglio il tutto solo se necessario.
