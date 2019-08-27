@@ -99,4 +99,6 @@ Nota la popolazione residente per ogni quartiere (anno 2018) che ipotizzo sia la
 
 Il risultato ottenuto è molto simile al precedente (era prevedibile) e molto più veloce nei calcoli in quanto non deve generare migliaia di punti.
 
+![screen](./imgs/processo3.png)
+
 PS. descriverò meglio il tutto solo se necessario.

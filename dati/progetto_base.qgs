@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.4.11-Madeira">
+<qgis version="3.4.11-Madeira" projectname="">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -19,30 +19,30 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-group checked="Qt::Checked" name="Analisi" expanded="1">
+    <layer-tree-group name="Analisi" expanded="1" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-group>
-    <layer-tree-group checked="Qt::Checked" name="Dati" expanded="1">
+    <layer-tree-group name="Dati" expanded="1" checked="Qt::Checked">
       <customproperties/>
-      <layer-tree-layer checked="Qt::Checked" name="LimitiPalermo" source="dbname='D:/GitHub/FontanellePalermo/dati/fontanellaPalermo.sqlite' table=&quot;(SELECT st_union (geom) as geom FROM quartieriPalermo&#xa;)&quot; (geom) sql=" id="LimitiPalermo_db3e89d9_288f_42c1_b4bb_78695be21b2f" providerKey="spatialite" expanded="1">
+      <layer-tree-layer id="LimitiPalermo_db3e89d9_288f_42c1_b4bb_78695be21b2f" name="LimitiPalermo" source="dbname='D:/GitHub/FontanellePalermo/dati/fontanellaPalermo.sqlite' table=&quot;(SELECT st_union (geom) as geom FROM quartieriPalermo&#xa;)&quot; (geom) sql=" expanded="1" providerKey="spatialite" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" name="centroabitatoquartieri" source="dbname='D:/GitHub/FontanellePalermo/dati/fontanellaPalermo.sqlite' table=&quot;centroabitatoquartieri&quot; (geom) sql=" id="centroabitatoquartieri_6d29de2e_0886_4ed9_ba14_94962e8e3dc5" providerKey="spatialite" expanded="1">
+      <layer-tree-layer id="centroabitatoquartieri_6d29de2e_0886_4ed9_ba14_94962e8e3dc5" name="centroabitatoquartieri" source="dbname='D:/GitHub/FontanellePalermo/dati/fontanellaPalermo.sqlite' table=&quot;centroabitatoquartieri&quot; (geom) sql=" expanded="1" providerKey="spatialite" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" name="fontanellepalermo" source="dbname='D:/GitHub/FontanellePalermo/dati/fontanellaPalermo.sqlite' table=&quot;fontanellepalermo&quot; (geom) sql=" id="fontanellepalermo_777df017_9f68_42a8_9929_df57072170ae" providerKey="spatialite" expanded="1">
+      <layer-tree-layer id="fontanellepalermo_777df017_9f68_42a8_9929_df57072170ae" name="fontanellepalermo" source="dbname='D:/GitHub/FontanellePalermo/dati/fontanellaPalermo.sqlite' table=&quot;fontanellepalermo&quot; (geom) sql=" expanded="1" providerKey="spatialite" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" name="quartieripalermo" source="dbname='D:/GitHub/FontanellePalermo/dati/fontanellaPalermo.sqlite' table=&quot;quartieripalermo&quot; (geom) sql=" id="quartieripalermo_b66d118c_4233_48eb_a734_4471c497e74b" providerKey="spatialite" expanded="1">
+      <layer-tree-layer id="quartieripalermo_b66d118c_4233_48eb_a734_4471c497e74b" name="quartieripalermo" source="dbname='D:/GitHub/FontanellePalermo/dati/fontanellaPalermo.sqlite' table=&quot;quartieripalermo&quot; (geom) sql=" expanded="1" providerKey="spatialite" checked="Qt::Unchecked">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" name="popolazioneResidente2018" source="dbname='D:/GitHub/FontanellePalermo/dati/fontanellaPalermo.sqlite' table=&quot;popolazioneResidente2018&quot; sql=" id="popolazioneResidente2018_07d209a5_c592_448e_b3de_36ecba597b3c" providerKey="spatialite" expanded="1">
+      <layer-tree-layer id="popolazioneResidente2018_07d209a5_c592_448e_b3de_36ecba597b3c" name="popolazioneResidente2018" source="dbname='D:/GitHub/FontanellePalermo/dati/fontanellaPalermo.sqlite' table=&quot;popolazioneResidente2018&quot; sql=" expanded="1" providerKey="spatialite" checked="Qt::Checked">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group checked="Qt::Checked" name="Basi" expanded="1">
+    <layer-tree-group name="Basi" expanded="1" checked="Qt::Checked">
       <customproperties/>
-      <layer-tree-layer checked="Qt::Unchecked" name="OSM Standard" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" id="OSM_Standard_358d4545_6dce_4d4d_8bf4_4bda428366e3" providerKey="wms" expanded="1">
+      <layer-tree-layer id="OSM_Standard_358d4545_6dce_4d4d_8bf4_4bda428366e3" name="OSM Standard" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" expanded="1" providerKey="wms" checked="Qt::Unchecked">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -54,23 +54,23 @@
       <item>LimitiPalermo_db3e89d9_288f_42c1_b4bb_78695be21b2f</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings enabled="0" tolerance="12" unit="1" mode="2" type="1" intersection-snapping="0">
+  <snapping-settings mode="2" unit="1" tolerance="12" enabled="0" intersection-snapping="0" type="1">
     <individual-layer-settings>
-      <layer-setting enabled="0" units="1" tolerance="12" id="quartieriPalermo_2c915be9_b813_4ed1_a35f_71315ab13bf4" type="1"/>
-      <layer-setting enabled="0" units="1" tolerance="12" id="fontanellepalermo_777df017_9f68_42a8_9929_df57072170ae" type="1"/>
-      <layer-setting enabled="0" units="1" tolerance="12" id="centroabitatoquartieri_6d29de2e_0886_4ed9_ba14_94962e8e3dc5" type="1"/>
-      <layer-setting enabled="0" units="1" tolerance="12" id="LimitiPalermo_db3e89d9_288f_42c1_b4bb_78695be21b2f" type="1"/>
-      <layer-setting enabled="0" units="1" tolerance="12" id="quartieripalermo_b66d118c_4233_48eb_a734_4471c497e74b" type="1"/>
+      <layer-setting id="LimitiPalermo_db3e89d9_288f_42c1_b4bb_78695be21b2f" tolerance="12" enabled="0" units="1" type="1"/>
+      <layer-setting id="fontanellepalermo_777df017_9f68_42a8_9929_df57072170ae" tolerance="12" enabled="0" units="1" type="1"/>
+      <layer-setting id="quartieriPalermo_2c915be9_b813_4ed1_a35f_71315ab13bf4" tolerance="12" enabled="0" units="1" type="1"/>
+      <layer-setting id="quartieripalermo_b66d118c_4233_48eb_a734_4471c497e74b" tolerance="12" enabled="0" units="1" type="1"/>
+      <layer-setting id="centroabitatoquartieri_6d29de2e_0886_4ed9_ba14_94962e8e3dc5" tolerance="12" enabled="0" units="1" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
-  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>2365402.3095219018869102</xmin>
-      <ymin>4212001.5985430683940649</ymin>
-      <xmax>2384973.90511610964313149</xmax>
-      <ymax>4232690.99790008179843426</ymax>
+      <xmin>2365511.65411661006510258</xmin>
+      <ymin>4212203.90453475620597601</ymin>
+      <xmax>2385191.67321898322552443</xmax>
+      <ymax>4232563.75842598173767328</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -91,852 +91,1190 @@
     <Option type="Map">
       <Option name="children" type="Map">
         <Option name="native:clip_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="native:clip"/>
-          <Option name="component_description" type="QString" value="Ritaglia"/>
-          <Option name="component_pos_x" type="double" value="500.79999999999995"/>
-          <Option name="component_pos_y" type="double" value="277.6000000000001"/>
+          <Option name="alg_id" value="native:clip" type="QString"/>
+          <Option name="component_description" value="Ritaglia" type="QString"/>
+          <Option name="component_pos_x" value="438.49393441372024" type="double"/>
+          <Option name="component_pos_y" value="543.4253812077086" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="native:clip_1"/>
+          <Option name="id" value="native:clip_1" type="QString"/>
           <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="qgis:voronoipolygons_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="qgis:voronoipolygons_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
             <Option name="OVERLAY" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="native:dissolve_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="native:dissolve_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option name="native:dissolve_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="native:dissolve"/>
-          <Option name="component_description" type="QString" value="Limiti Centro Abitato Palermo"/>
-          <Option name="component_pos_x" type="double" value="249.59999999999997"/>
-          <Option name="component_pos_y" type="double" value="155.2"/>
+          <Option name="alg_id" value="native:dissolve" type="QString"/>
+          <Option name="component_description" value="Dissolvi" type="QString"/>
+          <Option name="component_pos_x" value="240.00642354436167" type="double"/>
+          <Option name="component_pos_y" value="375.3650287126171" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="native:dissolve_1"/>
+          <Option name="id" value="native:dissolve_1" type="QString"/>
           <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
             <Option name="FIELD" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
+                <Option name="source" value="2" type="int"/>
                 <Option name="static_value" type="invalid"/>
               </Option>
             </Option>
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="parameter_name" type="QString" value="quartieripalermo"/>
-                <Option name="source" type="int" value="0"/>
+                <Option name="parameter_name" value="centroabitatopalermoquartieri" type="QString"/>
+                <Option name="source" value="0" type="int"/>
               </Option>
             </Option>
           </Option>
         </Option>
-        <Option name="qgis:countpointsinpolygon_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+        <Option name="native:dissolve_2" type="Map">
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:countpointsinpolygon"/>
-          <Option name="component_description" type="QString" value="Conta i punti nel poligonoV"/>
-          <Option name="component_pos_x" type="double" value="276.80000000000007"/>
-          <Option name="component_pos_y" type="double" value="381.6000000000005"/>
+          <Option name="alg_id" value="native:dissolve" type="QString"/>
+          <Option name="component_description" value="Dissolvi" type="QString"/>
+          <Option name="component_pos_x" value="825.6070903772132" type="double"/>
+          <Option name="component_pos_y" value="664.3019907082012" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:countpointsinpolygon_1"/>
+          <Option name="id" value="native:dissolve_2" type="QString"/>
           <Option name="outputs" type="Map">
-            <Option name="popolazione_fontanelleCentro" type="Map">
-              <Option name="child_id" type="QString" value="qgis:countpointsinpolygon_1"/>
-              <Option name="component_description" type="QString" value="popolazione_fontanelleCentro"/>
-              <Option name="component_pos_x" type="double" value="438.40000000000015"/>
-              <Option name="component_pos_y" type="double" value="487.4000000000004"/>
+            <Option name="finalissima" type="Map">
+              <Option name="child_id" value="native:dissolve_2" type="QString"/>
+              <Option name="component_description" value="finalissima" type="QString"/>
+              <Option name="component_pos_x" value="1071.572956353076" type="double"/>
+              <Option name="component_pos_y" value="723.9719479345401" type="double"/>
               <Option name="default_value" type="invalid"/>
-              <Option name="mandatory" type="bool" value="false"/>
-              <Option name="name" type="QString" value="popolazione_fontanelleCentro"/>
-              <Option name="output_name" type="QString" value="OUTPUT"/>
+              <Option name="mandatory" value="false" type="bool"/>
+              <Option name="name" value="finalissima" type="QString"/>
+              <Option name="output_name" value="OUTPUT" type="QString"/>
             </Option>
           </Option>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
-            <Option name="CLASSFIELD" type="List">
-              <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="invalid"/>
-              </Option>
-            </Option>
             <Option name="FIELD" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="QString" value="pop2018"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="aggrega" type="QString"/>
               </Option>
             </Option>
-            <Option name="POINTS" type="List">
+            <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="qgis:randompointsinsidepolygons_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="qgis:fieldcalculator_3" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
-            <Option name="POLYGONS" type="List">
+          </Option>
+        </Option>
+        <Option name="native:intersection_1" type="Map">
+          <Option name="active" value="true" type="bool"/>
+          <Option name="alg_config"/>
+          <Option name="alg_id" value="native:intersection" type="QString"/>
+          <Option name="component_description" value="Intersezione" type="QString"/>
+          <Option name="component_pos_x" value="805.7997148422626" type="double"/>
+          <Option name="component_pos_y" value="373.32411976624985" type="double"/>
+          <Option name="dependencies"/>
+          <Option name="id" value="native:intersection_1" type="QString"/>
+          <Option name="outputs"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
+          <Option name="params" type="Map">
+            <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="native:clip_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="native:clip_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
-            <Option name="WEIGHT" type="List">
+            <Option name="INPUT_FIELDS" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="pk" type="QString"/>
+              </Option>
+            </Option>
+            <Option name="OVERLAY" type="List">
+              <Option type="Map">
+                <Option name="child_id" value="qgis:fieldcalculator_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
+              </Option>
+            </Option>
+            <Option name="OVERLAY_FIELDS" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
                 <Option name="static_value" type="invalid"/>
               </Option>
             </Option>
           </Option>
         </Option>
-        <Option name="qgis:randompointsinsidepolygons_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+        <Option name="qgis:fieldcalculator_1" type="Map">
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:randompointsinsidepolygons"/>
-          <Option name="component_description" type="QString" value="Punti casuali dentro poligoniQ"/>
-          <Option name="component_pos_x" type="double" value="139.99999999999977"/>
-          <Option name="component_pos_y" type="double" value="276.0000000000003"/>
+          <Option name="alg_id" value="qgis:fieldcalculator" type="QString"/>
+          <Option name="component_description" value="Calcolatore campi" type="QString"/>
+          <Option name="component_pos_x" value="567.9565646123211" type="double"/>
+          <Option name="component_pos_y" value="135.0433379887171" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:randompointsinsidepolygons_1"/>
+          <Option name="id" value="qgis:fieldcalculator_1" type="QString"/>
           <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
-            <Option name="EXPRESSION" type="List">
+            <Option name="FIELD_LENGTH" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="QString" value="&quot;sum_pop2018&quot;"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="9" type="int"/>
+              </Option>
+            </Option>
+            <Option name="FIELD_NAME" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="densita" type="QString"/>
+              </Option>
+            </Option>
+            <Option name="FIELD_PRECISION" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="0" type="int"/>
+              </Option>
+            </Option>
+            <Option name="FIELD_TYPE" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="1" type="int"/>
+              </Option>
+            </Option>
+            <Option name="FORMULA" type="List">
+              <Option type="Map">
+                <Option name="parameter_name" value="densita" type="QString"/>
+                <Option name="source" value="0" type="int"/>
               </Option>
             </Option>
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="parameter_name" type="QString" value="quartieripalermo"/>
-                <Option name="source" type="int" value="0"/>
+                <Option name="parameter_name" value="centroabitatopalermoquartieri" type="QString"/>
+                <Option name="source" value="0" type="int"/>
               </Option>
             </Option>
-            <Option name="MIN_DISTANCE" type="List">
+            <Option name="NEW_FIELD" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="double" value="0"/>
-              </Option>
-            </Option>
-            <Option name="STRATEGY" type="List">
-              <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="int" value="0"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="true" type="bool"/>
               </Option>
             </Option>
           </Option>
         </Option>
-        <Option name="qgis:randompointsinsidepolygons_2" type="Map">
-          <Option name="active" type="bool" value="true"/>
+        <Option name="qgis:fieldcalculator_2" type="Map">
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:randompointsinsidepolygons"/>
-          <Option name="component_description" type="QString" value="Punti casuali dentro poligoniV"/>
-          <Option name="component_pos_x" type="double" value="662.4000000000001"/>
-          <Option name="component_pos_y" type="double" value="436.0000000000001"/>
+          <Option name="alg_id" value="qgis:fieldcalculator" type="QString"/>
+          <Option name="component_description" value="Calcolatore campi2" type="QString"/>
+          <Option name="component_pos_x" value="1015.3186920525699" type="double"/>
+          <Option name="component_pos_y" value="429.03270513358586" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:randompointsinsidepolygons_2"/>
-          <Option name="outputs" type="Map">
-            <Option name="one-person-one-dotVoronoiFontanelleCentro" type="Map">
-              <Option name="child_id" type="QString" value="qgis:randompointsinsidepolygons_2"/>
-              <Option name="component_description" type="QString" value="one-person-one-dotVoronoiFontanelleCentro"/>
-              <Option name="component_pos_x" type="double" value="857.6000000000003"/>
-              <Option name="component_pos_y" type="double" value="490.6000000000001"/>
-              <Option name="default_value" type="Map">
-                <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
-                <Option name="create_options" type="Map">
-                  <Option name="fileEncoding" type="QString" value="System"/>
-                </Option>
-                <Option name="sink" type="Map">
-                  <Option name="active" type="bool" value="true"/>
-                  <Option name="type" type="int" value="1"/>
-                  <Option name="val" type="QString" value="memory:"/>
-                </Option>
-              </Option>
-              <Option name="mandatory" type="bool" value="true"/>
-              <Option name="name" type="QString" value="one-person-one-dotVoronoiFontanelleCentro"/>
-              <Option name="output_name" type="QString" value="OUTPUT"/>
-            </Option>
-          </Option>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="id" value="qgis:fieldcalculator_2" type="QString"/>
+          <Option name="outputs"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
-            <Option name="EXPRESSION" type="List">
+            <Option name="FIELD_LENGTH" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="QString" value="&quot;pop2018&quot;"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="9" type="int"/>
+              </Option>
+            </Option>
+            <Option name="FIELD_NAME" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="pop_potenziale" type="QString"/>
+              </Option>
+            </Option>
+            <Option name="FIELD_PRECISION" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="0" type="int"/>
+              </Option>
+            </Option>
+            <Option name="FIELD_TYPE" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="1" type="int"/>
+              </Option>
+            </Option>
+            <Option name="FORMULA" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="densita*($area/1000000)" type="QString"/>
               </Option>
             </Option>
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="qgis:countpointsinpolygon_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="native:intersection_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
-            <Option name="MIN_DISTANCE" type="List">
+            <Option name="NEW_FIELD" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="double" value="0"/>
-              </Option>
-            </Option>
-            <Option name="STRATEGY" type="List">
-              <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="int" value="0"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="true" type="bool"/>
               </Option>
             </Option>
           </Option>
         </Option>
-        <Option name="qgis:setstyleforvectorlayer_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+        <Option name="qgis:fieldcalculator_3" type="Map">
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:setstyleforvectorlayer"/>
-          <Option name="component_description" type="QString" value="Imposta stile per il vettore"/>
-          <Option name="component_pos_x" type="double" value="756.8000000000002"/>
-          <Option name="component_pos_y" type="double" value="552.0000000000001"/>
+          <Option name="alg_id" value="qgis:fieldcalculator" type="QString"/>
+          <Option name="component_description" value="Calcolatore campi3" type="QString"/>
+          <Option name="component_pos_x" value="911.720197833494" type="double"/>
+          <Option name="component_pos_y" value="551.5880277787072" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:setstyleforvectorlayer_1"/>
+          <Option name="id" value="qgis:fieldcalculator_3" type="QString"/>
           <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
+            <Option name="FIELD_LENGTH" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="9" type="int"/>
+              </Option>
+            </Option>
+            <Option name="FIELD_NAME" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="aggrega" type="QString"/>
+              </Option>
+            </Option>
+            <Option name="FIELD_PRECISION" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="0" type="int"/>
+              </Option>
+            </Option>
+            <Option name="FIELD_TYPE" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="1" type="int"/>
+              </Option>
+            </Option>
+            <Option name="FORMULA" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="sum( &quot;pop_potenziale&quot; , &quot;pk&quot;)" type="QString"/>
+              </Option>
+            </Option>
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="qgis:randompointsinsidepolygons_2"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="qgis:fieldcalculator_2" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
-            <Option name="STYLE" type="List">
+            <Option name="NEW_FIELD" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="QString" value="D:/GitHub/FontanellePalermo/dati/one_person_one_dot.qml"/>
-              </Option>
-            </Option>
-          </Option>
-        </Option>
-        <Option name="qgis:setstyleforvectorlayer_2" type="Map">
-          <Option name="active" type="bool" value="true"/>
-          <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:setstyleforvectorlayer"/>
-          <Option name="component_description" type="QString" value="Imposta stile per il vettore"/>
-          <Option name="component_pos_x" type="double" value="369.59999999999997"/>
-          <Option name="component_pos_y" type="double" value="552.8000000000001"/>
-          <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:setstyleforvectorlayer_2"/>
-          <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
-          <Option name="params" type="Map">
-            <Option name="INPUT" type="List">
-              <Option type="Map">
-                <Option name="child_id" type="QString" value="qgis:countpointsinpolygon_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
-              </Option>
-            </Option>
-            <Option name="STYLE" type="List">
-              <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="QString" value="D:/GitHub/FontanellePalermo/dati/popolazioneFontanelle.qml"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="true" type="bool"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option name="qgis:voronoipolygons_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:voronoipolygons"/>
-          <Option name="component_description" type="QString" value="Poligoni di Voronoi"/>
-          <Option name="component_pos_x" type="double" value="533.6"/>
-          <Option name="component_pos_y" type="double" value="151.2"/>
+          <Option name="alg_id" value="qgis:voronoipolygons" type="QString"/>
+          <Option name="component_description" value="Poligoni di Voronoi" type="QString"/>
+          <Option name="component_pos_x" value="509.2400570315479" type="double"/>
+          <Option name="component_pos_y" value="360.6516178886312" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:voronoipolygons_1"/>
+          <Option name="id" value="qgis:voronoipolygons_1" type="QString"/>
           <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
             <Option name="BUFFER" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="int" value="25"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="25" type="int"/>
               </Option>
             </Option>
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="parameter_name" type="QString" value="fontanelle"/>
-                <Option name="source" type="int" value="0"/>
+                <Option name="parameter_name" value="fontanelle" type="QString"/>
+                <Option name="source" value="0" type="int"/>
               </Option>
             </Option>
           </Option>
         </Option>
       </Option>
       <Option name="help"/>
-      <Option name="model_group" type="QString" value="fontanelle"/>
-      <Option name="model_name" type="QString" value="UtentiPotenzialiFontanellePalermoCentroAbitato"/>
+      <Option name="model_group" value="fontanelle" type="QString"/>
+      <Option name="model_name" value="PotenzialiUtentiFontanellaQuartieriDensita" type="QString"/>
       <Option name="parameterDefinitions" type="Map">
+        <Option name="centroabitatopalermoquartieri" type="Map">
+          <Option name="data_types" type="List">
+            <Option value="2" type="int"/>
+          </Option>
+          <Option name="default" type="invalid"/>
+          <Option name="description" value="Centro Abitato Palermo QUartieri" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
+          <Option name="metadata"/>
+          <Option name="name" value="centroabitatopalermoquartieri" type="QString"/>
+          <Option name="parameter_type" value="vector" type="QString"/>
+        </Option>
+        <Option name="densita" type="Map">
+          <Option name="default" value="sum_pop2018/($area/1000000)" type="QString"/>
+          <Option name="description" value="densita" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
+          <Option name="metadata"/>
+          <Option name="name" value="densita" type="QString"/>
+          <Option name="parameter_type" value="expression" type="QString"/>
+          <Option name="parent_layer" value="centroabitatopalermoquartieri" type="QString"/>
+        </Option>
         <Option name="fontanelle" type="Map">
           <Option name="data_types" type="List">
-            <Option type="int" value="0"/>
+            <Option value="0" type="int"/>
           </Option>
           <Option name="default" type="invalid"/>
-          <Option name="description" type="QString" value="Fontanelle"/>
-          <Option name="flags" type="int" value="0"/>
+          <Option name="description" value="Fontanelle" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
           <Option name="metadata"/>
-          <Option name="name" type="QString" value="fontanelle"/>
-          <Option name="parameter_type" type="QString" value="vector"/>
+          <Option name="name" value="fontanelle" type="QString"/>
+          <Option name="parameter_type" value="vector" type="QString"/>
         </Option>
-        <Option name="qgis:countpointsinpolygon_1:popolazione_fontanelleCentro" type="Map">
-          <Option name="create_by_default" type="bool" value="true"/>
-          <Option name="data_type" type="int" value="2"/>
+        <Option name="native:dissolve_2:finalissima" type="Map">
+          <Option name="create_by_default" value="true" type="bool"/>
+          <Option name="data_type" value="-1" type="int"/>
           <Option name="default" type="invalid"/>
-          <Option name="description" type="QString" value="popolazione_fontanelleCentro"/>
-          <Option name="flags" type="int" value="0"/>
+          <Option name="description" value="finalissima" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
           <Option name="metadata"/>
-          <Option name="name" type="QString" value="qgis:countpointsinpolygon_1:popolazione_fontanelleCentro"/>
-          <Option name="parameter_type" type="QString" value="sink"/>
-          <Option name="supports_non_file_outputs" type="bool" value="true"/>
-        </Option>
-        <Option name="qgis:randompointsinsidepolygons_2:one-person-one-dotVoronoiFontanelleCentro" type="Map">
-          <Option name="create_by_default" type="bool" value="true"/>
-          <Option name="data_type" type="int" value="0"/>
-          <Option name="default"/>
-          <Option name="description" type="QString" value="one-person-one-dotVoronoiFontanelleCentro"/>
-          <Option name="flags" type="int" value="0"/>
-          <Option name="metadata"/>
-          <Option name="name" type="QString" value="qgis:randompointsinsidepolygons_2:one-person-one-dotVoronoiFontanelleCentro"/>
-          <Option name="parameter_type" type="QString" value="sink"/>
-          <Option name="supports_non_file_outputs" type="bool" value="true"/>
-        </Option>
-        <Option name="quartieripalermo" type="Map">
-          <Option name="data_types" type="List">
-            <Option type="int" value="2"/>
-          </Option>
-          <Option name="default" type="invalid"/>
-          <Option name="description" type="QString" value="Centro Abitato Quartieri Palermo"/>
-          <Option name="flags" type="int" value="0"/>
-          <Option name="metadata"/>
-          <Option name="name" type="QString" value="quartieripalermo"/>
-          <Option name="parameter_type" type="QString" value="vector"/>
+          <Option name="name" value="native:dissolve_2:finalissima" type="QString"/>
+          <Option name="parameter_type" value="sink" type="QString"/>
+          <Option name="supports_non_file_outputs" value="true" type="bool"/>
         </Option>
       </Option>
       <Option name="parameters" type="Map">
-        <Option name="fontanelle" type="Map">
-          <Option name="component_description" type="QString" value="fontanelle"/>
-          <Option name="component_pos_x" type="double" value="475.99999999999994"/>
-          <Option name="component_pos_y" type="double" value="57.60000000000002"/>
-          <Option name="name" type="QString" value="fontanelle"/>
+        <Option name="centroabitatopalermoquartieri" type="Map">
+          <Option name="component_description" value="centroabitatopalermoquartieri" type="QString"/>
+          <Option name="component_pos_x" value="194.30416152604982" type="double"/>
+          <Option name="component_pos_y" value="209.34125730241655" type="double"/>
+          <Option name="name" value="centroabitatopalermoquartieri" type="QString"/>
         </Option>
-        <Option name="quartieripalermo" type="Map">
-          <Option name="component_description" type="QString" value="quartieripalermo"/>
-          <Option name="component_pos_x" type="double" value="120"/>
-          <Option name="component_pos_y" type="double" value="60"/>
-          <Option name="name" type="QString" value="quartieripalermo"/>
+        <Option name="densita" type="Map">
+          <Option name="component_description" value="densita" type="QString"/>
+          <Option name="component_pos_x" value="237.94217394622004" type="double"/>
+          <Option name="component_pos_y" value="44.06325762922348" type="double"/>
+          <Option name="name" value="densita" type="QString"/>
+        </Option>
+        <Option name="fontanelle" type="Map">
+          <Option name="component_description" value="fontanelle" type="QString"/>
+          <Option name="component_pos_x" value="503.9179116011013" type="double"/>
+          <Option name="component_pos_y" value="212.81776902223237" type="double"/>
+          <Option name="name" value="fontanelle" type="QString"/>
         </Option>
       </Option>
     </Option>
     <Option type="Map">
       <Option name="children" type="Map">
         <Option name="native:clip_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="native:clip"/>
-          <Option name="component_description" type="QString" value="Ritaglia"/>
-          <Option name="component_pos_x" type="double" value="500.79999999999995"/>
-          <Option name="component_pos_y" type="double" value="277.6000000000001"/>
+          <Option name="alg_id" value="native:clip" type="QString"/>
+          <Option name="component_description" value="Ritaglia" type="QString"/>
+          <Option name="component_pos_x" value="500.79999999999995" type="double"/>
+          <Option name="component_pos_y" value="277.6000000000001" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="native:clip_1"/>
+          <Option name="id" value="native:clip_1" type="QString"/>
           <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="qgis:voronoipolygons_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="qgis:voronoipolygons_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
             <Option name="OVERLAY" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="native:dissolve_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="native:dissolve_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option name="native:dissolve_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="native:dissolve"/>
-          <Option name="component_description" type="QString" value="Limiti Palermo"/>
-          <Option name="component_pos_x" type="double" value="249.59999999999997"/>
-          <Option name="component_pos_y" type="double" value="155.2"/>
+          <Option name="alg_id" value="native:dissolve" type="QString"/>
+          <Option name="component_description" value="Limiti Centro Abitato Palermo" type="QString"/>
+          <Option name="component_pos_x" value="249.59999999999997" type="double"/>
+          <Option name="component_pos_y" value="155.2" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="native:dissolve_1"/>
+          <Option name="id" value="native:dissolve_1" type="QString"/>
           <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
             <Option name="FIELD" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
+                <Option name="source" value="2" type="int"/>
                 <Option name="static_value" type="invalid"/>
               </Option>
             </Option>
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="parameter_name" type="QString" value="quartieripalermo"/>
-                <Option name="source" type="int" value="0"/>
+                <Option name="parameter_name" value="quartieripalermo" type="QString"/>
+                <Option name="source" value="0" type="int"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option name="qgis:countpointsinpolygon_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:countpointsinpolygon"/>
-          <Option name="component_description" type="QString" value="Conta i punti nel poligonoV"/>
-          <Option name="component_pos_x" type="double" value="276.80000000000007"/>
-          <Option name="component_pos_y" type="double" value="381.6000000000005"/>
+          <Option name="alg_id" value="qgis:countpointsinpolygon" type="QString"/>
+          <Option name="component_description" value="Conta i punti nel poligonoV" type="QString"/>
+          <Option name="component_pos_x" value="276.80000000000007" type="double"/>
+          <Option name="component_pos_y" value="381.6000000000005" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:countpointsinpolygon_1"/>
+          <Option name="id" value="qgis:countpointsinpolygon_1" type="QString"/>
           <Option name="outputs" type="Map">
-            <Option name="popolazione_fontanelle" type="Map">
-              <Option name="child_id" type="QString" value="qgis:countpointsinpolygon_1"/>
-              <Option name="component_description" type="QString" value="popolazione_fontanelle"/>
-              <Option name="component_pos_x" type="double" value="398.40000000000015"/>
-              <Option name="component_pos_y" type="double" value="469.8000000000005"/>
-              <Option name="default_value" type="Map">
-                <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
-                <Option name="create_options" type="Map">
-                  <Option name="fileEncoding" type="QString" value="System"/>
-                </Option>
-                <Option name="sink" type="Map">
-                  <Option name="active" type="bool" value="true"/>
-                  <Option name="type" type="int" value="1"/>
-                  <Option name="val" type="QString" value="memory:"/>
-                </Option>
-              </Option>
-              <Option name="mandatory" type="bool" value="true"/>
-              <Option name="name" type="QString" value="popolazione_fontanelle"/>
-              <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="popolazione_fontanelleCentro" type="Map">
+              <Option name="child_id" value="qgis:countpointsinpolygon_1" type="QString"/>
+              <Option name="component_description" value="popolazione_fontanelleCentro" type="QString"/>
+              <Option name="component_pos_x" value="438.40000000000015" type="double"/>
+              <Option name="component_pos_y" value="487.4000000000004" type="double"/>
+              <Option name="default_value" type="invalid"/>
+              <Option name="mandatory" value="false" type="bool"/>
+              <Option name="name" value="popolazione_fontanelleCentro" type="QString"/>
+              <Option name="output_name" value="OUTPUT" type="QString"/>
             </Option>
           </Option>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
             <Option name="CLASSFIELD" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
+                <Option name="source" value="2" type="int"/>
                 <Option name="static_value" type="invalid"/>
               </Option>
             </Option>
             <Option name="FIELD" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="QString" value="pop2018"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="pop2018" type="QString"/>
               </Option>
             </Option>
             <Option name="POINTS" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="qgis:randompointsinsidepolygons_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="qgis:randompointsinsidepolygons_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
             <Option name="POLYGONS" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="native:clip_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="native:clip_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
             <Option name="WEIGHT" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
+                <Option name="source" value="2" type="int"/>
                 <Option name="static_value" type="invalid"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option name="qgis:randompointsinsidepolygons_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:randompointsinsidepolygons"/>
-          <Option name="component_description" type="QString" value="Punti casuali dentro poligoniQ"/>
-          <Option name="component_pos_x" type="double" value="139.99999999999977"/>
-          <Option name="component_pos_y" type="double" value="276.0000000000003"/>
+          <Option name="alg_id" value="qgis:randompointsinsidepolygons" type="QString"/>
+          <Option name="component_description" value="Punti casuali dentro poligoniQ" type="QString"/>
+          <Option name="component_pos_x" value="139.99999999999977" type="double"/>
+          <Option name="component_pos_y" value="276.0000000000003" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:randompointsinsidepolygons_1"/>
+          <Option name="id" value="qgis:randompointsinsidepolygons_1" type="QString"/>
           <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
             <Option name="EXPRESSION" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="QString" value="&quot;sum_pop2018&quot;"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="&quot;sum_pop2018&quot;" type="QString"/>
               </Option>
             </Option>
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="parameter_name" type="QString" value="quartieripalermo"/>
-                <Option name="source" type="int" value="0"/>
+                <Option name="parameter_name" value="quartieripalermo" type="QString"/>
+                <Option name="source" value="0" type="int"/>
               </Option>
             </Option>
             <Option name="MIN_DISTANCE" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="double" value="0"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="0" type="double"/>
               </Option>
             </Option>
             <Option name="STRATEGY" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="int" value="0"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="0" type="int"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option name="qgis:randompointsinsidepolygons_2" type="Map">
-          <Option name="active" type="bool" value="true"/>
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:randompointsinsidepolygons"/>
-          <Option name="component_description" type="QString" value="Punti casuali dentro poligoniV"/>
-          <Option name="component_pos_x" type="double" value="662.4000000000001"/>
-          <Option name="component_pos_y" type="double" value="436.0000000000001"/>
+          <Option name="alg_id" value="qgis:randompointsinsidepolygons" type="QString"/>
+          <Option name="component_description" value="Punti casuali dentro poligoniV" type="QString"/>
+          <Option name="component_pos_x" value="662.4000000000001" type="double"/>
+          <Option name="component_pos_y" value="436.0000000000001" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:randompointsinsidepolygons_2"/>
+          <Option name="id" value="qgis:randompointsinsidepolygons_2" type="QString"/>
           <Option name="outputs" type="Map">
-            <Option name="one-person-one-dotVoronoiFontanelle" type="Map">
-              <Option name="child_id" type="QString" value="qgis:randompointsinsidepolygons_2"/>
-              <Option name="component_description" type="QString" value="one-person-one-dotVoronoiFontanelle"/>
-              <Option name="component_pos_x" type="double" value="833.6000000000003"/>
-              <Option name="component_pos_y" type="double" value="509.79999999999984"/>
+            <Option name="one-person-one-dotVoronoiFontanelleCentro" type="Map">
+              <Option name="child_id" value="qgis:randompointsinsidepolygons_2" type="QString"/>
+              <Option name="component_description" value="one-person-one-dotVoronoiFontanelleCentro" type="QString"/>
+              <Option name="component_pos_x" value="857.6000000000003" type="double"/>
+              <Option name="component_pos_y" value="490.6000000000001" type="double"/>
               <Option name="default_value" type="Map">
-                <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+                <Option name="class" value="QgsProcessingOutputLayerDefinition" type="QString"/>
                 <Option name="create_options" type="Map">
-                  <Option name="fileEncoding" type="QString" value="System"/>
+                  <Option name="fileEncoding" value="System" type="QString"/>
                 </Option>
                 <Option name="sink" type="Map">
-                  <Option name="active" type="bool" value="true"/>
-                  <Option name="type" type="int" value="1"/>
-                  <Option name="val" type="QString" value="memory:"/>
+                  <Option name="active" value="true" type="bool"/>
+                  <Option name="type" value="1" type="int"/>
+                  <Option name="val" value="memory:" type="QString"/>
                 </Option>
               </Option>
-              <Option name="mandatory" type="bool" value="true"/>
-              <Option name="name" type="QString" value="one-person-one-dotVoronoiFontanelle"/>
-              <Option name="output_name" type="QString" value="OUTPUT"/>
+              <Option name="mandatory" value="true" type="bool"/>
+              <Option name="name" value="one-person-one-dotVoronoiFontanelleCentro" type="QString"/>
+              <Option name="output_name" value="OUTPUT" type="QString"/>
             </Option>
           </Option>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
             <Option name="EXPRESSION" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="QString" value="&quot;pop2018&quot;"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="&quot;pop2018&quot;" type="QString"/>
               </Option>
             </Option>
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="qgis:countpointsinpolygon_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="qgis:countpointsinpolygon_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
             <Option name="MIN_DISTANCE" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="double" value="0"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="0" type="double"/>
               </Option>
             </Option>
             <Option name="STRATEGY" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="int" value="0"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="0" type="int"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option name="qgis:setstyleforvectorlayer_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:setstyleforvectorlayer"/>
-          <Option name="component_description" type="QString" value="Imposta stile per il vettore"/>
-          <Option name="component_pos_x" type="double" value="761.6000000000001"/>
-          <Option name="component_pos_y" type="double" value="596"/>
+          <Option name="alg_id" value="qgis:setstyleforvectorlayer" type="QString"/>
+          <Option name="component_description" value="Imposta stile per il vettore" type="QString"/>
+          <Option name="component_pos_x" value="756.8000000000002" type="double"/>
+          <Option name="component_pos_y" value="552.0000000000001" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:setstyleforvectorlayer_1"/>
+          <Option name="id" value="qgis:setstyleforvectorlayer_1" type="QString"/>
           <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="qgis:randompointsinsidepolygons_2"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="qgis:randompointsinsidepolygons_2" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
             <Option name="STYLE" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="QString" value="D:/GitHub/FontanellePalermo/dati/one_person_one_dot.qml"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="D:/GitHub/FontanellePalermo/dati/one_person_one_dot.qml" type="QString"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option name="qgis:setstyleforvectorlayer_2" type="Map">
-          <Option name="active" type="bool" value="true"/>
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:setstyleforvectorlayer"/>
-          <Option name="component_description" type="QString" value="Imposta stile per il vettore"/>
-          <Option name="component_pos_x" type="double" value="456.80000000000007"/>
-          <Option name="component_pos_y" type="double" value="555.1999999999999"/>
+          <Option name="alg_id" value="qgis:setstyleforvectorlayer" type="QString"/>
+          <Option name="component_description" value="Imposta stile per il vettore" type="QString"/>
+          <Option name="component_pos_x" value="369.59999999999997" type="double"/>
+          <Option name="component_pos_y" value="552.8000000000001" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:setstyleforvectorlayer_2"/>
+          <Option name="id" value="qgis:setstyleforvectorlayer_2" type="QString"/>
           <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="child_id" type="QString" value="qgis:countpointsinpolygon_1"/>
-                <Option name="output_name" type="QString" value="OUTPUT"/>
-                <Option name="source" type="int" value="1"/>
+                <Option name="child_id" value="qgis:countpointsinpolygon_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
               </Option>
             </Option>
             <Option name="STYLE" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="QString" value="D:/GitHub/FontanellePalermo/dati/popolazioneFontanelle.qml"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="D:/GitHub/FontanellePalermo/dati/popolazioneFontanelle.qml" type="QString"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option name="qgis:voronoipolygons_1" type="Map">
-          <Option name="active" type="bool" value="true"/>
+          <Option name="active" value="true" type="bool"/>
           <Option name="alg_config"/>
-          <Option name="alg_id" type="QString" value="qgis:voronoipolygons"/>
-          <Option name="component_description" type="QString" value="Poligoni di Voronoi"/>
-          <Option name="component_pos_x" type="double" value="533.6"/>
-          <Option name="component_pos_y" type="double" value="151.2"/>
+          <Option name="alg_id" value="qgis:voronoipolygons" type="QString"/>
+          <Option name="component_description" value="Poligoni di Voronoi" type="QString"/>
+          <Option name="component_pos_x" value="533.6" type="double"/>
+          <Option name="component_pos_y" value="151.2" type="double"/>
           <Option name="dependencies"/>
-          <Option name="id" type="QString" value="qgis:voronoipolygons_1"/>
+          <Option name="id" value="qgis:voronoipolygons_1" type="QString"/>
           <Option name="outputs"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
           <Option name="params" type="Map">
             <Option name="BUFFER" type="List">
               <Option type="Map">
-                <Option name="source" type="int" value="2"/>
-                <Option name="static_value" type="int" value="25"/>
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="25" type="int"/>
               </Option>
             </Option>
             <Option name="INPUT" type="List">
               <Option type="Map">
-                <Option name="parameter_name" type="QString" value="fontanelle"/>
-                <Option name="source" type="int" value="0"/>
+                <Option name="parameter_name" value="fontanelle" type="QString"/>
+                <Option name="source" value="0" type="int"/>
               </Option>
             </Option>
           </Option>
         </Option>
       </Option>
       <Option name="help"/>
-      <Option name="model_group" type="QString" value="fontanelle"/>
-      <Option name="model_name" type="QString" value="UtentiPotenzialiFontanellePalermoQuartiere"/>
+      <Option name="model_group" value="fontanelle" type="QString"/>
+      <Option name="model_name" value="UtentiPotenzialiFontanellePalermoCentroAbitato" type="QString"/>
       <Option name="parameterDefinitions" type="Map">
         <Option name="fontanelle" type="Map">
           <Option name="data_types" type="List">
-            <Option type="int" value="0"/>
+            <Option value="0" type="int"/>
           </Option>
           <Option name="default" type="invalid"/>
-          <Option name="description" type="QString" value="Fontanelle"/>
-          <Option name="flags" type="int" value="0"/>
+          <Option name="description" value="Fontanelle" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
           <Option name="metadata"/>
-          <Option name="name" type="QString" value="fontanelle"/>
-          <Option name="parameter_type" type="QString" value="vector"/>
+          <Option name="name" value="fontanelle" type="QString"/>
+          <Option name="parameter_type" value="vector" type="QString"/>
         </Option>
-        <Option name="qgis:countpointsinpolygon_1:popolazione_fontanelle" type="Map">
-          <Option name="create_by_default" type="bool" value="true"/>
-          <Option name="data_type" type="int" value="2"/>
-          <Option name="default"/>
-          <Option name="description" type="QString" value="popolazione_fontanelle"/>
-          <Option name="flags" type="int" value="0"/>
+        <Option name="qgis:countpointsinpolygon_1:popolazione_fontanelleCentro" type="Map">
+          <Option name="create_by_default" value="true" type="bool"/>
+          <Option name="data_type" value="2" type="int"/>
+          <Option name="default" type="invalid"/>
+          <Option name="description" value="popolazione_fontanelleCentro" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
           <Option name="metadata"/>
-          <Option name="name" type="QString" value="qgis:countpointsinpolygon_1:popolazione_fontanelle"/>
-          <Option name="parameter_type" type="QString" value="sink"/>
-          <Option name="supports_non_file_outputs" type="bool" value="true"/>
+          <Option name="name" value="qgis:countpointsinpolygon_1:popolazione_fontanelleCentro" type="QString"/>
+          <Option name="parameter_type" value="sink" type="QString"/>
+          <Option name="supports_non_file_outputs" value="true" type="bool"/>
         </Option>
-        <Option name="qgis:randompointsinsidepolygons_2:one-person-one-dotVoronoiFontanelle" type="Map">
-          <Option name="create_by_default" type="bool" value="true"/>
-          <Option name="data_type" type="int" value="0"/>
+        <Option name="qgis:randompointsinsidepolygons_2:one-person-one-dotVoronoiFontanelleCentro" type="Map">
+          <Option name="create_by_default" value="true" type="bool"/>
+          <Option name="data_type" value="0" type="int"/>
           <Option name="default"/>
-          <Option name="description" type="QString" value="one-person-one-dotVoronoiFontanelle"/>
-          <Option name="flags" type="int" value="0"/>
+          <Option name="description" value="one-person-one-dotVoronoiFontanelleCentro" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
           <Option name="metadata"/>
-          <Option name="name" type="QString" value="qgis:randompointsinsidepolygons_2:one-person-one-dotVoronoiFontanelle"/>
-          <Option name="parameter_type" type="QString" value="sink"/>
-          <Option name="supports_non_file_outputs" type="bool" value="true"/>
+          <Option name="name" value="qgis:randompointsinsidepolygons_2:one-person-one-dotVoronoiFontanelleCentro" type="QString"/>
+          <Option name="parameter_type" value="sink" type="QString"/>
+          <Option name="supports_non_file_outputs" value="true" type="bool"/>
         </Option>
         <Option name="quartieripalermo" type="Map">
           <Option name="data_types" type="List">
-            <Option type="int" value="2"/>
+            <Option value="2" type="int"/>
           </Option>
           <Option name="default" type="invalid"/>
-          <Option name="description" type="QString" value="Quartieri Palermo"/>
-          <Option name="flags" type="int" value="0"/>
+          <Option name="description" value="Centro Abitato Quartieri Palermo" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
           <Option name="metadata"/>
-          <Option name="name" type="QString" value="quartieripalermo"/>
-          <Option name="parameter_type" type="QString" value="vector"/>
+          <Option name="name" value="quartieripalermo" type="QString"/>
+          <Option name="parameter_type" value="vector" type="QString"/>
         </Option>
       </Option>
       <Option name="parameters" type="Map">
         <Option name="fontanelle" type="Map">
-          <Option name="component_description" type="QString" value="fontanelle"/>
-          <Option name="component_pos_x" type="double" value="475.99999999999994"/>
-          <Option name="component_pos_y" type="double" value="57.60000000000002"/>
-          <Option name="name" type="QString" value="fontanelle"/>
+          <Option name="component_description" value="fontanelle" type="QString"/>
+          <Option name="component_pos_x" value="475.99999999999994" type="double"/>
+          <Option name="component_pos_y" value="57.60000000000002" type="double"/>
+          <Option name="name" value="fontanelle" type="QString"/>
         </Option>
         <Option name="quartieripalermo" type="Map">
-          <Option name="component_description" type="QString" value="quartieripalermo"/>
-          <Option name="component_pos_x" type="double" value="120"/>
-          <Option name="component_pos_y" type="double" value="60"/>
-          <Option name="name" type="QString" value="quartieripalermo"/>
+          <Option name="component_description" value="quartieripalermo" type="QString"/>
+          <Option name="component_pos_x" value="120" type="double"/>
+          <Option name="component_pos_y" value="60" type="double"/>
+          <Option name="name" value="quartieripalermo" type="QString"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map">
+      <Option name="children" type="Map">
+        <Option name="native:clip_1" type="Map">
+          <Option name="active" value="true" type="bool"/>
+          <Option name="alg_config"/>
+          <Option name="alg_id" value="native:clip" type="QString"/>
+          <Option name="component_description" value="Ritaglia" type="QString"/>
+          <Option name="component_pos_x" value="500.79999999999995" type="double"/>
+          <Option name="component_pos_y" value="277.6000000000001" type="double"/>
+          <Option name="dependencies"/>
+          <Option name="id" value="native:clip_1" type="QString"/>
+          <Option name="outputs"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
+          <Option name="params" type="Map">
+            <Option name="INPUT" type="List">
+              <Option type="Map">
+                <Option name="child_id" value="qgis:voronoipolygons_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
+              </Option>
+            </Option>
+            <Option name="OVERLAY" type="List">
+              <Option type="Map">
+                <Option name="child_id" value="native:dissolve_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="native:dissolve_1" type="Map">
+          <Option name="active" value="true" type="bool"/>
+          <Option name="alg_config"/>
+          <Option name="alg_id" value="native:dissolve" type="QString"/>
+          <Option name="component_description" value="Limiti Palermo" type="QString"/>
+          <Option name="component_pos_x" value="249.59999999999997" type="double"/>
+          <Option name="component_pos_y" value="155.2" type="double"/>
+          <Option name="dependencies"/>
+          <Option name="id" value="native:dissolve_1" type="QString"/>
+          <Option name="outputs"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
+          <Option name="params" type="Map">
+            <Option name="FIELD" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" type="invalid"/>
+              </Option>
+            </Option>
+            <Option name="INPUT" type="List">
+              <Option type="Map">
+                <Option name="parameter_name" value="quartieripalermo" type="QString"/>
+                <Option name="source" value="0" type="int"/>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="qgis:countpointsinpolygon_1" type="Map">
+          <Option name="active" value="true" type="bool"/>
+          <Option name="alg_config"/>
+          <Option name="alg_id" value="qgis:countpointsinpolygon" type="QString"/>
+          <Option name="component_description" value="Conta i punti nel poligonoV" type="QString"/>
+          <Option name="component_pos_x" value="276.80000000000007" type="double"/>
+          <Option name="component_pos_y" value="381.6000000000005" type="double"/>
+          <Option name="dependencies"/>
+          <Option name="id" value="qgis:countpointsinpolygon_1" type="QString"/>
+          <Option name="outputs" type="Map">
+            <Option name="popolazione_fontanelle" type="Map">
+              <Option name="child_id" value="qgis:countpointsinpolygon_1" type="QString"/>
+              <Option name="component_description" value="popolazione_fontanelle" type="QString"/>
+              <Option name="component_pos_x" value="398.40000000000015" type="double"/>
+              <Option name="component_pos_y" value="469.8000000000005" type="double"/>
+              <Option name="default_value" type="Map">
+                <Option name="class" value="QgsProcessingOutputLayerDefinition" type="QString"/>
+                <Option name="create_options" type="Map">
+                  <Option name="fileEncoding" value="System" type="QString"/>
+                </Option>
+                <Option name="sink" type="Map">
+                  <Option name="active" value="true" type="bool"/>
+                  <Option name="type" value="1" type="int"/>
+                  <Option name="val" value="memory:" type="QString"/>
+                </Option>
+              </Option>
+              <Option name="mandatory" value="true" type="bool"/>
+              <Option name="name" value="popolazione_fontanelle" type="QString"/>
+              <Option name="output_name" value="OUTPUT" type="QString"/>
+            </Option>
+          </Option>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
+          <Option name="params" type="Map">
+            <Option name="CLASSFIELD" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" type="invalid"/>
+              </Option>
+            </Option>
+            <Option name="FIELD" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="pop2018" type="QString"/>
+              </Option>
+            </Option>
+            <Option name="POINTS" type="List">
+              <Option type="Map">
+                <Option name="child_id" value="qgis:randompointsinsidepolygons_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
+              </Option>
+            </Option>
+            <Option name="POLYGONS" type="List">
+              <Option type="Map">
+                <Option name="child_id" value="native:clip_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
+              </Option>
+            </Option>
+            <Option name="WEIGHT" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" type="invalid"/>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="qgis:randompointsinsidepolygons_1" type="Map">
+          <Option name="active" value="true" type="bool"/>
+          <Option name="alg_config"/>
+          <Option name="alg_id" value="qgis:randompointsinsidepolygons" type="QString"/>
+          <Option name="component_description" value="Punti casuali dentro poligoniQ" type="QString"/>
+          <Option name="component_pos_x" value="139.99999999999977" type="double"/>
+          <Option name="component_pos_y" value="276.0000000000003" type="double"/>
+          <Option name="dependencies"/>
+          <Option name="id" value="qgis:randompointsinsidepolygons_1" type="QString"/>
+          <Option name="outputs"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
+          <Option name="params" type="Map">
+            <Option name="EXPRESSION" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="&quot;sum_pop2018&quot;" type="QString"/>
+              </Option>
+            </Option>
+            <Option name="INPUT" type="List">
+              <Option type="Map">
+                <Option name="parameter_name" value="quartieripalermo" type="QString"/>
+                <Option name="source" value="0" type="int"/>
+              </Option>
+            </Option>
+            <Option name="MIN_DISTANCE" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="0" type="double"/>
+              </Option>
+            </Option>
+            <Option name="STRATEGY" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="0" type="int"/>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="qgis:randompointsinsidepolygons_2" type="Map">
+          <Option name="active" value="true" type="bool"/>
+          <Option name="alg_config"/>
+          <Option name="alg_id" value="qgis:randompointsinsidepolygons" type="QString"/>
+          <Option name="component_description" value="Punti casuali dentro poligoniV" type="QString"/>
+          <Option name="component_pos_x" value="662.4000000000001" type="double"/>
+          <Option name="component_pos_y" value="436.0000000000001" type="double"/>
+          <Option name="dependencies"/>
+          <Option name="id" value="qgis:randompointsinsidepolygons_2" type="QString"/>
+          <Option name="outputs" type="Map">
+            <Option name="one-person-one-dotVoronoiFontanelle" type="Map">
+              <Option name="child_id" value="qgis:randompointsinsidepolygons_2" type="QString"/>
+              <Option name="component_description" value="one-person-one-dotVoronoiFontanelle" type="QString"/>
+              <Option name="component_pos_x" value="833.6000000000003" type="double"/>
+              <Option name="component_pos_y" value="509.79999999999984" type="double"/>
+              <Option name="default_value" type="Map">
+                <Option name="class" value="QgsProcessingOutputLayerDefinition" type="QString"/>
+                <Option name="create_options" type="Map">
+                  <Option name="fileEncoding" value="System" type="QString"/>
+                </Option>
+                <Option name="sink" type="Map">
+                  <Option name="active" value="true" type="bool"/>
+                  <Option name="type" value="1" type="int"/>
+                  <Option name="val" value="memory:" type="QString"/>
+                </Option>
+              </Option>
+              <Option name="mandatory" value="true" type="bool"/>
+              <Option name="name" value="one-person-one-dotVoronoiFontanelle" type="QString"/>
+              <Option name="output_name" value="OUTPUT" type="QString"/>
+            </Option>
+          </Option>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
+          <Option name="params" type="Map">
+            <Option name="EXPRESSION" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="&quot;pop2018&quot;" type="QString"/>
+              </Option>
+            </Option>
+            <Option name="INPUT" type="List">
+              <Option type="Map">
+                <Option name="child_id" value="qgis:countpointsinpolygon_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
+              </Option>
+            </Option>
+            <Option name="MIN_DISTANCE" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="0" type="double"/>
+              </Option>
+            </Option>
+            <Option name="STRATEGY" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="0" type="int"/>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="qgis:setstyleforvectorlayer_1" type="Map">
+          <Option name="active" value="true" type="bool"/>
+          <Option name="alg_config"/>
+          <Option name="alg_id" value="qgis:setstyleforvectorlayer" type="QString"/>
+          <Option name="component_description" value="Imposta stile per il vettore" type="QString"/>
+          <Option name="component_pos_x" value="761.6000000000001" type="double"/>
+          <Option name="component_pos_y" value="596" type="double"/>
+          <Option name="dependencies"/>
+          <Option name="id" value="qgis:setstyleforvectorlayer_1" type="QString"/>
+          <Option name="outputs"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
+          <Option name="params" type="Map">
+            <Option name="INPUT" type="List">
+              <Option type="Map">
+                <Option name="child_id" value="qgis:randompointsinsidepolygons_2" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
+              </Option>
+            </Option>
+            <Option name="STYLE" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="D:/GitHub/FontanellePalermo/dati/one_person_one_dot.qml" type="QString"/>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="qgis:setstyleforvectorlayer_2" type="Map">
+          <Option name="active" value="true" type="bool"/>
+          <Option name="alg_config"/>
+          <Option name="alg_id" value="qgis:setstyleforvectorlayer" type="QString"/>
+          <Option name="component_description" value="Imposta stile per il vettore" type="QString"/>
+          <Option name="component_pos_x" value="456.80000000000007" type="double"/>
+          <Option name="component_pos_y" value="555.1999999999999" type="double"/>
+          <Option name="dependencies"/>
+          <Option name="id" value="qgis:setstyleforvectorlayer_2" type="QString"/>
+          <Option name="outputs"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
+          <Option name="params" type="Map">
+            <Option name="INPUT" type="List">
+              <Option type="Map">
+                <Option name="child_id" value="qgis:countpointsinpolygon_1" type="QString"/>
+                <Option name="output_name" value="OUTPUT" type="QString"/>
+                <Option name="source" value="1" type="int"/>
+              </Option>
+            </Option>
+            <Option name="STYLE" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="D:/GitHub/FontanellePalermo/dati/popolazioneFontanelle.qml" type="QString"/>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="qgis:voronoipolygons_1" type="Map">
+          <Option name="active" value="true" type="bool"/>
+          <Option name="alg_config"/>
+          <Option name="alg_id" value="qgis:voronoipolygons" type="QString"/>
+          <Option name="component_description" value="Poligoni di Voronoi" type="QString"/>
+          <Option name="component_pos_x" value="533.6" type="double"/>
+          <Option name="component_pos_y" value="151.2" type="double"/>
+          <Option name="dependencies"/>
+          <Option name="id" value="qgis:voronoipolygons_1" type="QString"/>
+          <Option name="outputs"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
+          <Option name="params" type="Map">
+            <Option name="BUFFER" type="List">
+              <Option type="Map">
+                <Option name="source" value="2" type="int"/>
+                <Option name="static_value" value="25" type="int"/>
+              </Option>
+            </Option>
+            <Option name="INPUT" type="List">
+              <Option type="Map">
+                <Option name="parameter_name" value="fontanelle" type="QString"/>
+                <Option name="source" value="0" type="int"/>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="help"/>
+      <Option name="model_group" value="fontanelle" type="QString"/>
+      <Option name="model_name" value="UtentiPotenzialiFontanellePalermoQuartiere" type="QString"/>
+      <Option name="parameterDefinitions" type="Map">
+        <Option name="fontanelle" type="Map">
+          <Option name="data_types" type="List">
+            <Option value="0" type="int"/>
+          </Option>
+          <Option name="default" type="invalid"/>
+          <Option name="description" value="Fontanelle" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
+          <Option name="metadata"/>
+          <Option name="name" value="fontanelle" type="QString"/>
+          <Option name="parameter_type" value="vector" type="QString"/>
+        </Option>
+        <Option name="qgis:countpointsinpolygon_1:popolazione_fontanelle" type="Map">
+          <Option name="create_by_default" value="true" type="bool"/>
+          <Option name="data_type" value="2" type="int"/>
+          <Option name="default"/>
+          <Option name="description" value="popolazione_fontanelle" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
+          <Option name="metadata"/>
+          <Option name="name" value="qgis:countpointsinpolygon_1:popolazione_fontanelle" type="QString"/>
+          <Option name="parameter_type" value="sink" type="QString"/>
+          <Option name="supports_non_file_outputs" value="true" type="bool"/>
+        </Option>
+        <Option name="qgis:randompointsinsidepolygons_2:one-person-one-dotVoronoiFontanelle" type="Map">
+          <Option name="create_by_default" value="true" type="bool"/>
+          <Option name="data_type" value="0" type="int"/>
+          <Option name="default"/>
+          <Option name="description" value="one-person-one-dotVoronoiFontanelle" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
+          <Option name="metadata"/>
+          <Option name="name" value="qgis:randompointsinsidepolygons_2:one-person-one-dotVoronoiFontanelle" type="QString"/>
+          <Option name="parameter_type" value="sink" type="QString"/>
+          <Option name="supports_non_file_outputs" value="true" type="bool"/>
+        </Option>
+        <Option name="quartieripalermo" type="Map">
+          <Option name="data_types" type="List">
+            <Option value="2" type="int"/>
+          </Option>
+          <Option name="default" type="invalid"/>
+          <Option name="description" value="Quartieri Palermo" type="QString"/>
+          <Option name="flags" value="0" type="int"/>
+          <Option name="metadata"/>
+          <Option name="name" value="quartieripalermo" type="QString"/>
+          <Option name="parameter_type" value="vector" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="parameters" type="Map">
+        <Option name="fontanelle" type="Map">
+          <Option name="component_description" value="fontanelle" type="QString"/>
+          <Option name="component_pos_x" value="475.99999999999994" type="double"/>
+          <Option name="component_pos_y" value="57.60000000000002" type="double"/>
+          <Option name="name" value="fontanelle" type="QString"/>
+        </Option>
+        <Option name="quartieripalermo" type="Map">
+          <Option name="component_description" value="quartieripalermo" type="QString"/>
+          <Option name="component_pos_x" value="120" type="double"/>
+          <Option name="component_pos_y" value="60" type="double"/>
+          <Option name="name" value="quartieripalermo" type="QString"/>
         </Option>
       </Option>
     </Option>
   </projectModels>
   <legend updateDrawingOrder="true">
-    <legendgroup checked="Qt::Checked" name="Analisi" open="true"/>
-    <legendgroup checked="Qt::Checked" name="Dati" open="true">
-      <legendlayer checked="Qt::Checked" name="LimitiPalermo" open="true" showFeatureCount="0" drawingOrder="-1">
-        <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" visible="1" layerid="LimitiPalermo_db3e89d9_288f_42c1_b4bb_78695be21b2f"/>
+    <legendgroup name="Analisi" open="true" checked="Qt::Checked"/>
+    <legendgroup name="Dati" open="true" checked="Qt::Checked">
+      <legendlayer name="LimitiPalermo" drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="1" isInOverview="0" layerid="LimitiPalermo_db3e89d9_288f_42c1_b4bb_78695be21b2f"/>
         </filegroup>
       </legendlayer>
-      <legendlayer checked="Qt::Unchecked" name="centroabitatoquartieri" open="true" showFeatureCount="0" drawingOrder="-1">
-        <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" visible="0" layerid="centroabitatoquartieri_6d29de2e_0886_4ed9_ba14_94962e8e3dc5"/>
+      <legendlayer name="centroabitatoquartieri" drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="1" isInOverview="0" layerid="centroabitatoquartieri_6d29de2e_0886_4ed9_ba14_94962e8e3dc5"/>
         </filegroup>
       </legendlayer>
-      <legendlayer checked="Qt::Checked" name="fontanellepalermo" open="true" showFeatureCount="0" drawingOrder="-1">
-        <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" visible="1" layerid="fontanellepalermo_777df017_9f68_42a8_9929_df57072170ae"/>
+      <legendlayer name="fontanellepalermo" drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="1" isInOverview="0" layerid="fontanellepalermo_777df017_9f68_42a8_9929_df57072170ae"/>
         </filegroup>
       </legendlayer>
-      <legendlayer checked="Qt::Unchecked" name="quartieripalermo" open="true" showFeatureCount="0" drawingOrder="-1">
-        <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" visible="0" layerid="quartieripalermo_b66d118c_4233_48eb_a734_4471c497e74b"/>
+      <legendlayer name="quartieripalermo" drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="0" isInOverview="0" layerid="quartieripalermo_b66d118c_4233_48eb_a734_4471c497e74b"/>
         </filegroup>
       </legendlayer>
-      <legendlayer checked="Qt::Checked" name="popolazioneResidente2018" open="true" showFeatureCount="0" drawingOrder="-1">
-        <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" visible="1" layerid="popolazioneResidente2018_07d209a5_c592_448e_b3de_36ecba597b3c"/>
+      <legendlayer name="popolazioneResidente2018" drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="1" isInOverview="0" layerid="popolazioneResidente2018_07d209a5_c592_448e_b3de_36ecba597b3c"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup checked="Qt::Checked" name="Basi" open="true">
-      <legendlayer checked="Qt::Unchecked" name="OSM Standard" open="true" showFeatureCount="0" drawingOrder="-1">
-        <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" visible="0" layerid="OSM_Standard_358d4545_6dce_4d4d_8bf4_4bda428366e3"/>
+    <legendgroup name="Basi" open="true" checked="Qt::Checked">
+      <legendlayer name="OSM Standard" drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="0" isInOverview="0" layerid="OSM_Standard_358d4545_6dce_4d4d_8bf4_4bda428366e3"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
-  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
-    <units>meters</units>
-    <extent>
-      <xmin>2365500.87710021855309606</xmin>
-      <ymin>4212027.99710175022482872</ymin>
-      <xmax>2384698.06490021897479892</xmax>
-      <ymax>4232385.51890175044536591</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <destinationsrs>
-      <spatialrefsys>
-        <proj4>+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +units=m +no_defs</proj4>
-        <srsid>969</srsid>
-        <srid>3004</srid>
-        <authid>EPSG:3004</authid>
-        <description>Monte Mario / Italy zone 2</description>
-        <projectionacronym>tmerc</projectionacronym>
-        <ellipsoidacronym>intl</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-  </mapcanvas>
-  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
-    <units>meters</units>
-    <extent>
-      <xmin>2365500.87710021855309606</xmin>
-      <ymin>4212027.99710175022482872</ymin>
-      <xmax>2384698.06490021897479892</xmax>
-      <ymax>4232385.51890175044536591</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <destinationsrs>
-      <spatialrefsys>
-        <proj4>+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +units=m +no_defs</proj4>
-        <srsid>969</srsid>
-        <srid>3004</srid>
-        <authid>EPSG:3004</authid>
-        <description>Monte Mario / Italy zone 2</description>
-        <projectionacronym>tmerc</projectionacronym>
-        <ellipsoidacronym>intl</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-  </mapcanvas>
-  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
-    <units>meters</units>
-    <extent>
-      <xmin>2365500.87710021855309606</xmin>
-      <ymin>4212027.99710175022482872</ymin>
-      <xmax>2384698.06490021897479892</xmax>
-      <ymax>4232385.51890175044536591</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <destinationsrs>
-      <spatialrefsys>
-        <proj4>+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +units=m +no_defs</proj4>
-        <srsid>969</srsid>
-        <srid>3004</srid>
-        <authid>EPSG:3004</authid>
-        <description>Monte Mario / Italy zone 2</description>
-        <projectionacronym>tmerc</projectionacronym>
-        <ellipsoidacronym>intl</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-  </mapcanvas>
   <projectlayers>
-    <maplayer hasScaleBasedVisibilityFlag="0" simplifyLocal="1" labelsEnabled="0" simplifyDrawingHints="1" readOnly="0" geometry="Polygon" minScale="1e+08" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyMaxScale="1" maxScale="0" autoRefreshTime="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" type="vector" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer maxScale="0" simplifyLocal="1" simplifyDrawingTol="1" readOnly="0" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyMaxScale="1" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" labelsEnabled="0">
       <extent>
         <xmin>2365980.22599999979138374</xmin>
         <ymin>4212690.88399999961256981</ymin>
@@ -1001,26 +1339,26 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
         <symbols>
-          <symbol alpha="1" name="0" force_rhr="0" type="fill" clip_to_extent="1">
-            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="213,180,60,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,255" k="outline_color"/>
-              <prop v="dash" k="outline_style"/>
-              <prop v="0.46" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="no" k="style"/>
+          <symbol name="0" clip_to_extent="1" type="fill" alpha="1" force_rhr="0">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="213,180,60,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="0.46"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="no"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -1035,7 +1373,7 @@
       <layerOpacity>1</layerOpacity>
       <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks type="StringList">
-          <Option type="QString" value=""/>
+          <Option value="" type="QString"/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
@@ -1050,7 +1388,7 @@
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -1070,7 +1408,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer hasScaleBasedVisibilityFlag="0" minScale="1e+08" autoRefreshEnabled="0" maxScale="0" autoRefreshTime="0" styleCategories="AllStyleCategories" type="raster" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer maxScale="0" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="raster" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278925508260727</ymin>
@@ -1122,7 +1460,7 @@
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="predefinito">
         <map-layer-style name="predefinito"/>
@@ -1136,7 +1474,7 @@
         <property key="identify/format" value="Undefined"/>
       </customproperties>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+        <rasterrenderer opacity="1" alphaBand="-1" type="singlebandcolordata" band="1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1147,13 +1485,13 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation grayscaleMode="0" colorizeStrength="100" colorizeOn="0" colorizeGreen="128" colorizeRed="255" saturation="0" colorizeBlue="128"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeGreen="128" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeBlue="128"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer hasScaleBasedVisibilityFlag="0" simplifyLocal="1" labelsEnabled="0" simplifyDrawingHints="1" readOnly="0" geometry="Polygon" minScale="1e+08" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyMaxScale="1" maxScale="0" autoRefreshTime="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" type="vector" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer maxScale="0" simplifyLocal="1" simplifyDrawingTol="1" readOnly="0" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyMaxScale="1" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" labelsEnabled="0">
       <extent>
         <xmin>873737.75770385307259858</xmin>
         <ymin>4220881.28961579222232103</ymin>
@@ -1217,26 +1555,26 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
         <symbols>
-          <symbol alpha="1" name="0" force_rhr="0" type="fill" clip_to_extent="1">
-            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="232,113,141,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,255" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.26" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol name="0" clip_to_extent="1" type="fill" alpha="1" force_rhr="0">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="232,113,141,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -1253,7 +1591,7 @@
       <layerOpacity>1</layerOpacity>
       <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks type="StringList">
-          <Option type="QString" value=""/>
+          <Option value="" type="QString"/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
@@ -1302,52 +1640,52 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="pk"/>
-        <alias index="1" name="" field="TIPO_LOC"/>
-        <alias index="2" name="" field="QUA_ID"/>
-        <alias index="3" name="" field="DENOMINAZI"/>
-        <alias index="4" name="" field="circoscrizione"/>
-        <alias index="5" name="" field="sum_pop2018"/>
+        <alias name="" field="pk" index="0"/>
+        <alias name="" field="TIPO_LOC" index="1"/>
+        <alias name="" field="QUA_ID" index="2"/>
+        <alias name="" field="DENOMINAZI" index="3"/>
+        <alias name="" field="circoscrizione" index="4"/>
+        <alias name="" field="sum_pop2018" index="5"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="pk" applyOnUpdate="0"/>
-        <default expression="" field="TIPO_LOC" applyOnUpdate="0"/>
-        <default expression="" field="QUA_ID" applyOnUpdate="0"/>
-        <default expression="" field="DENOMINAZI" applyOnUpdate="0"/>
-        <default expression="" field="circoscrizione" applyOnUpdate="0"/>
-        <default expression="" field="sum_pop2018" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="pk"/>
+        <default expression="" applyOnUpdate="0" field="TIPO_LOC"/>
+        <default expression="" applyOnUpdate="0" field="QUA_ID"/>
+        <default expression="" applyOnUpdate="0" field="DENOMINAZI"/>
+        <default expression="" applyOnUpdate="0" field="circoscrizione"/>
+        <default expression="" applyOnUpdate="0" field="sum_pop2018"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" field="pk" constraints="3" notnull_strength="1" unique_strength="1"/>
-        <constraint exp_strength="0" field="TIPO_LOC" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="QUA_ID" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="DENOMINAZI" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="circoscrizione" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="sum_pop2018" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint unique_strength="1" notnull_strength="1" field="pk" exp_strength="0" constraints="3"/>
+        <constraint unique_strength="0" notnull_strength="0" field="TIPO_LOC" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="QUA_ID" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="DENOMINAZI" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="circoscrizione" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="sum_pop2018" exp_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="pk" exp="" desc=""/>
-        <constraint field="TIPO_LOC" exp="" desc=""/>
-        <constraint field="QUA_ID" exp="" desc=""/>
-        <constraint field="DENOMINAZI" exp="" desc=""/>
-        <constraint field="circoscrizione" exp="" desc=""/>
-        <constraint field="sum_pop2018" exp="" desc=""/>
+        <constraint desc="" exp="" field="pk"/>
+        <constraint desc="" exp="" field="TIPO_LOC"/>
+        <constraint desc="" exp="" field="QUA_ID"/>
+        <constraint desc="" exp="" field="DENOMINAZI"/>
+        <constraint desc="" exp="" field="circoscrizione"/>
+        <constraint desc="" exp="" field="sum_pop2018"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;pk&quot;">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;pk&quot;" sortOrder="0">
         <columns>
-          <column hidden="0" name="pk" width="-1" type="field"/>
-          <column hidden="0" name="TIPO_LOC" width="-1" type="field"/>
-          <column hidden="0" name="QUA_ID" width="-1" type="field"/>
-          <column hidden="0" name="DENOMINAZI" width="-1" type="field"/>
-          <column hidden="0" name="circoscrizione" width="-1" type="field"/>
-          <column hidden="0" name="sum_pop2018" width="-1" type="field"/>
-          <column hidden="1" width="-1" type="actions"/>
+          <column name="pk" width="-1" type="field" hidden="0"/>
+          <column name="TIPO_LOC" width="-1" type="field" hidden="0"/>
+          <column name="QUA_ID" width="-1" type="field" hidden="0"/>
+          <column name="DENOMINAZI" width="-1" type="field" hidden="0"/>
+          <column name="circoscrizione" width="-1" type="field" hidden="0"/>
+          <column name="sum_pop2018" width="-1" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -1367,7 +1705,7 @@
       <previewExpression>"QUA_ID"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer hasScaleBasedVisibilityFlag="0" simplifyLocal="1" labelsEnabled="0" simplifyDrawingHints="1" readOnly="0" geometry="Point" minScale="1e+08" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyMaxScale="1" maxScale="0" autoRefreshTime="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" type="vector" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer maxScale="0" simplifyLocal="1" simplifyDrawingTol="1" readOnly="0" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyMaxScale="1" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" geometry="Point" hasScaleBasedVisibilityFlag="0" labelsEnabled="0">
       <extent>
         <xmin>13.27464499999999958</xmin>
         <ymin>38.06627900000000153</ymin>
@@ -1431,33 +1769,33 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
         <symbols>
-          <symbol alpha="1" name="0" force_rhr="0" type="marker" clip_to_extent="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
-              <prop v="0" k="angle"/>
-              <prop v="0,0,0,255" k="color"/>
-              <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="circle" k="name"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="255,255,255,255" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.4" k="outline_width"/>
-              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="diameter" k="scale_method"/>
-              <prop v="1.6" k="size"/>
-              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-              <prop v="MM" k="size_unit"/>
-              <prop v="1" k="vertical_anchor_point"/>
+          <symbol name="0" clip_to_extent="1" type="marker" alpha="1" force_rhr="0">
+            <layer enabled="1" class="SimpleMarker" locked="0" pass="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1.6"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -1474,7 +1812,7 @@
       <layerOpacity>1</layerOpacity>
       <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks type="StringList">
-          <Option type="QString" value=""/>
+          <Option value="" type="QString"/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
@@ -1516,47 +1854,47 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="pk"/>
-        <alias index="1" name="" field="Name"/>
-        <alias index="2" name="" field="description"/>
-        <alias index="3" name="" field="Indirizzo"/>
-        <alias index="4" name="" field="Coordinate"/>
+        <alias name="" field="pk" index="0"/>
+        <alias name="" field="Name" index="1"/>
+        <alias name="" field="description" index="2"/>
+        <alias name="" field="Indirizzo" index="3"/>
+        <alias name="" field="Coordinate" index="4"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="pk" applyOnUpdate="0"/>
-        <default expression="" field="Name" applyOnUpdate="0"/>
-        <default expression="" field="description" applyOnUpdate="0"/>
-        <default expression="" field="Indirizzo" applyOnUpdate="0"/>
-        <default expression="" field="Coordinate" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="pk"/>
+        <default expression="" applyOnUpdate="0" field="Name"/>
+        <default expression="" applyOnUpdate="0" field="description"/>
+        <default expression="" applyOnUpdate="0" field="Indirizzo"/>
+        <default expression="" applyOnUpdate="0" field="Coordinate"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" field="pk" constraints="3" notnull_strength="1" unique_strength="1"/>
-        <constraint exp_strength="0" field="Name" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="description" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="Indirizzo" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="Coordinate" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint unique_strength="1" notnull_strength="1" field="pk" exp_strength="0" constraints="3"/>
+        <constraint unique_strength="0" notnull_strength="0" field="Name" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="description" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="Indirizzo" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="Coordinate" exp_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="pk" exp="" desc=""/>
-        <constraint field="Name" exp="" desc=""/>
-        <constraint field="description" exp="" desc=""/>
-        <constraint field="Indirizzo" exp="" desc=""/>
-        <constraint field="Coordinate" exp="" desc=""/>
+        <constraint desc="" exp="" field="pk"/>
+        <constraint desc="" exp="" field="Name"/>
+        <constraint desc="" exp="" field="description"/>
+        <constraint desc="" exp="" field="Indirizzo"/>
+        <constraint desc="" exp="" field="Coordinate"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
-          <column hidden="0" name="pk" width="-1" type="field"/>
-          <column hidden="0" name="Name" width="-1" type="field"/>
-          <column hidden="0" name="description" width="-1" type="field"/>
-          <column hidden="0" name="Indirizzo" width="-1" type="field"/>
-          <column hidden="0" name="Coordinate" width="202" type="field"/>
-          <column hidden="1" width="-1" type="actions"/>
+          <column name="pk" width="-1" type="field" hidden="0"/>
+          <column name="Name" width="-1" type="field" hidden="0"/>
+          <column name="description" width="-1" type="field" hidden="0"/>
+          <column name="Indirizzo" width="-1" type="field" hidden="0"/>
+          <column name="Coordinate" width="202" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -1576,7 +1914,7 @@
       <previewExpression>"Name"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer hasScaleBasedVisibilityFlag="0" readOnly="0" geometry="No geometry" minScale="1e+08" autoRefreshEnabled="0" maxScale="0" autoRefreshTime="0" styleCategories="AllStyleCategories" type="vector" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer maxScale="0" readOnly="0" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0">
       <id>popolazioneResidente2018_07d209a5_c592_448e_b3de_36ecba597b3c</id>
       <datasource>dbname='./fontanellaPalermo.sqlite' table="popolazioneResidente2018" sql=</datasource>
       <keywordList>
@@ -1637,7 +1975,7 @@
       <customproperties/>
       <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks type="StringList">
-          <Option type="QString" value=""/>
+          <Option value="" type="QString"/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
@@ -1700,52 +2038,52 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="pk"/>
-        <alias index="1" name="" field="Anno"/>
-        <alias index="2" name="" field="UPL"/>
-        <alias index="3" name="" field="UPL_nome"/>
-        <alias index="4" name="" field="Quartiere"/>
-        <alias index="5" name="" field="Id_Quartiere"/>
-        <alias index="6" name="" field="circoscrizione"/>
-        <alias index="7" name="" field="SUM di Residenti"/>
+        <alias name="" field="pk" index="0"/>
+        <alias name="" field="Anno" index="1"/>
+        <alias name="" field="UPL" index="2"/>
+        <alias name="" field="UPL_nome" index="3"/>
+        <alias name="" field="Quartiere" index="4"/>
+        <alias name="" field="Id_Quartiere" index="5"/>
+        <alias name="" field="circoscrizione" index="6"/>
+        <alias name="" field="SUM di Residenti" index="7"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="pk" applyOnUpdate="0"/>
-        <default expression="" field="Anno" applyOnUpdate="0"/>
-        <default expression="" field="UPL" applyOnUpdate="0"/>
-        <default expression="" field="UPL_nome" applyOnUpdate="0"/>
-        <default expression="" field="Quartiere" applyOnUpdate="0"/>
-        <default expression="" field="Id_Quartiere" applyOnUpdate="0"/>
-        <default expression="" field="circoscrizione" applyOnUpdate="0"/>
-        <default expression="" field="SUM di Residenti" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="pk"/>
+        <default expression="" applyOnUpdate="0" field="Anno"/>
+        <default expression="" applyOnUpdate="0" field="UPL"/>
+        <default expression="" applyOnUpdate="0" field="UPL_nome"/>
+        <default expression="" applyOnUpdate="0" field="Quartiere"/>
+        <default expression="" applyOnUpdate="0" field="Id_Quartiere"/>
+        <default expression="" applyOnUpdate="0" field="circoscrizione"/>
+        <default expression="" applyOnUpdate="0" field="SUM di Residenti"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" field="pk" constraints="3" notnull_strength="1" unique_strength="1"/>
-        <constraint exp_strength="0" field="Anno" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="UPL" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="UPL_nome" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="Quartiere" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="Id_Quartiere" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="circoscrizione" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="SUM di Residenti" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint unique_strength="1" notnull_strength="1" field="pk" exp_strength="0" constraints="3"/>
+        <constraint unique_strength="0" notnull_strength="0" field="Anno" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="UPL" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="UPL_nome" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="Quartiere" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="Id_Quartiere" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="circoscrizione" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="SUM di Residenti" exp_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="pk" exp="" desc=""/>
-        <constraint field="Anno" exp="" desc=""/>
-        <constraint field="UPL" exp="" desc=""/>
-        <constraint field="UPL_nome" exp="" desc=""/>
-        <constraint field="Quartiere" exp="" desc=""/>
-        <constraint field="Id_Quartiere" exp="" desc=""/>
-        <constraint field="circoscrizione" exp="" desc=""/>
-        <constraint field="SUM di Residenti" exp="" desc=""/>
+        <constraint desc="" exp="" field="pk"/>
+        <constraint desc="" exp="" field="Anno"/>
+        <constraint desc="" exp="" field="UPL"/>
+        <constraint desc="" exp="" field="UPL_nome"/>
+        <constraint desc="" exp="" field="Quartiere"/>
+        <constraint desc="" exp="" field="Id_Quartiere"/>
+        <constraint desc="" exp="" field="circoscrizione"/>
+        <constraint desc="" exp="" field="SUM di Residenti"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -1765,7 +2103,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer hasScaleBasedVisibilityFlag="0" simplifyLocal="1" labelsEnabled="0" simplifyDrawingHints="1" readOnly="0" geometry="Polygon" minScale="1e+08" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyMaxScale="1" maxScale="0" autoRefreshTime="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" type="vector" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer maxScale="0" simplifyLocal="1" simplifyDrawingTol="1" readOnly="0" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyMaxScale="1" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" labelsEnabled="0">
       <extent>
         <xmin>2365980.22599999979138374</xmin>
         <ymin>4212690.88399999961256981</ymin>
@@ -1829,26 +2167,26 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
         <symbols>
-          <symbol alpha="1" name="0" force_rhr="0" type="fill" clip_to_extent="1">
-            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="225,89,137,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,255" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.26" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol name="0" clip_to_extent="1" type="fill" alpha="1" force_rhr="0">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="225,89,137,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -1863,7 +2201,7 @@
       <layerOpacity>1</layerOpacity>
       <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks type="StringList">
-          <Option type="QString" value=""/>
+          <Option value="" type="QString"/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
@@ -1905,38 +2243,38 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="pk"/>
-        <alias index="1" name="" field="QUA_ID"/>
-        <alias index="2" name="" field="DENOMINAZI"/>
-        <alias index="3" name="" field="circoscrizione"/>
-        <alias index="4" name="" field="sum_pop2018"/>
+        <alias name="" field="pk" index="0"/>
+        <alias name="" field="QUA_ID" index="1"/>
+        <alias name="" field="DENOMINAZI" index="2"/>
+        <alias name="" field="circoscrizione" index="3"/>
+        <alias name="" field="sum_pop2018" index="4"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="pk" applyOnUpdate="0"/>
-        <default expression="" field="QUA_ID" applyOnUpdate="0"/>
-        <default expression="" field="DENOMINAZI" applyOnUpdate="0"/>
-        <default expression="" field="circoscrizione" applyOnUpdate="0"/>
-        <default expression="" field="sum_pop2018" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="pk"/>
+        <default expression="" applyOnUpdate="0" field="QUA_ID"/>
+        <default expression="" applyOnUpdate="0" field="DENOMINAZI"/>
+        <default expression="" applyOnUpdate="0" field="circoscrizione"/>
+        <default expression="" applyOnUpdate="0" field="sum_pop2018"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" field="pk" constraints="3" notnull_strength="1" unique_strength="1"/>
-        <constraint exp_strength="0" field="QUA_ID" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="DENOMINAZI" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="circoscrizione" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="sum_pop2018" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint unique_strength="1" notnull_strength="1" field="pk" exp_strength="0" constraints="3"/>
+        <constraint unique_strength="0" notnull_strength="0" field="QUA_ID" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="DENOMINAZI" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="circoscrizione" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="sum_pop2018" exp_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="pk" exp="" desc=""/>
-        <constraint field="QUA_ID" exp="" desc=""/>
-        <constraint field="DENOMINAZI" exp="" desc=""/>
-        <constraint field="circoscrizione" exp="" desc=""/>
-        <constraint field="sum_pop2018" exp="" desc=""/>
+        <constraint desc="" exp="" field="pk"/>
+        <constraint desc="" exp="" field="QUA_ID"/>
+        <constraint desc="" exp="" field="DENOMINAZI"/>
+        <constraint desc="" exp="" field="circoscrizione"/>
+        <constraint desc="" exp="" field="sum_pop2018"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions/>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -1956,7 +2294,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer hasScaleBasedVisibilityFlag="0" simplifyLocal="1" labelsEnabled="0" simplifyDrawingHints="1" readOnly="0" geometry="Polygon" minScale="1e+08" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyMaxScale="1" maxScale="0" autoRefreshTime="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" type="vector" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer maxScale="0" simplifyLocal="1" simplifyDrawingTol="1" readOnly="0" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyMaxScale="1" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" labelsEnabled="0">
       <extent>
         <xmin>2365980.22599999979138374</xmin>
         <ymin>4212690.88399999961256981</ymin>
@@ -2020,26 +2358,26 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
         <symbols>
-          <symbol alpha="1" name="0" force_rhr="0" type="fill" clip_to_extent="1">
-            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="219,199,224,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,255" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.26" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol name="0" clip_to_extent="1" type="fill" alpha="1" force_rhr="0">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="219,199,224,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -2054,7 +2392,7 @@
       <layerOpacity>1</layerOpacity>
       <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks type="StringList">
-          <Option type="QString" value=""/>
+          <Option value="" type="QString"/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
@@ -2096,40 +2434,40 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="pk"/>
-        <alias index="1" name="" field="QUA_ID"/>
-        <alias index="2" name="" field="DENOMINAZI"/>
-        <alias index="3" name="" field="circoscrizione"/>
-        <alias index="4" name="" field="sum_pop2018"/>
+        <alias name="" field="pk" index="0"/>
+        <alias name="" field="QUA_ID" index="1"/>
+        <alias name="" field="DENOMINAZI" index="2"/>
+        <alias name="" field="circoscrizione" index="3"/>
+        <alias name="" field="sum_pop2018" index="4"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="pk" applyOnUpdate="0"/>
-        <default expression="" field="QUA_ID" applyOnUpdate="0"/>
-        <default expression="" field="DENOMINAZI" applyOnUpdate="0"/>
-        <default expression="" field="circoscrizione" applyOnUpdate="0"/>
-        <default expression="" field="sum_pop2018" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="pk"/>
+        <default expression="" applyOnUpdate="0" field="QUA_ID"/>
+        <default expression="" applyOnUpdate="0" field="DENOMINAZI"/>
+        <default expression="" applyOnUpdate="0" field="circoscrizione"/>
+        <default expression="" applyOnUpdate="0" field="sum_pop2018"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" field="pk" constraints="3" notnull_strength="1" unique_strength="1"/>
-        <constraint exp_strength="0" field="QUA_ID" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="DENOMINAZI" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="circoscrizione" constraints="0" notnull_strength="0" unique_strength="0"/>
-        <constraint exp_strength="0" field="sum_pop2018" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint unique_strength="1" notnull_strength="1" field="pk" exp_strength="0" constraints="3"/>
+        <constraint unique_strength="0" notnull_strength="0" field="QUA_ID" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="DENOMINAZI" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="circoscrizione" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="sum_pop2018" exp_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="pk" exp="" desc=""/>
-        <constraint field="QUA_ID" exp="" desc=""/>
-        <constraint field="DENOMINAZI" exp="" desc=""/>
-        <constraint field="circoscrizione" exp="" desc=""/>
-        <constraint field="sum_pop2018" exp="" desc=""/>
+        <constraint desc="" exp="" field="pk"/>
+        <constraint desc="" exp="" field="QUA_ID"/>
+        <constraint desc="" exp="" field="DENOMINAZI"/>
+        <constraint desc="" exp="" field="circoscrizione"/>
+        <constraint desc="" exp="" field="sum_pop2018"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -2158,6 +2496,26 @@
     <layer id="LimitiPalermo_db3e89d9_288f_42c1_b4bb_78695be21b2f"/>
   </layerorder>
   <properties>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Gui>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+    </Gui>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
     <DBManager>
       <savedQueries>
         <q459da1d46b89991777d3692fbd89ecec>
@@ -2166,60 +2524,40 @@
         </q459da1d46b89991777d3692fbd89ecec>
       </savedQueries>
     </DBManager>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <PAL>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+    </PAL>
+    <Measure>
+      <Ellipsoid type="QString">intl</Ellipsoid>
+    </Measure>
     <CopyrightLabel>
       <MarginH type="int">2</MarginH>
-      <Placement type="int">3</Placement>
+      <Enabled type="bool">true</Enabled>
+      <MarginUnit type="QString">MM</MarginUnit>
       <Label type="QString">© [% @user_full_name %] - OpenDataSicilia - Fontanelle Palermo - QGIS [% @qgis_version %]</Label>
+      <MarginV type="int">2</MarginV>
+      <Placement type="int">3</Placement>
       <Font type="QString">&lt;text-style fontCapitals="0" blendMode="0" fontFamily="MS Shell Dlg 2" fontSizeUnit="Point" textColor="0,0,0,255" fontLetterSpacing="0" fontStrikeout="0" fontUnderline="0" fontWordSpacing="0" multilineHeight="1" namedStyle="Normale" textOpacity="1" fontWeight="50" fontSize="11" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontItalic="0">
  &lt;text-buffer bufferSizeUnits="MM" bufferBlendMode="0" bufferJoinStyle="128" bufferOpacity="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="1" bufferDraw="1" bufferNoFill="1" bufferColor="255,255,255,255"/>
  &lt;background shapeSizeType="0" shapeFillColor="255,255,255,255" shapeRadiiUnit="MM" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1" shapeOffsetUnit="MM" shapeSizeY="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeRadiiX="0" shapeOffsetY="0" shapeRotationType="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeSizeX="0" shapeBorderWidthUnit="MM" shapeSizeUnit="MM" shapeOffsetX="0" shapeJoinStyle="64" shapeDraw="0" shapeType="0" shapeRadiiY="0" shapeBlendMode="0" shapeRotation="0"/>
  &lt;shadow shadowScale="100" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowBlendMode="6" shadowUnder="0" shadowOffsetUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowRadiusAlphaOnly="0" shadowOffsetDist="1" shadowRadius="1.5" shadowColor="0,0,0,255" shadowOffsetGlobal="1" shadowDraw="0" shadowOffsetAngle="135" shadowOpacity="0.7"/>
 &lt;/text-style>
 </Font>
-      <MarginUnit type="QString">MM</MarginUnit>
-      <Enabled type="bool">true</Enabled>
-      <MarginV type="int">2</MarginV>
     </CopyrightLabel>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
-    <PositionPrecision>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-      <Automatic type="bool">true</Automatic>
-    </PositionPrecision>
-    <PAL>
-      <ShowingAllLabels type="bool">false</ShowingAllLabels>
-      <ShowingCandidates type="bool">false</ShowingCandidates>
-      <CandidatesPolygon type="int">30</CandidatesPolygon>
-      <SearchMethod type="int">0</SearchMethod>
-      <TextFormat type="int">0</TextFormat>
-      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
-      <CandidatesPoint type="int">16</CandidatesPoint>
-      <CandidatesLine type="int">50</CandidatesLine>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
-    </PAL>
-    <SpatialRefSys>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
-    <Gui>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-    </Gui>
-    <Measurement>
-      <DistanceUnits type="QString">meters</DistanceUnits>
-      <AreaUnits type="QString">m2</AreaUnits>
-    </Measurement>
-    <Measure>
-      <Ellipsoid type="QString">intl</Ellipsoid>
-    </Measure>
   </properties>
   <visibility-presets/>
   <transformContext/>
