@@ -1,16 +1,16 @@
 -- Creo tabella con geometria punti
 
-CREATE TABLE "fontanellePalermoAMAP"
+CREATE TABLE "FontanellePalermoAMAP"
 ("pk_uid" integer PRIMARY KEY autoincrement NOT NULL,
 "nome" TEXT, "indirizzo" TEXT, "coordinate" TEXT, "X" DOUBLE, "Y" DOUBLE);
 
-SELECT AddGeometryColumn ('fontanellePalermoAMAP','geom',4326,'POINT','XY');
+SELECT AddGeometryColumn ('FontanellePalermoAMAP','geom',4326,'POINT','XY');
 
 INSERT INTO "fontanellePalermoAMAP" ("pk_uid","nome","indirizzo","coordinate","X","Y","geom")
 SELECT "PK_UID","Nome","Indirizzo","Coordinate","X","Y",MakePoint(CAST(X AS DOUBLE), CAST(Y AS DOUBLE),4326)
 FROM "Mappa-Fontanelle-di-Palermo";
 
--- Creo Voronoi ritagliato con i limiti centro abitato
+-- Creo Voronoi e poi ritaglio con i limiti centro abitato
 
 CREATE TABLE tmp_VoronoiFontanelle AS
 SELECT "PK_UID", ST_VoronojDiagram(st_collect(ST_transform(geom,3004)),0,25.0) as geom 
@@ -28,7 +28,7 @@ SELECT out_pk AS pk_uid, CastToMultiPolygon(ST_Intersection(v.geom,q.geom)) AS g
 FROM tmp_VoronoiFontanellePA v, tmp_LimitiCentroAbQuartieri q;
 SELECT RecoverGeometryColumn('VoronoiFontanelleAMAP_CentroAb','geom',3004,'MULTIPOLYGON','XY');
 
--- 
+-- Creo strato Popolazione Potenziale usando la densità abitativa
 
 CREATE TABLE tmp_centroAbQuaDensita AS
 SELECT pk,QUA_ID, sum_pop2018/(ST_Area(geom)/1000000) as densita, ST_Transform(geom,3004) as geom
