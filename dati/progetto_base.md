@@ -9,8 +9,9 @@
     - [Output](#output-1)
   - [Come usare i modelli di processing](#come-usare-i-modelli-di-processing)
 - [Analisi densità di popolazione](#analisi-densit%c3%a0-di-popolazione)
-    - [Workflow](#workflow-1)
+    - [Workflow QGIS](#workflow-qgis)
     - [Output](#output-2)
+    - [script SQL](#script-sql)
 
 <!-- /TOC -->
 
@@ -90,7 +91,7 @@ In questa analisi prendiamo in considerazione la **densità di popolazione resid
 
 Nota la popolazione residente per ogni quartiere (anno 2018) che ipotizzo sia la popolazione del centro abitato, determino uno strato **densitaPopVoronoi** generato dall'intersezione tra i poligoni di **Voronoi** e i poligoni del **centro abitato** (il campo `sum_pop2018` rappresenta la popolazione residente nel quartiere): prima dell'intersezione aggiungo un campo `densita` nel layer `centroAbitatoQuartieri` e lo popolo con la formula `sum_pop2018/($area/1000000)` che rappresenta la [densità di popolazione](https://it.wikipedia.org/wiki/Densit%C3%A0_di_popolazione), ovvero, la popolazione residente per ogni kmq. L'intersezione genererà più poligoni per ogni poligono di Voronoi, tanti quanti sono i poligono dei centri abitati, che erediteranno le info sulle densità di popolazione. Successivamente ogni valore di densità ereditata verrà moltiplicata per l'area del poligono (in kmq) ottenendo la popolazione potenziale per ogni poligono. Infine si dissolveranno i poligoni per riottenere i poligoni di Voronoi originali con il valore finale della popolazione potenziale.
 
-#### Workflow
+#### Workflow QGIS
 
 1. xxx
 2. yyy
@@ -102,3 +103,8 @@ Il risultato ottenuto è molto simile al precedente (era prevedibile) e molto pi
 ![screen](./imgs/processo3.png)
 
 PS. descriverò meglio il tutto solo se necessario.
+
+#### script SQL
+
+L'intero processso sopra descritto e realizzato con QGIS è stato interamente riprodotto in SQL con estensione spaziale.
+Lo script `script.sql` si trova nella cartella script_SQL.

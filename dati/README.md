@@ -15,11 +15,12 @@ Contenitore di dati:
 
 Contenitore di dati:
 1. quartieriPalermo
-2. fontanelle_Palermo
-3. popolazioneResidente
+2. fontanellePalermoAMAP
+3. popolazioneResidente2018
 4. centroAbitatoQuartieri - elaborazione strato sez_cens_2011
 5. sez_cens_2011 - filtrato solo per Palermo (https://www.istat.it/it/archivio/104317)
-6. LimitiPalermo (vista creata da DBmanager di QGIS)
+6. LimitiPalermo;
+7. centro abitato quartieri Palermo
 
 ### file di stile qml
 
