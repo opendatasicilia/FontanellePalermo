@@ -2,3 +2,5 @@
 *.gpkg-wal
 *.qgis~
 dati/progetto_base.qgs~
+analisi/isolinee/config
+analisi/isolinee/output/*
