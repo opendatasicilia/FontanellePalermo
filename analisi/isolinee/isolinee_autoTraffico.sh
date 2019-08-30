@@ -55,7 +55,7 @@ for i in "$folder"/rawdata/"$modalita"*.json; do
   #estrai nome file
   filename="${filename%.*}"
   # per ogni valore di isocrona e per ogni fontana crea un CSV geografico e un geojson
-  for l in ${lista[@]}; do
+  for l in "${lista[@]}"; do
     echo "ID,range,WKT" >"$folder"/output/"$filename"_"$l".csv
     printf ''"$filename"','"$l"',"POLYGON ((' >>"$folder"/output/"$filename"_"$l".csv
     jq <"$i" -r '.response.isoline[] | select(.range=='"$l"') |.component[0].shape[]' | mlr --nidx --ifs "," reorder -f 2,1 | tr '\n' ',' >>"$folder"/output/"$filename"_"$l".csv
@@ -66,7 +66,7 @@ for i in "$folder"/rawdata/"$modalita"*.json; do
 done
 
 # per ogni valore di isocrona fai l'unione di tutti i geojson e fai il merge
-for l in ${lista[@]}; do
+for l in "${lista[@]}"; do
   mapshaper -i "$folder"/output/"$modalita"*"$l".geojson combine-files -merge-layers -o "$folder"/output/"$modalita"_"$l".shp
   ogr2ogr -f geojson "$folder"/"$modalita"_"$l".geojson "$folder"/output/"$modalita"_"$l".shp -dialect sqlite -sql 'SELECT ST_Union(geometry) AS geometry FROM '"$modalita"'_'"$l"''
 done
