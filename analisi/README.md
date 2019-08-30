@@ -5,7 +5,7 @@
 
 # Introduzione
 
-In questa cartella saranno inseriti gli output di alcune analisi
+In questa cartella saranno inseriti gli output di alcune analisi.
 
 # Isolinee
 
@@ -17,7 +17,7 @@ quali sono le **aree di Palermo** da cui si può **raggiungere** una fontanella 
 
 `here` mette a dispozione delle API con le quali è possibile calcolare isolinee per tempo o per distanza: <https://developer.here.com/documentation/routing/topics/example-isoline-simple-time.html>.
 
-Per usarle è necessario creare un account; con l'[abbonamento freemium](https://developer.here.com/blog/our-here-freemium-developer-plan-in-detail) con cui è possibile eseguire 250.000 transazioni al mese.
+Per usarle è necessario creare un account; con l'[abbonamento freemium](https://developer.here.com/blog/our-here-freemium-developer-plan-in-detail) è possibile eseguire 250.000 transazioni al mese.
 
 **Nota bene**: gli *output* delle API non sono open data, perché impogono il riuso su loro basi/prodotti (vedi sotto).
 
@@ -25,7 +25,7 @@ Per usarle è necessario creare un account; con l'[abbonamento freemium](https:/
 
 ### Isocrone
 
-Il calcolo delle isocrone - isolinee per intervalli temporali - viene fatta con una chiamata di questo tipo:
+Il calcolo delle isocrone - isolinee per intervalli temporali - viene fatto con una "chiamata" di questo tipo:
 
 ```
 https://isoline.route.api.here.com/routing/7.2/calculateisoline.json
