@@ -23,11 +23,11 @@ mlr --headerless-csv-output --c2t cat -n \
   then cut -f n,X,Y \
   then put '$n = fmtnum($n, "%03d")' "$folder"/../../risorse/da_PEC_AMAP/Mappa-Fontanelle-di-Palermo.csv >"$folder"/source.tsv
 
-# # # isolinee in Automobile, percorso più rapido, in 5 e 10 minuti # # #
+# # # isolinee in Automobile, percorso più rapido, in 5 minuti # # #
 
 # modalità: Tempo in Automobile con Traffico, quindi "tt"
 modalita="tt"
-# tempo in secondi per isolinee da 5 e 10 minuti, quindi 300 e 600 secondi
+# tempo in secondi per isolinee da 5 minuti, quindi 300 secondi
 tempo="300"
 # data e orario di simulazione
 dataora="2019-05-13T12:15:00%2B02"
