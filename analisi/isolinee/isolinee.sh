@@ -17,6 +17,10 @@ source "$folder"/config
 mkdir -p "$folder"/output
 mkdir -p "$folder"/rawdata
 
+# svuota cartelle dati
+rm "$folder"/output/"$modalita"*
+rm "$folder"/rawdata/"$modalita"*
+
 # crea ID fontanelle, salva in TSV e rimuovi intestazione
 mlr --headerless-csv-output --c2t cat -n \
   then cut -f n,X,Y \
@@ -35,9 +39,6 @@ while IFS=$'\t' read -r n long lat; do
   curl "https://isoline.route.api.here.com/routing/7.2/calculateisoline.json?app_id=$app_id&app_code=$app_code&mode=fastest;pedestrian;traffic:disabled&rangetype=time&destination=geo!$lat,$long&range=$tempo" | jq . >"$folder"/rawdata/"$modalita"_"$n".json
 done <"$folder"/source.tsv
 
-# svuota cartelle dati
-rm "$folder"/output/*
-rm "$folder"/rawdata/*
 
 # crea l'array dei valori di isocrona, ovvero quelli listati nella variabile tempo
 lista=($(sed 's|,| |g' <<<$tempo))
@@ -66,3 +67,4 @@ for l in ${lista[@]}; do
   mapshaper -i "$folder"/output/*"$l".geojson combine-files -merge-layers -o "$folder"/output/"$modalita"_"$l".shp
   ogr2ogr -f geojson "$folder"/"$modalita"_"$l".geojson "$folder"/output/"$modalita"_"$l".shp -dialect sqlite -sql 'SELECT ST_Union(geometry) AS geometry FROM '"$modalita"'_'"$l"''
 done
+
