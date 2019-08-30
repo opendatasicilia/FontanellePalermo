@@ -11,8 +11,6 @@ source "$folder"/config
 mkdir -p "$folder"/output
 mkdir -p "$folder"/rawdata
 
-# https://isoline.route.api.here.com/routing/7.2/calculateisoline.json?app_id=6fXktj6OT4AnDS5D4Ysv&app_code=CTQRhQbcNqfdWkybbb6lMA&mode=fastest;pedestrian;traffic:disabled&rangetype=time&destination=geo!52.51578,13.37749&range=300
-
 # crea ID fontanelle, salva in TSV e rimuovi intestazione
 mlr --headerless-csv-output --c2t cat -n \
   then cut -f n,X,Y \
