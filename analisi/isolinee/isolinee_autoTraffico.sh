@@ -30,7 +30,7 @@ modalita="tt"
 # tempo in secondi per isolinee da 5 e 10 minuti, quindi 300 e 600 secondi
 tempo="300"
 # data e orario di simulazione
-dataora="2019-05-13T12:00:00%2B02"
+dataora="2019-05-13T12:15:00%2B02"
 
 # svuota cartelle dati
 rm "$folder"/output/"$modalita"*
@@ -39,7 +39,7 @@ rm "$folder"/rawdata/"$modalita"*
 # per ogni fontanella in lista calcola le isocrone secondo la variabile tempo
 while IFS=$'\t' read -r n long lat; do
   #echo "$r $long $lat"
-  curl "https://isoline.route.api.here.com/routing/7.2/calculateisoline.json?app_id=$app_id&app_code=$app_code&mode=fastest;car;traffic:enabled&rangetype=time&start=geo!$lat,$long&range=$tempo&departure=$dataora" | jq . >"$folder"/rawdata/"$modalita"_"$n".json
+  curl "https://isoline.route.api.here.com/routing/7.2/calculateisoline.json?app_id=$app_id&app_code=$app_code&mode=fastest;car;traffic:enabled&rangetype=time&destination=geo!$lat,$long&range=$tempo&arrival=$dataora" | jq . >"$folder"/rawdata/"$modalita"_"$n".json
 done <"$folder"/source.tsv
 
 
