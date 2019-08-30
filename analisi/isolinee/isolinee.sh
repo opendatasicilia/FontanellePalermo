@@ -1,5 +1,11 @@
 #!/bin/bash
 
+### requisiti ###
+# GDAL/OGR https://gdal.org/
+# Miller https://github.com/johnkerl/miller
+# mapshaper https://github.com/mbloch/mapshaper
+### requisiti ###
+
 set -x
 
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
