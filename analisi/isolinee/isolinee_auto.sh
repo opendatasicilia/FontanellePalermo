@@ -23,7 +23,7 @@ mlr --headerless-csv-output --c2t cat -n \
   then cut -f n,X,Y \
   then put '$n = fmtnum($n, "%03d")' "$folder"/../../risorse/da_PEC_AMAP/Mappa-Fontanelle-di-Palermo.csv >"$folder"/source.tsv
 
-# # # isolinee in Automobile, percorso più rapido, in 5 minuti # # #
+# # # isolinee in Automobile, percorso più rapido, in 5 e 10 minuti # # #
 
 # modalità: Tempo in Automobile, quindi "ta"
 modalita="ta"
@@ -63,7 +63,7 @@ for i in "$folder"/rawdata/"$modalita"*.json; do
   done
 done
 
-# per ogni valore di isocrona fai l'unione di tutti geojson di tutte le fontante e fai il merge
+# per ogni valore di isocrona fai l'unione di tutti i geojson e fai il merge
 for l in ${lista[@]}; do
   mapshaper -i "$folder"/output/"$modalita"*"$l".geojson combine-files -merge-layers -o "$folder"/output/"$modalita"_"$l".shp
   ogr2ogr -f geojson "$folder"/"$modalita"_"$l".geojson "$folder"/output/"$modalita"_"$l".shp -dialect sqlite -sql 'SELECT ST_Union(geometry) AS geometry FROM '"$modalita"'_'"$l"''
