@@ -23,7 +23,7 @@ Nella cartella [`isolinee`](./isolinee) si trovano gli elementi per rispondere a
 
 Per usarle è necessario creare un account; con l'[abbonamento freemium](https://developer.here.com/blog/our-here-freemium-developer-plan-in-detail) è possibile eseguire 250.000 transazioni al mese.
 
-**Nota bene**: gli *output* delle API non sono open data, perché impogono il riuso su loro basi/prodotti (vedi sotto).
+**Nota bene**: gli *output* delle API non sono open data, perché impogono il riuso su loro basi/prodotti (vedi sotto, tratta da punto 12 delle [FAQ](https://developer.here.com/faqs#licensing-terms)).
 
 ![](./isolinee/imgs/hereTOS.png)
 
