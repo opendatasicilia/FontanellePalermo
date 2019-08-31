@@ -2,6 +2,10 @@
 - [Isolinee](#isolinee)
   - [Calcolo tramite le API di here](#calcolo-tramite-le-api-di-here)
     - [Isocrone](#isocrone)
+    - [Struttura cartelle, file e schema nomi](#struttura-cartelle-file-e-schema-nomi)
+      - [Schema nomi](#schema-nomi)
+      - [Script](#script)
+      - [File di output principali](#file-di-output-principali)
 
 # Introduzione
 
@@ -11,7 +15,7 @@ In questa cartella saranno inseriti gli output di alcune analisi.
 
 Nella cartella [`isolinee`](./isolinee) si trovano gli elementi per rispondere a questo tipo di domanda:
 
-quali sono le **aree di Palermo** da cui si può **raggiungere** una fontanella in **10** e **5** **minuti** a **piedi**??
+> quali sono le **aree di Palermo** da cui si può **raggiungere** una fontanella in **10** e **5** **minuti** a **piedi**??
 
 ## Calcolo tramite le API di here
 
@@ -52,3 +56,41 @@ Sono stati creati degli *script* bash ([questo](./isolinee/isolinee_a_piedi.sh) 
 Qui sotto un'immagine che da un'idea dell'output:
 
 ![](./isolinee/imgs/tp_300_600.png)
+
+### Struttura cartelle, file e schema nomi
+
+I file legati a questo processo sono stati inseriti nella cartella [isolinee](./isolinee), che contiene queste sottocartelle:
+
+- `imgs`, con immagini e file utilizzati essenzialmente per scopi descrittivi e non di analsi;
+- `output`, contiene gli output principali dell'eleborazione dei dati grezzi di partenza;
+- `rawdata`, contiene i file grezzi avuti in *output* dalle API di here;
+- `risorse`, creata per contenere file accessori che potrebbero essere utili.
+
+#### Schema nomi
+
+In questo processo vengono generati diversi file, con nomi che hanno per lo più questo tipo di struttura: `ta_019_600.geojson` o `tp_300.geojson`.
+
+Le prime due lettere sono delle sigle con questo significato:
+
+- `tp`, per file prodotti in relazione a calcoli di isolinee **T**emporali, per percorsi **P**edonali;
+- `ta`, per file prodotti in relazione a calcoli di isolinee **T**emporali, per percorsi in **A**utomobile senza tenere conto del traffico;
+- `tt`, per file prodotti in relazione a calcoli di isolinee **T**emporali, per percorsi in automobile, tenendo conto del **T**raffico.
+
+Se nel nomi ci sono due blocchi numerici, come "019" e "600 in `ta_019_600.geojson`, il primo blocco è l'identificativo della fontanella (campo `n` in [`fontanelle.csv`](./risorse/fontanelle.csv)), il secondo è il l'intervallo di tempo in secondi relativo all'analisi fatta. Se è "300", vuol dire che è un file relativo al calcolo delle aree da cui è raggiungibile una fontanella in 300 secondi (5 minuti).<br>
+Se ce ne è soltanto uno come in `tp_300.geojson`, è il tempo in secondi relativo all'analisi fatta.
+
+#### Script
+
+Al momento sono stati creati tre script, nella cartella isolinee
+
+- `isolinee_a_piedi.sh`, per calcolare quali sono le aree da cui le fontane sono raggiungibili a piedi in 5 e 10 minuti;
+- `isolinee_auto.sh`, per calcolare quali sono le aree da cui le fontane sono raggiungibili in automobile, senza tenere conto del traffico, in 5 e 10 minuti;
+- `isolinee_autoTraffico.sh`, per calcolare quali sono le aree da cui le fontane sono raggiungibili in automobile, tenendo conto del traffico, in 5 minuti;
+
+L'ideale sarebbe unificarli e "pulirli".
+
+Producono in output due insiemi principali: i dati grezzi nella cartella `rawdata` e i dati rielaborati a partire dai precedenti e inseriti nella cartella `output`.
+
+#### File di output principali
+
+Nella radice della cartella isolinee ci sono 4 file `geojson`: costituiscono
