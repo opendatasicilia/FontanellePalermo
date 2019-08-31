@@ -76,7 +76,7 @@ Le prime due lettere sono delle sigle con questo significato:
 - `ta`, per file prodotti in relazione a calcoli di isolinee **T**emporali, per percorsi in **A**utomobile senza tenere conto del traffico;
 - `tt`, per file prodotti in relazione a calcoli di isolinee **T**emporali, per percorsi in automobile, tenendo conto del **T**raffico.
 
-Se nei nomi ci sono due blocchi numerici, come "019" e "600 in `ta_019_600.geojson`, il primo blocco è l'identificativo della fontanella (campo `n` in [`fontanelle.csv`](./risorse/fontanelle.csv)), il secondo è il l'intervallo di tempo in secondi relativo all'analisi fatta. Se è "300", vuol dire che è un file relativo al calcolo delle aree da cui è raggiungibile una fontanella in 300 secondi (5 minuti).<br>
+Se nei nomi ci sono due blocchi numerici, come "019" e "600 in `ta_019_600.geojson`, il primo blocco è l'identificativo della fontanella (campo `n` in [`fontanelle.csv`](./isolinee/risorse/fontanelle.csv)), il secondo è il l'intervallo di tempo in secondi relativo all'analisi fatta. Se è "300", vuol dire che è un file relativo al calcolo delle aree da cui è raggiungibile una fontanella in 300 secondi (5 minuti).<br>
 Se ce ne è soltanto uno come in `tp_300.geojson`, è il tempo in secondi relativo all'analisi fatta.
 
 #### Script
