@@ -93,4 +93,10 @@ Producono in output due insiemi principali: i dati grezzi nella cartella `rawdat
 
 #### File di output principali
 
-Nella radice della cartella isolinee ci sono 4 file `geojson`: costituiscono le aree da cui le fontane sono accessibili, secondo lo [schema nomi](./README.md#schema-nomi) definito sopra.
+Nella **radice** della cartella **isolinee** ci sono **5 file** `geojson`: costituiscono le aree da cui le fontane sono accessibili, secondo lo [schema nomi](./README.md#schema-nomi) definito sopra. Per ognuno c'è l'unione in un solo poligono, di tutti i poligoni di output di ogni fontana.
+
+![](./isolinee/imgs/outputpoly01.png)
+
+Nella cartella [`output`](./output) 5 *shapefile*, sempra con la solita struttura nomi: questi costituiscono sempre le aree da cui le fontane sono accessibili, ma c'è un poligono e un record per ogni fontana.
+
+![](./isolinee/imgs/outputpoly02.png)
