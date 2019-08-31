@@ -85,7 +85,7 @@ Al momento sono stati creati tre script, nella cartella isolinee
 
 - `isolinee_a_piedi.sh`, per calcolare quali sono le aree da cui le fontane sono raggiungibili a piedi in 5 e 10 minuti;
 - `isolinee_auto.sh`, per calcolare quali sono le aree da cui le fontane sono raggiungibili in automobile, senza tenere conto del traffico, in 5 e 10 minuti;
-- `isolinee_autoTraffico.sh`, per calcolare quali sono le aree da cui le fontane sono raggiungibili in automobile, tenendo conto del traffico, in 5 minuti;
+- `isolinee_autoTraffico.sh`, per calcolare quali sono le aree da cui le fontane sono raggiungibili in automobile, tenendo conto del traffico, in 5 minuti.
 
 L'ideale sarebbe unificarli e "pulirli".
 
