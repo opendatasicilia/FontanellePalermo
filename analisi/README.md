@@ -97,6 +97,6 @@ Nella **radice** della cartella **isolinee** ci sono **5 file** `geojson`: costi
 
 ![](./isolinee/imgs/outputpoly01.png)
 
-Nella cartella [`output`](./output) 5 *shapefile*, sempra con la solita struttura nomi: questi costituiscono sempre le aree da cui le fontane sono accessibili, però con un poligono (e un record) per ogni fontana.
+Nella cartella [`output`](./isolinee/output) 5 *shapefile*, sempra con la solita struttura nomi: questi costituiscono sempre le aree da cui le fontane sono accessibili, però con un poligono (e un record) per ogni fontana.
 
 ![](./isolinee/imgs/outputpoly02.png)
