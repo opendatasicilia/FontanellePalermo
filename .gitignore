@@ -5,3 +5,4 @@ dati/progetto_base.qgs~
 analisi/isolinee/config
 analisi/isolinee/output/*.csv
 analisi/isolinee/output/*.geojson
+*.qgs~
