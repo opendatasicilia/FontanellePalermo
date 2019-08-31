@@ -93,4 +93,4 @@ Producono in output due insiemi principali: i dati grezzi nella cartella `rawdat
 
 #### File di output principali
 
-Nella radice della cartella isolinee ci sono 4 file `geojson`: costituiscono
+Nella radice della cartella isolinee ci sono 4 file `geojson`: costituiscono le aree da cui le fontane sono accessibili, secondo lo [schema nomi](./README.md#schema-nomi) definito sopra.
