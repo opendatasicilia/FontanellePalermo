@@ -47,7 +47,7 @@ Alcune note:
 
 L'output è in JSON. [Qui](./isolinee/rawdata/tp_001.json) un *file* di esempio.
 
-Sono stati creati degli *script* bash ([questo ad esempio per il calcolo del percorso a piedi](./isolinee/isolinee_a_piedi.sh)) che per [ogni fontana](./isolinee/source.tsv) di acqua potabile di Palermo, calcola le aree da cui è possibile raggiungerle in [10](./isolinee/tp_600.geojson) e [5 minuti](./isolinee/tp_300.geojson) (questi sono gli output del percorso a piedi).
+Sono stati creati degli *script* bash ([questo](./isolinee/isolinee_a_piedi.sh) ad esempio per il calcolo del percorso a piedi) che per [ogni fontana](./isolinee/source.tsv) di acqua potabile di Palermo, calcola le aree da cui è possibile raggiungerle in [10](./isolinee/tp_600.geojson) e [5 minuti](./isolinee/tp_300.geojson) (questi sono gli output del percorso a piedi).
 
 Qui sotto un'immagine che da un'idea dell'output:
 
