@@ -31,10 +31,6 @@
 		var mymap = L.map('mapid').setView([51.505, -0.09], 13);
 
 
-//http://dev.ondata.it/projs/test/leafproxy/fetch_map_ods.php
-//url: 'fetch_map.php?z={z}&x={x}&y={y}'
-//http://dev.ondata.it/projs/test/leafproxy/fetch_map_ods.php?z={z}&x={x}&y={y}
-		//L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		L.tileLayer('http://localhost/fetch_map_ods.php?z={z}&x={x}&y={y}', {
 			maxZoom: 18,
 			attribution: '<a href="https://developer.here.com/">here API based</a>'
