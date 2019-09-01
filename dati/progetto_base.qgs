@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.4.11-Madeira" projectname="">
+<qgis projectname="" version="3.4.11-Madeira">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -19,27 +19,27 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-group name="Analisi" checked="Qt::Checked" expanded="1">
+    <layer-tree-group checked="Qt::Checked" name="Analisi" expanded="1">
       <customproperties/>
     </layer-tree-group>
-    <layer-tree-group name="Dati" checked="Qt::Checked" expanded="1">
+    <layer-tree-group checked="Qt::Checked" name="Dati" expanded="1">
       <customproperties/>
-      <layer-tree-layer name="limitipalermo" providerKey="spatialite" source="dbname='D:/GitHub/FontanellePalermo/dati/FontanellePalermo.sqlite' table=&quot;limitipalermo&quot; (geom) sql=" checked="Qt::Checked" id="limitipalermo_e34aa775_4426_4faf_9a5e_fe7cfacfd14d" expanded="1">
+      <layer-tree-layer checked="Qt::Checked" name="limitipalermo" source="dbname='D:/GitHub/FontanellePalermo/dati/FontanellePalermo.sqlite' table=&quot;limitipalermo&quot; (geom) sql=" expanded="1" id="limitipalermo_e34aa775_4426_4faf_9a5e_fe7cfacfd14d" providerKey="spatialite">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer name="fontanellepalermoamap" providerKey="spatialite" source="dbname='D:/GitHub/FontanellePalermo/dati/FontanellePalermo.sqlite' table=&quot;fontanellepalermoamap&quot; (geom) sql=" checked="Qt::Checked" id="fontanellepalermoamap_50f23702_8183_4d51_947e_acfffddb22c2" expanded="1">
+      <layer-tree-layer checked="Qt::Checked" name="fontanellepalermoamap" source="dbname='D:/GitHub/FontanellePalermo/dati/FontanellePalermo.sqlite' table=&quot;fontanellepalermoamap&quot; (geom) sql=" expanded="1" id="fontanellepalermoamap_50f23702_8183_4d51_947e_acfffddb22c2" providerKey="spatialite">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer name="centroabitatoquartieri" providerKey="spatialite" source="dbname='D:/GitHub/FontanellePalermo/dati/FontanellePalermo.sqlite' table=&quot;centroabitatoquartieri&quot; (geom) sql=" checked="Qt::Checked" id="centroabitatoquartieri_4b2f7169_57d5_4b18_a8fa_b187b0996226" expanded="1">
+      <layer-tree-layer checked="Qt::Checked" name="centroabitatoquartieri" source="dbname='D:/GitHub/FontanellePalermo/dati/FontanellePalermo.sqlite' table=&quot;centroabitatoquartieri&quot; (geom) sql=" expanded="1" id="centroabitatoquartieri_4b2f7169_57d5_4b18_a8fa_b187b0996226" providerKey="spatialite">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer name="quartieripalermo" providerKey="spatialite" source="dbname='D:/GitHub/FontanellePalermo/dati/FontanellePalermo.sqlite' table=&quot;quartieripalermo&quot; (geom) sql=" checked="Qt::Unchecked" id="quartieripalermo_5eeb2a3c_71eb_4412_9aa7_f76864f761c3" expanded="1">
+      <layer-tree-layer checked="Qt::Unchecked" name="quartieripalermo" source="dbname='D:/GitHub/FontanellePalermo/dati/FontanellePalermo.sqlite' table=&quot;quartieripalermo&quot; (geom) sql=" expanded="1" id="quartieripalermo_5eeb2a3c_71eb_4412_9aa7_f76864f761c3" providerKey="spatialite">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group name="Basi" checked="Qt::Checked" expanded="1">
+    <layer-tree-group checked="Qt::Checked" name="Basi" expanded="1">
       <customproperties/>
-      <layer-tree-layer name="OSM Standard" providerKey="wms" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" checked="Qt::Unchecked" id="OSM_Standard_358d4545_6dce_4d4d_8bf4_4bda428366e3" expanded="1">
+      <layer-tree-layer checked="Qt::Unchecked" name="OSM Standard" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" expanded="1" id="OSM_Standard_358d4545_6dce_4d4d_8bf4_4bda428366e3" providerKey="wms">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -51,13 +51,13 @@
       <item>quartieripalermo_5eeb2a3c_71eb_4412_9aa7_f76864f761c3</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings intersection-snapping="0" mode="2" enabled="0" unit="1" type="1" tolerance="12">
+  <snapping-settings intersection-snapping="0" unit="1" enabled="0" mode="2" tolerance="12" type="1">
     <individual-layer-settings>
-      <layer-setting id="quartieripalermo_5eeb2a3c_71eb_4412_9aa7_f76864f761c3" enabled="0" type="1" units="1" tolerance="12"/>
-      <layer-setting id="quartieriPalermo_2c915be9_b813_4ed1_a35f_71315ab13bf4" enabled="0" type="1" units="1" tolerance="12"/>
-      <layer-setting id="centroabitatoquartieri_4b2f7169_57d5_4b18_a8fa_b187b0996226" enabled="0" type="1" units="1" tolerance="12"/>
-      <layer-setting id="limitipalermo_e34aa775_4426_4faf_9a5e_fe7cfacfd14d" enabled="0" type="1" units="1" tolerance="12"/>
-      <layer-setting id="fontanellepalermoamap_50f23702_8183_4d51_947e_acfffddb22c2" enabled="0" type="1" units="1" tolerance="12"/>
+      <layer-setting units="1" enabled="0" tolerance="12" type="1" id="fontanellepalermoamap_50f23702_8183_4d51_947e_acfffddb22c2"/>
+      <layer-setting units="1" enabled="0" tolerance="12" type="1" id="limitipalermo_e34aa775_4426_4faf_9a5e_fe7cfacfd14d"/>
+      <layer-setting units="1" enabled="0" tolerance="12" type="1" id="quartieriPalermo_2c915be9_b813_4ed1_a35f_71315ab13bf4"/>
+      <layer-setting units="1" enabled="0" tolerance="12" type="1" id="centroabitatoquartieri_4b2f7169_57d5_4b18_a8fa_b187b0996226"/>
+      <layer-setting units="1" enabled="0" tolerance="12" type="1" id="quartieripalermo_5eeb2a3c_71eb_4412_9aa7_f76864f761c3"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -1232,33 +1232,33 @@
     </Option>
   </projectModels>
   <legend updateDrawingOrder="true">
-    <legendgroup name="Analisi" checked="Qt::Checked" open="true"/>
-    <legendgroup name="Dati" checked="Qt::Checked" open="true">
-      <legendlayer name="limitipalermo" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="true">
+    <legendgroup checked="Qt::Checked" name="Analisi" open="true"/>
+    <legendgroup checked="Qt::Checked" name="Dati" open="true">
+      <legendlayer drawingOrder="-1" checked="Qt::Checked" name="limitipalermo" open="true" showFeatureCount="0">
         <filegroup hidden="false" open="true">
-          <legendlayerfile visible="1" layerid="limitipalermo_e34aa775_4426_4faf_9a5e_fe7cfacfd14d" isInOverview="0"/>
+          <legendlayerfile layerid="limitipalermo_e34aa775_4426_4faf_9a5e_fe7cfacfd14d" isInOverview="0" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer name="fontanellepalermoamap" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="true">
+      <legendlayer drawingOrder="-1" checked="Qt::Checked" name="fontanellepalermoamap" open="true" showFeatureCount="0">
         <filegroup hidden="false" open="true">
-          <legendlayerfile visible="1" layerid="fontanellepalermoamap_50f23702_8183_4d51_947e_acfffddb22c2" isInOverview="0"/>
+          <legendlayerfile layerid="fontanellepalermoamap_50f23702_8183_4d51_947e_acfffddb22c2" isInOverview="0" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer name="centroabitatoquartieri" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="true">
+      <legendlayer drawingOrder="-1" checked="Qt::Checked" name="centroabitatoquartieri" open="true" showFeatureCount="0">
         <filegroup hidden="false" open="true">
-          <legendlayerfile visible="1" layerid="centroabitatoquartieri_4b2f7169_57d5_4b18_a8fa_b187b0996226" isInOverview="0"/>
+          <legendlayerfile layerid="centroabitatoquartieri_4b2f7169_57d5_4b18_a8fa_b187b0996226" isInOverview="0" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer name="quartieripalermo" checked="Qt::Unchecked" showFeatureCount="0" drawingOrder="-1" open="true">
+      <legendlayer drawingOrder="-1" checked="Qt::Unchecked" name="quartieripalermo" open="true" showFeatureCount="0">
         <filegroup hidden="false" open="true">
-          <legendlayerfile visible="0" layerid="quartieripalermo_5eeb2a3c_71eb_4412_9aa7_f76864f761c3" isInOverview="0"/>
+          <legendlayerfile layerid="quartieripalermo_5eeb2a3c_71eb_4412_9aa7_f76864f761c3" isInOverview="0" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup name="Basi" checked="Qt::Checked" open="true">
-      <legendlayer name="OSM Standard" checked="Qt::Unchecked" showFeatureCount="0" drawingOrder="-1" open="true">
+    <legendgroup checked="Qt::Checked" name="Basi" open="true">
+      <legendlayer drawingOrder="-1" checked="Qt::Unchecked" name="OSM Standard" open="true" showFeatureCount="0">
         <filegroup hidden="false" open="true">
-          <legendlayerfile visible="0" layerid="OSM_Standard_358d4545_6dce_4d4d_8bf4_4bda428366e3" isInOverview="0"/>
+          <legendlayerfile layerid="OSM_Standard_358d4545_6dce_4d4d_8bf4_4bda428366e3" isInOverview="0" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -1266,7 +1266,7 @@
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
-    <maplayer styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" minScale="1e+08" maxScale="0" autoRefreshEnabled="0" autoRefreshTime="0" type="raster" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" minScale="1e+08" maxScale="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278925508260727</ymin>
@@ -1311,14 +1311,14 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="predefinito">
         <map-layer-style name="predefinito"/>
@@ -1332,7 +1332,7 @@
         <property key="identify/format" value="Undefined"/>
       </customproperties>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" type="singlebandcolordata" band="1">
+        <rasterrenderer band="1" opacity="1" alphaBand="-1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1343,13 +1343,13 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation grayscaleMode="0" colorizeOn="0" colorizeGreen="128" colorizeBlue="128" colorizeRed="255" saturation="0" colorizeStrength="100"/>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation grayscaleMode="0" saturation="0" colorizeStrength="100" colorizeGreen="128" colorizeRed="255" colorizeBlue="128" colorizeOn="0"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" minScale="1e+08" maxScale="0" simplifyLocal="1" simplifyMaxScale="1" readOnly="0" autoRefreshEnabled="0" labelsEnabled="0" autoRefreshTime="0" type="vector" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" geometry="Polygon" simplifyAlgorithm="0">
+    <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Polygon" minScale="1e+08" maxScale="0" simplifyDrawingHints="1" simplifyLocal="1" readOnly="0" type="vector" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" labelsEnabled="0" simplifyDrawingTol="1">
       <extent>
         <xmin>873737.75770385307259858</xmin>
         <ymin>4220881.28961579222232103</ymin>
@@ -1413,21 +1413,21 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 enableorderby="0" forceraster="0" type="singleSymbol" symbollevels="0">
         <symbols>
-          <symbol name="0" alpha="1" type="fill" clip_to_extent="1" force_rhr="0">
-            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="141,90,153,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol name="0" clip_to_extent="1" alpha="1" force_rhr="0" type="fill">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="141,90,153,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" value="" type="QString"/>
@@ -1506,20 +1506,20 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="pk" applyOnUpdate="0"/>
-        <default expression="" field="TIPO_LOC" applyOnUpdate="0"/>
-        <default expression="" field="QUA_ID" applyOnUpdate="0"/>
-        <default expression="" field="DENOMINAZI" applyOnUpdate="0"/>
-        <default expression="" field="circoscrizione" applyOnUpdate="0"/>
-        <default expression="" field="sum_pop2018" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="pk"/>
+        <default expression="" applyOnUpdate="0" field="TIPO_LOC"/>
+        <default expression="" applyOnUpdate="0" field="QUA_ID"/>
+        <default expression="" applyOnUpdate="0" field="DENOMINAZI"/>
+        <default expression="" applyOnUpdate="0" field="circoscrizione"/>
+        <default expression="" applyOnUpdate="0" field="sum_pop2018"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" unique_strength="1" field="pk" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" unique_strength="0" field="TIPO_LOC" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="QUA_ID" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="DENOMINAZI" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="circoscrizione" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="sum_pop2018" exp_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="1" field="pk" constraints="3" unique_strength="1"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TIPO_LOC" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="QUA_ID" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="DENOMINAZI" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="circoscrizione" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="sum_pop2018" constraints="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" desc="" field="pk"/>
@@ -1533,7 +1533,7 @@
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -1553,7 +1553,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" minScale="1e+08" maxScale="0" simplifyLocal="1" simplifyMaxScale="1" readOnly="0" autoRefreshEnabled="0" labelsEnabled="0" autoRefreshTime="0" type="vector" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" geometry="Point" simplifyAlgorithm="0">
+    <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Point" minScale="1e+08" maxScale="0" simplifyDrawingHints="1" simplifyLocal="1" readOnly="0" type="vector" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" labelsEnabled="0" simplifyDrawingTol="1">
       <extent>
         <xmin>13.27464499999999958</xmin>
         <ymin>38.06627900000000153</ymin>
@@ -1617,28 +1617,28 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 enableorderby="0" forceraster="0" type="singleSymbol" symbollevels="0">
         <symbols>
-          <symbol name="0" alpha="1" type="marker" clip_to_extent="1" force_rhr="0">
-            <layer pass="0" enabled="1" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="0,0,0,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="255,255,255,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.4"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="1.6"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+          <symbol name="0" clip_to_extent="1" alpha="1" force_rhr="0" type="marker">
+            <layer enabled="1" class="SimpleMarker" locked="0" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="0,0,0,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="255,255,255,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="1.6" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" value="" type="QString"/>
@@ -1717,20 +1717,20 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="pk_uid" applyOnUpdate="0"/>
-        <default expression="" field="nome" applyOnUpdate="0"/>
-        <default expression="" field="indirizzo" applyOnUpdate="0"/>
-        <default expression="" field="coordinate" applyOnUpdate="0"/>
-        <default expression="" field="X" applyOnUpdate="0"/>
-        <default expression="" field="Y" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="pk_uid"/>
+        <default expression="" applyOnUpdate="0" field="nome"/>
+        <default expression="" applyOnUpdate="0" field="indirizzo"/>
+        <default expression="" applyOnUpdate="0" field="coordinate"/>
+        <default expression="" applyOnUpdate="0" field="X"/>
+        <default expression="" applyOnUpdate="0" field="Y"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" unique_strength="1" field="pk_uid" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" unique_strength="0" field="nome" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="indirizzo" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="coordinate" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="X" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="Y" exp_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="1" field="pk_uid" constraints="3" unique_strength="1"/>
+        <constraint exp_strength="0" notnull_strength="0" field="nome" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="indirizzo" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="coordinate" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="X" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="Y" constraints="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" desc="" field="pk_uid"/>
@@ -1744,7 +1744,7 @@
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -1764,7 +1764,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" minScale="1e+08" maxScale="0" simplifyLocal="1" simplifyMaxScale="1" readOnly="0" autoRefreshEnabled="0" labelsEnabled="0" autoRefreshTime="0" type="vector" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" geometry="Polygon" simplifyAlgorithm="0">
+    <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Polygon" minScale="1e+08" maxScale="0" simplifyDrawingHints="1" simplifyLocal="1" readOnly="0" type="vector" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" labelsEnabled="0" simplifyDrawingTol="1">
       <extent>
         <xmin>2365980.22599999979138374</xmin>
         <ymin>4212690.88399999961256981</ymin>
@@ -1828,21 +1828,21 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 enableorderby="0" forceraster="0" type="singleSymbol" symbollevels="0">
         <symbols>
-          <symbol name="0" alpha="1" type="fill" clip_to_extent="1" force_rhr="0">
-            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="213,180,60,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="dash"/>
-              <prop k="outline_width" v="0.46"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="no"/>
+          <symbol name="0" clip_to_extent="1" alpha="1" force_rhr="0" type="fill">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="213,180,60,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="dash" k="outline_style"/>
+              <prop v="0.46" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" value="" type="QString"/>
@@ -1889,12 +1889,12 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="pk" applyOnUpdate="0"/>
-        <default expression="" field="nome" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="pk"/>
+        <default expression="" applyOnUpdate="0" field="nome"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" unique_strength="1" field="pk" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" unique_strength="0" field="nome" exp_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="1" field="pk" constraints="3" unique_strength="1"/>
+        <constraint exp_strength="0" notnull_strength="0" field="nome" constraints="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" desc="" field="pk"/>
@@ -1904,7 +1904,7 @@
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -1924,7 +1924,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" minScale="1e+08" maxScale="0" simplifyLocal="1" simplifyMaxScale="1" readOnly="0" autoRefreshEnabled="0" labelsEnabled="0" autoRefreshTime="0" type="vector" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" geometry="Polygon" simplifyAlgorithm="0">
+    <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Polygon" minScale="1e+08" maxScale="0" simplifyDrawingHints="1" simplifyLocal="1" readOnly="0" type="vector" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" labelsEnabled="0" simplifyDrawingTol="1">
       <extent>
         <xmin>2365980.22599999979138374</xmin>
         <ymin>4212690.88399999961256981</ymin>
@@ -1932,7 +1932,7 @@
         <ymax>4232079</ymax>
       </extent>
       <id>quartieriPalermo_2c915be9_b813_4ed1_a35f_71315ab13bf4</id>
-      <datasource>dbname='./fontanellaPalermo.sqlite' table="quartieripalermo" (geom) sql=</datasource>
+      <datasource>dbname='./FontanellePalermo.sqlite' table="quartieripalermo" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1988,21 +1988,21 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 enableorderby="0" forceraster="0" type="singleSymbol" symbollevels="0">
         <symbols>
-          <symbol name="0" alpha="1" type="fill" clip_to_extent="1" force_rhr="0">
-            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="225,89,137,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol name="0" clip_to_extent="1" alpha="1" force_rhr="0" type="fill">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="225,89,137,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" value="" type="QString"/>
@@ -2073,18 +2073,18 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="pk" applyOnUpdate="0"/>
-        <default expression="" field="QUA_ID" applyOnUpdate="0"/>
-        <default expression="" field="DENOMINAZI" applyOnUpdate="0"/>
-        <default expression="" field="circoscrizione" applyOnUpdate="0"/>
-        <default expression="" field="sum_pop2018" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="pk"/>
+        <default expression="" applyOnUpdate="0" field="QUA_ID"/>
+        <default expression="" applyOnUpdate="0" field="DENOMINAZI"/>
+        <default expression="" applyOnUpdate="0" field="circoscrizione"/>
+        <default expression="" applyOnUpdate="0" field="sum_pop2018"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" unique_strength="1" field="pk" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" unique_strength="0" field="QUA_ID" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="DENOMINAZI" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="circoscrizione" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="sum_pop2018" exp_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="1" field="pk" constraints="3" unique_strength="1"/>
+        <constraint exp_strength="0" notnull_strength="0" field="QUA_ID" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="DENOMINAZI" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="circoscrizione" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="sum_pop2018" constraints="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" desc="" field="pk"/>
@@ -2095,7 +2095,7 @@
       </constraintExpressions>
       <expressionfields/>
       <attributeactions/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -2115,7 +2115,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer styleCategories="AllStyleCategories" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" minScale="1e+08" maxScale="0" simplifyLocal="1" simplifyMaxScale="1" readOnly="0" autoRefreshEnabled="0" labelsEnabled="0" autoRefreshTime="0" type="vector" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" geometry="Polygon" simplifyAlgorithm="0">
+    <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Polygon" minScale="1e+08" maxScale="0" simplifyDrawingHints="1" simplifyLocal="1" readOnly="0" type="vector" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" labelsEnabled="0" simplifyDrawingTol="1">
       <extent>
         <xmin>2365980.22599999979138374</xmin>
         <ymin>4212690.88399999961256981</ymin>
@@ -2179,21 +2179,21 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 enableorderby="0" forceraster="0" type="singleSymbol" symbollevels="0">
         <symbols>
-          <symbol name="0" alpha="1" type="fill" clip_to_extent="1" force_rhr="0">
-            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="114,155,111,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol name="0" clip_to_extent="1" alpha="1" force_rhr="0" type="fill">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="114,155,111,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" value="" type="QString"/>
@@ -2264,18 +2264,18 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="pk" applyOnUpdate="0"/>
-        <default expression="" field="QUA_ID" applyOnUpdate="0"/>
-        <default expression="" field="DENOMINAZI" applyOnUpdate="0"/>
-        <default expression="" field="circoscrizione" applyOnUpdate="0"/>
-        <default expression="" field="sum_pop2018" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="pk"/>
+        <default expression="" applyOnUpdate="0" field="QUA_ID"/>
+        <default expression="" applyOnUpdate="0" field="DENOMINAZI"/>
+        <default expression="" applyOnUpdate="0" field="circoscrizione"/>
+        <default expression="" applyOnUpdate="0" field="sum_pop2018"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" unique_strength="1" field="pk" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" unique_strength="0" field="QUA_ID" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="DENOMINAZI" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="circoscrizione" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" unique_strength="0" field="sum_pop2018" exp_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="1" field="pk" constraints="3" unique_strength="1"/>
+        <constraint exp_strength="0" notnull_strength="0" field="QUA_ID" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="DENOMINAZI" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="circoscrizione" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="sum_pop2018" constraints="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" desc="" field="pk"/>
@@ -2288,7 +2288,7 @@
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -2317,17 +2317,6 @@
     <layer id="quartieripalermo_5eeb2a3c_71eb_4412_9aa7_f76864f761c3"/>
   </layerorder>
   <properties>
-    <PAL>
-      <SearchMethod type="int">0</SearchMethod>
-      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
-      <TextFormat type="int">0</TextFormat>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
-      <CandidatesPoint type="int">16</CandidatesPoint>
-      <ShowingAllLabels type="bool">false</ShowingAllLabels>
-      <CandidatesLine type="int">50</CandidatesLine>
-      <CandidatesPolygon type="int">30</CandidatesPolygon>
-      <ShowingCandidates type="bool">false</ShowingCandidates>
-    </PAL>
     <DBManager>
       <savedQueries>
         <q459da1d46b89991777d3692fbd89ecec>
@@ -2336,16 +2325,30 @@
         </q459da1d46b89991777d3692fbd89ecec>
       </savedQueries>
     </DBManager>
-    <SpatialRefSys>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
-    <PositionPrecision>
-      <Automatic type="bool">true</Automatic>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-    </PositionPrecision>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PAL>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+    </PAL>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">intl</Ellipsoid>
+    </Measure>
     <CopyrightLabel>
+      <MarginH type="int">2</MarginH>
       <MarginV type="int">2</MarginV>
-      <Label type="QString">© [% @user_full_name %] - OpenDataSicilia - Fontanelle Palermo - QGIS [% @qgis_version %]</Label>
+      <Placement type="int">3</Placement>
       <Font type="QString">&lt;text-style fontCapitals="0" blendMode="0" fontFamily="MS Shell Dlg 2" fontSizeUnit="Point" textColor="0,0,0,255" fontLetterSpacing="0" fontStrikeout="0" fontUnderline="0" fontWordSpacing="0" multilineHeight="1" namedStyle="Normale" textOpacity="1" fontWeight="50" fontSize="11" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontItalic="0">
  &lt;text-buffer bufferSizeUnits="MM" bufferBlendMode="0" bufferJoinStyle="128" bufferOpacity="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="1" bufferDraw="1" bufferNoFill="1" bufferColor="255,255,255,255"/>
  &lt;background shapeSizeType="0" shapeFillColor="255,255,255,255" shapeRadiiUnit="MM" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1" shapeOffsetUnit="MM" shapeSizeY="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeRadiiX="0" shapeOffsetY="0" shapeRotationType="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeSizeX="0" shapeBorderWidthUnit="MM" shapeSizeUnit="MM" shapeOffsetX="0" shapeJoinStyle="64" shapeDraw="0" shapeType="0" shapeRadiiY="0" shapeBlendMode="0" shapeRotation="0"/>
@@ -2353,32 +2356,29 @@
 &lt;/text-style>
 </Font>
       <Enabled type="bool">true</Enabled>
-      <MarginH type="int">2</MarginH>
       <MarginUnit type="QString">MM</MarginUnit>
-      <Placement type="int">3</Placement>
+      <Label type="QString">© [% @user_full_name %] - OpenDataSicilia - Fontanelle Palermo - QGIS [% @qgis_version %]</Label>
     </CopyrightLabel>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
     <Measurement>
-      <AreaUnits type="QString">m2</AreaUnits>
       <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
     </Measurement>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
     <Gui>
       <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
       <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
       <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
     </Gui>
-    <Measure>
-      <Ellipsoid type="QString">intl</Ellipsoid>
-    </Measure>
   </properties>
   <visibility-presets/>
   <transformContext/>
