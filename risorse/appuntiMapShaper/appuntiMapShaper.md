@@ -1,3 +1,5 @@
+## Appunti descrittivi
+
 **NOTA BENE**: al momento sono appunti incomprensibili
 
 Per contare quante fontane e quali sono raggiungibili da un'area:
@@ -36,13 +38,22 @@ In output si avrà qualcosa come
 
 ```json
 "properties": {
-        "numero": 3,
-        "elenco": [
-          "002",
-          "061",
-          "129"
-        ]
+        "numero": 2,
+        "elenco": "A,C"
       }
 ```
 
 - fai il join spaziale tra questi punti e poligoni di intersezione tra tutti i poligoni
+
+
+## Script testato e funzionante
+
+```
+mapshaper input.geojson -lines -o tmp_lines.geojson
+mapshaper tmp_lines.geojson -polygons -o tmp_polygons.shp
+mapshaper tmp_polygons.shp -points inner -o tmp_points.shp
+mapshaper tmp_points.shp -clip input.geojson -o tmp_points_temp.shp
+mapshaper tmp_points_temp.shp -join input.geojson calc='numero = count(),elenco = collect(value).toString()' -o tmp_joinpoints.geojson
+mapshaper tmp_polygons.shp -join tmp_joinpoints.geojson -o output.geojson
+rm ./tmp_*
+```
