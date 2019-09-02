@@ -100,3 +100,16 @@ VACUUM;
 Testato sul file `tp_300.geojson` funziona!
 
 Script SQL presente nella cartella.
+
+**Output**
+
+rowid|pk|nro|ids|geo
+--|---|---|---|---
+351|398|8|tp_062,tp_072,tp_077,tp_078,tp_079,tp_080,tp_081,tp_094|BLOB sz=228 GEOMETRY
+114|140|7|tp_035,tp_040,tp_041,tp_052,tp_053,tp_139,tp_144|BLOB sz=196 GEOMETRY
+128|154|7|tp_035,tp_040,tp_041,tp_043,tp_052,tp_053,tp_144|BLOB sz=164 GEOMETRY
+156|183|7|tp_002,tp_035,tp_040,tp_041,tp_043,tp_052,tp_053|BLOB sz=116 GEOMETRY
+165|193|7|tp_002,tp_035,tp_040,tp_043,tp_052,tp_053,tp_129|BLOB sz=260 GEOMETRY
+352|399|7|tp_062,tp_072,tp_077,tp_078,tp_079,tp_081,tp_094|BLOB sz=340 GEOMETRY
+355|408|7|tp_062,tp_072,tp_077,tp_078,tp_080,tp_081,tp_094|BLOB sz=196 GEOMETRY
+110|134|6|tp_035,tp_040,tp_041,tp_043,tp_052,tp_053|BLOB sz=276 GEOMETRY
