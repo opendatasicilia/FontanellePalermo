@@ -31,7 +31,7 @@ mapshaper points.shp -clip poly.shp -o points_temp.shp
 - fai il join spaziale tra poligoni delle isocrone e questi punti
 
 ```
-mapshaper points_temp.shp -join poly.shp calc='numero = count(),elenco = collect(ID).toString()' -o joinpoints.geojson
+mapshaper points_temp.shp -join poly.shp calc='numero = count(),elenco = collect(value).toString()' -o joinpoints.geojson
 ```
 
 In output si avrà qualcosa come
@@ -53,7 +53,7 @@ mapshaper input.geojson -lines -o tmp_lines.geojson
 mapshaper tmp_lines.geojson -polygons -o tmp_polygons.shp
 mapshaper tmp_polygons.shp -points inner -o tmp_points.shp
 mapshaper tmp_points.shp -clip input.geojson -o tmp_points_temp.shp
-mapshaper tmp_points_temp.shp -join input.geojson calc='numero = count(),elenco = collect(ID).toString()' -o tmp_joinpoints.geojson
+mapshaper tmp_points_temp.shp -join input.geojson calc='numero = count(),elenco = collect(value).toString()' -o tmp_joinpoints.geojson
 mapshaper tmp_polygons.shp -join tmp_joinpoints.geojson -o output.geojson
 rm ./tmp_*
 ```
