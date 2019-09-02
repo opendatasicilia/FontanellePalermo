@@ -2,12 +2,6 @@
 
 **NOTA BENE**: al momento sono appunti incomprensibili
 
-Ragionamento generale:
-
-A partire da n poligoni sovrapposti di uno stello strato, dissolvo i perimetri di tutti i poligoni ottenendo un unico elemento, su questo utilizzo la  funzione polygonalize che crea un poligono per ogni area delimitata da un contorno lineare; nel frattempo creo i centroidi (inner) dello strato pricipale; 
-
-
-
 - dissolvo tutti i perimetri dei poligoni sovrapposti
 
 ```sql
