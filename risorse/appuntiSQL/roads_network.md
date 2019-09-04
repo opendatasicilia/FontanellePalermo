@@ -227,6 +227,8 @@ FROM byfoot
 WHERE NodeFrom = 10006 AND Cost <= 400.0;
 ```
 
+![screen](./imgs/isocrone_pa.jpg)
+
 - esempio di script SQL puro per iterazioni
 
 ```sql
