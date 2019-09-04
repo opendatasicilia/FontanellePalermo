@@ -219,7 +219,7 @@ FROM byfoot
 WHERE NodeFrom = 1 AND NodeTo = 200;
 ```
 
-- isocrocra 400 m
+- isocrona 400 m
 
 ```sql
 SELECT ST_ConcaveHull(ST_Collect(Geometry))
