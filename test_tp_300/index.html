@@ -58,10 +58,10 @@
             }
         }
         var map = L.map('map', {
-            zoomControl:true, maxZoom:17, minZoom:10
+            zoomControl:true, minZoom: 13,  maxZoom: 17, maxNativeZoom: 17
         })
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>  - Rielaborazione di: <a href="https://twitter.com/opendatasicilia" target="_blank" title="opendatasicilia">@opendatasicilia</a>');
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
             if (bounds_group.getLayers().length) {
@@ -103,14 +103,14 @@
                 case '1':
                     return {
                 pane: 'pane_tp_300_1',
-				Color: 'rgba(222,235,247,0.75)',
+				opacity: 1,
+				 color: 'rgba(0,0,0,1.0)',
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
-				opacity: 1,
-                stroke: false, 
-                fill: true,
+                weight: 0, 
+				stroke: true,
+				fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(222,235,247,0.75)',
                 interactive: true,
@@ -119,13 +119,13 @@
                 case '2':
                     return {
                 pane: 'pane_tp_300_1',
-				Color: 'rgba(198,219,239,0.75)',
+				color: 'rgba(0,0,0,1.0)',
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 0, 
 				opacity: 1,
-                stroke: false, 
+                stroke: true, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(198,219,239,0.75)',
@@ -135,12 +135,12 @@
                 case '3':
                     return {
                 pane: 'pane_tp_300_1',
-				Color: 'rgba(158,202,225,0.75)',
+				color: 'rgba(0,0,0,1.0)',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 0, 
 				opacity: 1,
-                stroke: false, 
+                stroke: true, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(158,202,225,0.75)',
@@ -150,13 +150,13 @@
                 case '4':
                     return {
                 pane: 'pane_tp_300_1',
-				Color: 'rgba(107,174,214,0.75)',
+				color: 'rgba(0,0,0,1.0)',
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 0, 
 				opacity: 1,
-                stroke: false, 
+                stroke: true, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(107,174,214,0.75)',
@@ -166,13 +166,13 @@
                 case '5':
                     return {
                 pane: 'pane_tp_300_1',
-				Color: 'rgba(66,146,198,0.75)',
+				color: 'rgba(0,0,0,1.0)',
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 0, 
 				opacity: 1,
-                stroke: false, 
+                stroke: true, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(66,146,198,0.75)',
@@ -182,13 +182,13 @@
                 case '6':
                     return {
                 pane: 'pane_tp_300_1',
-				Color: 'rgba(33,113,181,0.75)',
+				color: 'rgba(0,0,0,1.0)',
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 0, 
 				opacity: 1,
-                stroke: false, 
+                stroke: true, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(33,113,181,0.75)',
@@ -198,13 +198,13 @@
                 case '7':
                     return {
                 pane: 'pane_tp_300_1',
-				Color: 'rgba(8,81,156,0.75)',
+				color: 'rgba(0,0,0,1.0)',
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 0, 
 				opacity: 1,
-                stroke: false, 
+                stroke: true, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(8,81,156,0.75)',
@@ -214,13 +214,13 @@
                 case '8':
                     return {
                 pane: 'pane_tp_300_1',
-				Color: 'rgba(8,48,107,0.75)',
+				color: 'rgba(0,0,0,1.0)',
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 0, 
 				opacity: 1,
-                stroke: false, 
+                stroke: true, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(8,48,107,0.75)',
@@ -360,7 +360,7 @@
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['nro'] !== null?String('<div style="color: #000; font: bold 10px Arial; background-color: #fff; border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px; box-shadow: 0 1px 5px rgba(0,0,0,0.6); padding: 5px 5px;">Nelle vicinanze ci sono: ' + layer.feature.properties['nro']) +  ' fontanelle</div>':''), {permanent: false, offset: [-0, -16], className: 'css_tp_300_1'});
+            layer.bindTooltip((layer.feature.properties['nro'] !== null?String('<div style="color: #000; font: bold 10px Arial; background-color: #fff; border-radius: 2px;  -moz-border-radius: 2px;  -webkit-border-radius: 2px; box-shadow: 0 1px 5px rgba(0,0,0,0.6); padding: 4px 4px;">Nelle vicinanze ci sono: ' + layer.feature.properties['nro']) +  ' fontanelle</div>':''), {permanent: false, offset: [-0, -16], className: 'css_tp_300_1'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
