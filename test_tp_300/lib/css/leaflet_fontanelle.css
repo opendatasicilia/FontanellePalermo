@@ -496,10 +496,10 @@
 	text-align: left;
 	border-radius: 12px;
 	font-size:10px;
-		width: 340px;
+		width: 300px;
 			}
 /* popup  su mobile" */
-	 @media (min-width: 320px) and (max-width: 736px) {.leaflet-popup-content-wrapper {font-size:9px; width: 280px; }}	
+	 @media (min-width: 320px) and (max-width: 736px) {.leaflet-popup-content-wrapper {font-size:9px; width: 260px; }}	
 	 
 .leaflet-popup-content {
 	margin: 5px 10px;
