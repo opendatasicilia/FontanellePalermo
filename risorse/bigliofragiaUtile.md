@@ -1,0 +1,6 @@
+Una raccolta di articoli con infomazioni utili e spunti
+
+|Data|Titolo|URL|
+|---|---|---|
+|2019-09-04|Visualising the world’s addiction to plastic bottles|https://graphics.reuters.com/ENVIRONMENT-PLASTIC/0100B275155/index.html|
+
