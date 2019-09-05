@@ -322,11 +322,11 @@ L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {attribution: 
 ];
 
 <!-- Sposta il popup/mappa in base alle coordinate -->	
-map.on('popupopen', function(e) {
-    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
-    px.y -= e.popup._container.clientHeight/2 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
-    map.panTo(map.unproject(px),{animate: true}); // pan to new center
-});
+//    map.on('popupopen', function(e) {
+//    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
+//    px.y -= e.popup._container.clientHeight/2 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
+//    map.panTo(map.unproject(px),{animate: true}); // pan to new center
+//    });
 	<!-- Sposta il popup/mappa in base alle coordinate - fine -->	
 	
 	<!-- scala mappa -->		
@@ -459,12 +459,14 @@ map.on('popupopen', function(e) {
                 mouseover: highlightFeature,
             });
             var popupContent = '<table>\
-                    <tr>\<strong style="text-align: center; color: #FF0000;font-size:12px;">Fontanelle raggiungibili in 5 minuti a piedi</strong> </br></br></tr>\
+				<tr>\<strong style="text-align: center; color: #FF0000;font-size:12px;">Da questo punto raggiungeresti entro 5 minuti di strada a piedi&nbsp;&nbsp;[&nbsp;' + (feature.properties['nro'] !== null ? Autolinker.link(String(feature.properties['nro'])) : '') + '&nbsp;]&nbsp;&nbsp;fontanella/e </strong></br></br></tr>\
                                             </tr>\
+					<tr>\
                     <tr>\
-                        <th scope="row">Numero di fontanelle vicino</th>\
-                        <td>' + (feature.properties['nro'] !== null ? Autolinker.link(String(feature.properties['nro'])) : '') + '</td>\
-                    </tr>\
+                        <th scope="row"><img src="legend/omino-bivio.png" width="64" height="46" alt=""/ Title="Clicca il link sulla via per caricare il percorso più veloce con Google Maps "></th>\
+						<td>Clicca il link sulla via per<br>caricare il percorso più veloce<br>con Google Maps</td>\
+                       </tr>\
+						<tr>\
                     <tr>\
                         <th scope="row">Le fontanelle più vicine sono in:&nbsp;</th>\
                         <td>' + (feature.properties['indirizzo_links'] !== null ? Autolinker.link(String(feature.properties['indirizzo_links'])) : '') + '</td>\
@@ -644,25 +646,14 @@ map.on('popupopen', function(e) {
                 mouseover: highlightFeature,
             });
             var popupContent = '<table>\
-                    <tr>\<strong style="text-align: center; color: #FF0000;font-size:12px;">Fontanella acqua potabile Palermo - 2019</strong> </br></br></tr>\
-                                            </tr>\
-						<tr>\
-                        <th scope="row">Tipologia:&nbsp;</th>\
-                        <td>' + (feature.properties['Tipologia'] !== null ? Autolinker.link(String(feature.properties['Tipologia'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Coordinate:&nbsp;</th>\
-                        <td>' + (feature.properties['Coordinate'] !== null ? Autolinker.link(String(feature.properties['Coordinate'])) : '') + '</td>\
+                        <th scope="row"><img src="legend/fontanelle.png" width="32" height="32" alt=""/ Title="Fontanella"></th>\
+                        <td><strong style="text-align: center; color: #FF0000;font-size:12px;">Fontanella acqua potabile Palermo</strong> </br></br></td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Indirizzo:&nbsp;</th>\
-                        <td>' + (feature.properties['Indirizzo'] !== null ? Autolinker.link(String(feature.properties['Indirizzo'])) : '') + '</td>\
+                        <td>' + (feature.properties['Indirizzo'] !== null ? Autolinker.link(String(feature.properties['Indirizzo'])) : '') + ', ' + (feature.properties['CAP'] !== null ? Autolinker.link(String(feature.properties['CAP'])) : '') + '</td>\
                     </tr>\
-					                    <tr>\
-                        <th scope="row">CAP:&nbsp;</th>\
-                        <td>' + (feature.properties['CAP'] !== null ? Autolinker.link(String(feature.properties['CAP'])) : '') + '</td>\
-                    </tr>\
-					                    <tr>\
+					<tr>\
                         <th scope="row">Circoscrizione:&nbsp;</th>\
                         <td>' + (feature.properties['Circoscrizione'] !== null ? Autolinker.link(String(feature.properties['Circoscrizione'])) : '') + '</td>\
                     </tr>\
@@ -670,12 +661,8 @@ map.on('popupopen', function(e) {
                         <th scope="row">Quartiere:&nbsp;</th>\
                         <td>' + (feature.properties['Quartiere'] !== null ? Autolinker.link(String(feature.properties['Quartiere'])) : '') + '</td>\
                     </tr>\
-                   <tr>\
-                        <th scope="row">UPL:&nbsp;</th>\
-                        <td>' + (feature.properties['UPL_nome'] !== null ? Autolinker.link(String(feature.properties['UPL_nome'])) : '') + '</td>\
-                    </tr>\
                     <tr>\
-                        <th scope="row">Apri percorso:&nbsp;</th>\
+                        <th scope="row">Apri l&lsquo;indirizzo con:&nbsp;</th>\
                         <td></td>\
                     </tr>\
                     <tr>\
