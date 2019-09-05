@@ -48,12 +48,27 @@ In output si avrà qualcosa come
 
 ## Script testato e funzionante
 
-```
+```bash
 mapshaper input.geojson -lines -o precision=0.000001 tmp_lines.geojson
 mapshaper tmp_lines.geojson -polygons -o tmp_polygons.shp
 mapshaper tmp_polygons.shp -points inner -o tmp_points.shp
 mapshaper tmp_points.shp -clip input.geojson -o tmp_points_temp.shp
 mapshaper tmp_points_temp.shp -join input.geojson calc='numero = count(),elenco = collect(value).toString()' -o tmp_joinpoints.geojson
 mapshaper tmp_polygons.shp -join tmp_joinpoints.geojson -o output.geojson
+rm ./tmp_*
+```
+
+### tp_600
+
+```bash
+mapshaper tp_600-32633.shp -lines -o precision=0.000001 tmp_lines.shp
+mapshaper tmp_lines.shp -polygons -o tmp_polygons.shp
+mapshaper tmp_polygons.shp -points inner -o tmp_points.shp
+mapshaper tmp_points.shp -clip tp_600-32633.shp -o tmp_points_temp.shp
+mapshaper tmp_points_temp.shp -join tp_600-32633.shp calc='numero = count(),elenco = collect(ID).toString()' -o tmp_joinpoints.shp
+mapshaper tmp_polygons.shp -join tmp_joinpoints.shp -o output.shp
+
+mapshaper tmp_points.shp -clip tp_600-32633.shp -o tmp_points_temp.shp
+mapshaper output.shp -clip tmp_points_temp.shp -o outputa.shp
 rm ./tmp_*
 ```
