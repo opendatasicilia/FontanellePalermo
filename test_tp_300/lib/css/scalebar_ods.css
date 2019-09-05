@@ -23,7 +23,7 @@
 
   }
     @media (min-width: 320px) and (max-width: 667px) {
-	.leaflet-control-graphicscale {bottom:-10px; }}
+	.leaflet-control-graphicscale {bottom:-10px; right: 30px;}}
 	   
 	 
   	/*  spento su display 4" */
