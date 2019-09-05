@@ -654,12 +654,12 @@ L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {attribution: 
                         <td>' + (feature.properties['Indirizzo'] !== null ? Autolinker.link(String(feature.properties['Indirizzo'])) : '') + ', ' + (feature.properties['CAP'] !== null ? Autolinker.link(String(feature.properties['CAP'])) : '') + '</td>\
                     </tr>\
 					<tr>\
-                        <th scope="row">Circoscrizione:&nbsp;</th>\
-                        <td>' + (feature.properties['Circoscrizione'] !== null ? Autolinker.link(String(feature.properties['Circoscrizione'])) : '') + '</td>\
+                        <th class="no_mobile" scope="row">Circoscrizione:&nbsp;</th>\
+                        <td class="no_mobile">' + (feature.properties['Circoscrizione'] !== null ? Autolinker.link(String(feature.properties['Circoscrizione'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Quartiere:&nbsp;</th>\
-                        <td>' + (feature.properties['Quartiere'] !== null ? Autolinker.link(String(feature.properties['Quartiere'])) : '') + '</td>\
+                        <th class="no_mobile" scope="row">Quartiere:&nbsp;</th>\
+                        <td class="no_mobile">' + (feature.properties['Quartiere'] !== null ? Autolinker.link(String(feature.properties['Quartiere'])) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Apri l&lsquo;indirizzo con:&nbsp;</th>\
