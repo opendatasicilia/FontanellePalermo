@@ -49,7 +49,7 @@ In output si avrà qualcosa come
 ## Script testato e funzionante
 
 ```
-mapshaper input.geojson -lines -o tmp_lines.geojson
+mapshaper input.geojson -lines -o precision=0.000001 tmp_lines.geojson
 mapshaper tmp_lines.geojson -polygons -o tmp_polygons.shp
 mapshaper tmp_polygons.shp -points inner -o tmp_points.shp
 mapshaper tmp_points.shp -clip input.geojson -o tmp_points_temp.shp
