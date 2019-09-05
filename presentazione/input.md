@@ -1,15 +1,25 @@
-class: center, middle
+## Slide 0
 
-# Slide 1
+ciao
+
+--
+
+## Slide  0.1
+
+bau
+
+--
+
+<!-- .slide: data-background="#ff0000" -->
+
+## Slide  0.2
+
+Cambia il colore di sfondo
 
 ---
 
-# Slide 2
+<!-- .slide: data-background="./imgs/background_01.jpeg" -->
 
-1. Ciao
-2. Bau
-3. ...
+## Slide 1
 
----
-
-# Slide 3
+Inserisci un'immagine di sfondo
