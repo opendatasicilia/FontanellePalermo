@@ -120,8 +120,9 @@ a:link {color: #FF9900;	text-decoration:none;} a:visited {	color: #FF9900;}a:hov
 <!-- <script type="text/javascript" src="script.js"></script>   --> 
 
 <!-- script dati mappa -->
-<script src="data/tp_300_1.js"></script>
 <script src="data/fontanelle_comune_pa_ok_2.js"></script>
+<script src="data/tp_300_1.js"></script>
+<script src="data/tp_600_bucato_link_1.js"></script>
 <script src="https://siciliahub.github.io/mappe/palermo_hub/data/poligonoisola0.js"></script>
 <script src="https://siciliahub.github.io/mappe/palermo_hub/data/osm_confine_palermo_epsg_3004_0.js"></script>
 </head>
@@ -481,9 +482,9 @@ L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {attribution: 
                     return {
                 pane: 'pane_tp_300_1',
 				opacity: 1,
-				 color: 'rgba(0,0,0,1.0)',
+				color: 'rgba(0,0,0,1.0)',
 				dashArray: '',
-				 lineCap: 'butt',
+				lineCap: 'butt',
                 lineJoin: 'miter',
                 weight: 0, 
 				stroke: true,
@@ -636,6 +637,266 @@ L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {attribution: 
         });
         bounds_group.addLayer(layer_tp_300_1);
         map.addLayer(layer_tp_300_1);
+		
+		<!-- tp 600 bucati -->
+		
+        function pop_tp_600_bucato_link_1(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (i in e.target._eventParents) {
+                        e.target._eventParents[i].resetStyle(e.target);
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+				<tr>\<strong style="text-align: center; color: #FF0000;font-size:12px;">Da questo punto raggiungeresti entro 10 minuti di strada a piedi&nbsp;&nbsp;[&nbsp;' + (feature.properties['nro'] !== null ? Autolinker.link(String(feature.properties['nro'])) : '') + '&nbsp;]&nbsp;&nbsp;fontanella/e </strong></br></br></tr>\
+                                            </tr>\
+					<tr>\
+                    <tr>\
+                        <th scope="row"><img src="legend/omino-bivio.png" width="64" height="46" alt=""/ Title="Clicca il link sulla via per caricare il percorso più veloce con Google Maps "></th>\
+						<td>Clicca il link sulla via per<br>caricare il percorso più veloce<br>con Google Maps</td>\
+                       </tr>\
+						<tr>\
+                    <tr>\
+                        <th scope="row">Le fontanelle più vicine sono in:&nbsp;</th>\
+                        <td>' + (feature.properties['indirizzo_links'] !== null ? Autolinker.link(String(feature.properties['indirizzo_links'])) : '') + '</td>\
+                    </tr>\
+                </table>';;
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_tp_600_bucato_link_1_0(feature) {
+            switch(String(feature.properties['nro'])) {
+                case '1':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+				opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,224,210,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                				opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,213,196,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,202,181,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,191,167,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(252,172,144,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '6':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(252,148,116,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '7':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(252,124,92,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '8':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(250,99,70,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '9':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                opacity: 1,
+                opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true,  
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(243,71,52,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '10':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(228,47,39,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '11':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(206,27,30,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '12':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(182,19,24,0.75)',
+                interactive: true,
+            }
+                    break;
+                case '13':
+                    return {
+                pane: 'pane_tp_600_bucato_link_1',
+                opacity: 1,
+				color: 'rgba(0,0,0,1.0)',
+				dashArray: '',
+				lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0, 
+				stroke: true, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(151,11,19,0.75)',
+                interactive: true,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_tp_600_bucato_link_1');
+        map.getPane('pane_tp_600_bucato_link_1').style.zIndex = 401;
+        map.getPane('pane_tp_600_bucato_link_1').style['mix-blend-mode'] = 'normal';
+        var layer_tp_600_bucato_link_1 = new L.geoJson(json_tp_600_bucato_link_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_tp_600_bucato_link_1',
+            layerName: 'layer_tp_600_bucato_link_1',
+            pane: 'pane_tp_600_bucato_link_1',
+            onEachFeature: pop_tp_600_bucato_link_1,
+            style: style_tp_600_bucato_link_1_0,
+        });
+        bounds_group.addLayer(layer_tp_600_bucato_link_1);
+        map.addLayer(layer_tp_600_bucato_link_1);
+	
+		
+		<!-- Fontanelle -->
+		
         function pop_fontanelle_comune_pa_ok_2(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -717,7 +978,13 @@ L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {attribution: 
 <!-- Legenda mappa -->
         var baseMaps = {};
 L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle Palermo</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PalermoHub':layer_poligonoisola0,
-'<img src="legend/osm_confine_palermo_epsg_3004_0.png" /> Confine Comunale': layer_osm_confine_palermo_epsg_3004_0,'<img src="legend/fontanelle_comune_pa_ok_2.png" /> Fontanelle': layer_fontanelle_comune_pa_ok_2,'Tempo a piedi 5 minuti<br /><table><tr><td style="text-align: center;"><img src="legend/tp_300_1_10.png" /></td><td>1 fontanella</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_21.png" /></td><td>2 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_32.png" /></td><td>3 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_43.png" /></td><td>4 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_54.png" /></td><td>5 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_65.png" /></td><td>6 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_76.png" /></td><td>7 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_87.png" /></td><td>8 fontanelle</td></tr></table>': layer_tp_300_1,}).addTo(map);
+'<img src="legend/osm_confine_palermo_epsg_3004_0.png" /> Confine Comunale': layer_osm_confine_palermo_epsg_3004_0,'<img src="legend/fontanelle_comune_pa_ok_2.png" /> Fontanelle': layer_fontanelle_comune_pa_ok_2,'Tempo a piedi 5 minuti<br /><table><tr><td style="text-align: center;"><img src="legend/tp_300_1_10.png" /></td><td>1 fontanella</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_21.png" /></td><td>2 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_32.png" /></td><td>3 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_43.png" /></td><td>4 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_54.png" /></td><td>5 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_65.png" /></td><td>6 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_76.png" /></td><td>7 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_87.png" /></td><td>8 fontanelle</td></tr></table>': layer_tp_300_1,
+
+
+'Tempo a piedi 10 minuti<br /><table><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_10.png" /></td><td>1 fontanella</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_21.png" /></td><td>2 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_32.png" /></td><td>3 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_43.png" /></td><td>4 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_54.png" /></td><td>5 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_65.png" /></td><td>6 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_76.png" /></td><td>7 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_87.png" /></td><td>8 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_98.png" /></td><td>9 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_109.png" /></td><td>10 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_1110.png" /></td><td>11 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_1211.png" /></td><td>12 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_1312.png" /></td><td>13 fontanelle</td></tr></table>': layer_tp_600_bucato_link_1,
+
+
+}).addTo(map);
       setBounds();
 		
 		<!-- strumenti di leaflet -->
@@ -745,8 +1012,21 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
             tileZ: 1
         }));
 		
-		<!--etichette tooltip) -->
-	var i = 0;
+		<!-- etichette tooltip -->
+		
+		    layer_tp_600_bucato_link_1.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['nro'] !== null?String('<div style="color: #000; font: bold 10px Arial; background-color: #fff; border-radius: 2px;  -moz-border-radius: 2px;  -webkit-border-radius: 2px; box-shadow: 0 1px 5px rgba(0,0,0,0.6); padding: 4px 4px;">Nelle vicinanze ci sono: ' + layer.feature.properties['nro']) +  ' fontanelle</div>':''), {permanent: false, offset: [-0, -16], className: 'css_tp_600_bucato_link_1'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+		var i = 0;
         layer_tp_300_1.eachLayer(function(layer) {
             var context = {
                 feature: layer.feature,
@@ -759,6 +1039,8 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
               addLabel(layer, i);
               i++;
         });
+		
+		
         var i = 0;
         layer_fontanelle_comune_pa_ok_2.eachLayer(function(layer) {
             var context = {
@@ -772,16 +1054,28 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
               addLabel(layer, i);
               i++;
         });
-        resetLabels([layer_tp_300_1,layer_fontanelle_comune_pa_ok_2]);
+        resetLabels([layer_tp_600_bucato_link_1,layer_tp_300_1,layer_fontanelle_comune_pa_ok_2]);
         map.on("zoomend", function(){
-            resetLabels([layer_tp_300_1,layer_fontanelle_comune_pa_ok_2]);
+            resetLabels([layer_tp_600_bucato_link_1,layer_tp_300_1,layer_fontanelle_comune_pa_ok_2]);
         });
         map.on("layeradd", function(){
-            resetLabels([layer_tp_300_1,layer_fontanelle_comune_pa_ok_2]);
+            resetLabels([layer_tp_600_bucato_link_1,layer_tp_300_1,layer_fontanelle_comune_pa_ok_2]);
         });
         map.on("layerremove", function(){
-            resetLabels([layer_tp_300_1,layer_fontanelle_comune_pa_ok_2]);
+            resetLabels([layer_tp_600_bucato_link_1,layer_tp_300_1,layer_fontanelle_comune_pa_ok_2]);
         });	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
         </script>
         
