@@ -61,14 +61,14 @@ rm ./tmp_*
 ### tp_600
 
 ```bash
+mapshaper -i tp_600.shp snap -proj +init=EPSG:32633 -o tp_600-32633.shp
 mapshaper tp_600-32633.shp -lines -o precision=0.000001 tmp_lines.shp
 mapshaper tmp_lines.shp -polygons -o tmp_polygons.shp
 mapshaper tmp_polygons.shp -points inner -o tmp_points.shp
 mapshaper tmp_points.shp -clip tp_600-32633.shp -o tmp_points_temp.shp
 mapshaper tmp_points_temp.shp -join tp_600-32633.shp calc='numero = count(),elenco = collect(ID).toString()' -o tmp_joinpoints.shp
-mapshaper tmp_polygons.shp -join tmp_joinpoints.shp -o output.shp
-
-mapshaper tmp_points.shp -clip tp_600-32633.shp -o tmp_points_temp.shp
-mapshaper output.shp -clip tmp_points_temp.shp -o outputa.shp
+mapshaper tmp_polygons.shp -join tmp_joinpoints.shp -o tmp_output.shp
+mapshaper tmp_output.shp -filter 'numero > 0' -o output.shp
 rm ./tmp_*
 ```
+
