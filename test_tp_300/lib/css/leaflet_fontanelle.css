@@ -223,8 +223,18 @@
 .leaflet-pane > svg path,
 .leaflet-tile-container {
 	pointer-events: none;
-	top:-8px;
+	top:-10px;
 	}
+
+@media (min-width: 220px) and (max-width: 736px) { .leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-image-layer,
+.leaflet-pane > svg path,
+.leaflet-tile-container {
+	pointer-events: none;
+	top:-15px;
+	}}
+
 
 .leaflet-marker-icon.leaflet-interactive,
 .leaflet-image-layer.leaflet-interactive,
