@@ -496,7 +496,7 @@
 	text-align: left;
 	border-radius: 12px;
 	font-size:10px;
-		width: 300px;
+		width: 330px;
 			}
 /* popup  su mobile" */
 	 @media (min-width: 320px) and (max-width: 736px) {.leaflet-popup-content-wrapper {font-size:9px; width: 260px; }}	
