@@ -223,6 +223,7 @@
 .leaflet-pane > svg path,
 .leaflet-tile-container {
 	pointer-events: none;
+	top:-8px;
 	}
 
 .leaflet-marker-icon.leaflet-interactive,
