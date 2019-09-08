@@ -67,6 +67,7 @@
 <link rel="stylesheet" href="lib/css/MarkerCluster.css">
 <link rel="stylesheet" href="lib/css/MarkerCluster.Default.css">
 <link rel="stylesheet" href="lib/css/leaflet-control-geocoder.Geocoder.css">
+<script src="lib/js/countryselect/Leaflet.CountrySelect.js" charset="UTF-8"></script>
 
 <!-- css remoto -->
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
@@ -321,6 +322,23 @@ var basemaps = [ L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}
 L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {attribution: 'Source: Google Satellite - Map data ©2015 Google',
 				minZoom: 13,  maxZoom: 17, maxNativeZoom: 17, label: 'Google Satellite'}),
 ];
+<!-- selettore fontanelle -->	
+var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
+			select.addTo(map);
+			select.on('change', function(e){
+				if (e.feature === undefined){ //Do nothing on title
+					return;
+				}
+				var country = L.geoJson(e.feature);
+				if (this.previousCountry != null){
+					map.removeLayer(this.previousCountry);
+				}
+				this.previousCountry = country;
+
+				map.addLayer(country);
+				map.fitBounds(country.getBounds());
+				
+			});	
 
 <!-- Sposta il popup/mappa in base alle coordinate -->	
 //    map.on('popupopen', function(e) {
