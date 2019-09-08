@@ -232,7 +232,7 @@
 .leaflet-pane > svg path,
 .leaflet-tile-container {
 	pointer-events: none;
-	top:-15px;
+	top:-12px;
 	}}
 
 
