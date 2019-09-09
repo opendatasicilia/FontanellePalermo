@@ -90,16 +90,26 @@ SELECT p.pk_elem AS pk, t1.nro AS nro, t1.ids AS ids,
 FROM "tmp_Aree_elem_pulito" p 
 JOIN
     (SELECT c.pk_elem AS pk_elem, 
-						group_concat(p."Tipologia"," | ") AS "Tipologia_s",
-						group_concat(p."Indirizzo"," | ") AS "Indirizzo_i",
-						group_concat(p."Coordinate"," | ") AS "Coordinate_s",
-						group_concat(p."UPL"," | ") AS "UPLs",
-						group_concat(p."UPL_nome"," | ") AS "UPL_nome_s",
-						group_concat(p."Quartiere"," | ") AS "Quartiere_i",
-						group_concat(p."Circoscrizione"," | ") AS "Circoscrizione_i",
-						group_concat(p."id_Quartie"," | ") AS "id_Quartie_s",
-						group_concat(p."CAP"," | ") AS "CAPs",
-						group_concat(p."indizizzo_link"," | ") AS "indirizzo_links",
+						group_concat(p."Tipologia","  
+						") AS "Tipologia_s",
+						group_concat(p."Indirizzo"," 
+						") AS "Indirizzo_i",
+						group_concat(p."Coordinate"," 
+						") AS "Coordinate_s",
+						group_concat(p."UPL"," 
+						") AS "UPLs",
+						group_concat(p."UPL_nome"," 
+						") AS "UPL_nome_s",
+						group_concat(p."Quartiere"," 
+						") AS "Quartiere_i",
+						group_concat(p."Circoscrizione"," 
+						") AS "Circoscrizione_i",
+						group_concat(p."id_Quartie"," 
+						") AS "id_Quartie_s",
+						group_concat(p."CAP"," 
+						") AS "CAPs",
+						group_concat(p."indizizzo_link"," 
+						") AS "indirizzo_links",
 						count(*) AS nro, 
 						group_concat(REPLACE("tp_id",'tp_','')) AS ids 
     FROM centroid_inner c, tp_600_link_gmaps p
