@@ -10,7 +10,7 @@ module.exports = {
 			collapsed: true,
 			expand: 'touch', // options: touch, click, anythingelse
 			position: 'topright',
-			placeholder: 'Cerca...',
+			placeholder: ' Cerca...',
 			errorMessage: 'Non abbiamo trovato nulla!',
 			suggestMinLength: 3,
 			suggestTimeout: 250,

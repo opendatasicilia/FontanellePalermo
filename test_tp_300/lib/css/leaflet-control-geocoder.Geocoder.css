@@ -32,12 +32,15 @@
 }
 .leaflet-control-geocoder-expanded .leaflet-control-geocoder-form {
 	display: inline-block;
+	
 }
 .leaflet-control-geocoder-form input {
 	font-size: 120%;
 	border: 0;
-	background-color: transparent;
+	background-color: #ececec;
 	width: 246px;
+	height: 30px;
+	border-radius: 4px;
 }
 
 .leaflet-control-geocoder-icon {
@@ -114,6 +117,7 @@
 }
 .leaflet-control-geocoder-alternatives li:hover, .leaflet-control-geocoder-selected {
 	background-color: #f5f5f5;
+	
 }
 .leaflet-control-geocoder-address-detail {
 	
