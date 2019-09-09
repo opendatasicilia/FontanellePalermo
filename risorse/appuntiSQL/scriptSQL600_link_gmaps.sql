@@ -111,7 +111,8 @@ JOIN
 						group_concat(p."indizizzo_link"," 
 						") AS "indirizzo_links",
 						count(*) AS nro, 
-						group_concat(REPLACE("tp_id",'tp_','')) AS ids 
+						group_concat(REPLACE("tp_id",'tp_','')," 
+						") AS ids 
     FROM centroid_inner c, tp_600_link_gmaps p
     WHERE st_contains (p.geom,c.geom)
     GROUP BY 1
