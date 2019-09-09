@@ -312,7 +312,7 @@ var highlightLayer;
        });	
 	   
 
-var map = L.map('map', { zoomControl:false, maxZoom:17, minZoom:13}).fitBounds([[38.045851675001444,13.195799698861464],[38.22904078206479,13.49928552140082]]);
+var map = L.map('map', { zoomControl:false,  minZoom:13, maxZoom:17}).fitBounds([[38.045851675001444,13.195799698861464],[38.22904078206479,13.49928552140082]]);
 map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> - Palermo - Fontanelle acqua potabile - Rielaborazione di: <a href="https://twitter.com/opendatasicilia" target="_blank" title="opendatasicilia">@opendatasicilia</a>');
 var bounds_group = new L.featureGroup([]);
 
@@ -338,6 +338,7 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				map.addLayer(country);
 				map.fitBounds(country.getBounds());
 				
+												
 			});	
 
 <!-- Sposta il popup/mappa in base alle coordinate -->	
@@ -992,7 +993,7 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
         });
         bounds_group.addLayer(layer_fontanelle_comune_pa_ok_2);
         map.addLayer(layer_fontanelle_comune_pa_ok_2);
-			
+		
 <!-- Legenda mappa -->
         var baseMaps = {};
 L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle Palermo</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PalermoHub':layer_poligonoisola0,
@@ -1005,6 +1006,17 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
 		var hash = new L.Hash(map);
 		
 		  var sidebar = L.control.sidebar('sidebar').addTo(map);
+		  	<!-- osmGeocoder -->	
+		     var osmGeocoder = new L.Control.Geocoder({
+            collapsed: true,
+            position: 'topleft',
+            text: 'Cerca',
+            title: 'Testing'
+        }).addTo(map);
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .className += ' fa fa-search';
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .title += 'Cerca un indirizzo';
 
 		 <!--.zoomControl.setPosition("topleft") -->
 		 L.control.locate().addTo(map);
