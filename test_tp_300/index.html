@@ -297,10 +297,10 @@ var highlightLayer;
             } else {
               highlightLayer.setStyle({
                 fillColor: '#ffff00',
-                fillOpacity: 0.75,
+                fillOpacity: 0.50,
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.5, 
+                weight: 0.50, 
 				             });
             }
         }
@@ -1044,7 +1044,7 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['nro'] !== null?String('<div style="color: #000; font: bold 10px Arial; background-color: #fff; border-radius: 2px;  -moz-border-radius: 2px;  -webkit-border-radius: 2px; box-shadow: 0 1px 5px rgba(0,0,0,0.6); padding: 4px 4px;">Da questo punto raggiungeresti entro<br>10 minuti di strada a piedi ' + layer.feature.properties['nro']) +  ' fontanelle</div>':''), {permanent: false, offset: [-0, -16], className: 'css_tp_600_bucato_link_1'});
+            layer.bindTooltip((layer.feature.properties['nro'] !== null?String('<div style="color: #000; font: bold 10px Arial; background-color: #fff; border-radius: 4px;  -moz-border-radius: 4px;  -webkit-border-radius: 4px; box-shadow: 0 1px 5px rgba(0,0,0,0.6); padding: 4px 4px;">Da questo punto raggiungeresti entro<br>10 minuti di strada a piedi ' + layer.feature.properties['nro']) +  ' fontanelle</div>':''), {permanent: false, offset: [-0, -16], className: 'css_tp_600_bucato_link_1'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
@@ -1057,7 +1057,7 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['nro'] !== null?String('<div style="color: #000; font: bold 10px Arial; background-color: #fff; border-radius: 2px;  -moz-border-radius: 2px;  -webkit-border-radius: 2px; box-shadow: 0 1px 5px rgba(0,0,0,0.6); padding: 4px 4px;">Da questo punto raggiungeresti entro<br>5 minuti di strada a piedi ' + layer.feature.properties['nro']) +  ' fontanelle</div>':''), {permanent: false, offset: [-0, -16], className: 'css_tp_300_1'});
+            layer.bindTooltip((layer.feature.properties['nro'] !== null?String('<div style="color: #000; font: bold 10px Arial; background-color: #fff; border-radius: 4px;  -moz-border-radius: 4px;  -webkit-border-radius: 4px; box-shadow: 0 1px 5px rgba(0,0,0,0.6); padding: 4px 4px;">Da questo punto raggiungeresti entro<br>5 minuti di strada a piedi ' + layer.feature.properties['nro']) +  ' fontanelle</div>':''), {permanent: false, offset: [-0, -16], className: 'css_tp_300_1'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
@@ -1072,7 +1072,7 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['Indirizzo'] !== null?String('<div style="color: #000; font: bold 10px Arial; background-color: #fff; border-radius: 2px;  -moz-border-radius: 2px;  -webkit-border-radius: 2px; box-shadow: 0 1px 5px rgba(0,0,0,0.6); padding: 4px 4px;">Fontanella in: ' + layer.feature.properties['Indirizzo']) + '</div>':''), {permanent: false, offset: [-0, -16], className: 'css_fontanelle_comune_pa_ok_2'});
+            layer.bindTooltip((layer.feature.properties['Indirizzo'] !== null?String('<div style="color: #000; font: bold 10px Arial; background-color: #fff; border-radius: 4px;  -moz-border-radius: 4px;  -webkit-border-radius: 4px; box-shadow: 0 1px 5px rgba(0,0,0,0.6); padding: 4px 4px;">Fontanella in: ' + layer.feature.properties['Indirizzo']) + '</div>':''), {permanent: false, offset: [-0, -16], className: 'css_fontanelle_comune_pa_ok_2'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
