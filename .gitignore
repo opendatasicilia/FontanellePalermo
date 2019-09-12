@@ -8,3 +8,4 @@ analisi/isolinee/output/tmp*
 *.qgs~
 *.ipynb
 .ipynb_checkpoints
+tmp*
