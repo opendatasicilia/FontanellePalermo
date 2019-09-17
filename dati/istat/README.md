@@ -4,7 +4,7 @@ Sono i dati sulla Popolazione Residente al 1° Gennaio 2019, scaricati da qui <h
 
 ### PalermoISTATPopolazioneGennaio2019Gruppi.csv
 
-Si tratta di aggregazione e conteggi, a partire dal file precedente, in linea con le categorie di questo articolo https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5133062/
+Si tratta di aggregazione e conteggi, a partire dal file precedente, in linea con le categorie di questo articolo <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5133062/>
 
 | classe | Totale Maschi | Totale Femmine |
 | --- | --- | --- |
