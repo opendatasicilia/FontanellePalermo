@@ -43,8 +43,13 @@ html, body {padding: 0; overflow: hidden;    margin: 0;height: 100%; font: 12px 
 	@media screen and (width: 667px) {#beta {left:90px; bottom:50px;}.beta{width: 42px; height: 42px;}}
     @media screen and (width: 732px) {#beta {left:90px; bottom:60px;}.beta{width: 42px; height: 42px;}}
 	@media screen and (width: 736px) {#beta {left:90px; bottom:50px;}.beta{width: 42px; height: 42px;}}
+	
+	
 
-#ods { position:fixed; bottom:71px; right:17px; z-index: 1500;}
+#logoods { position:fixed; bottom:75px; right:17px; z-index: 1500;}
+
+@media (min-width: 220px) and (max-width: 736px) { #logoods { position:fixed; bottom:85px; right:17px; z-index: 1500;}}
+
 /**/
 #itaf { position:fixed; bottom:110px; right:37px; z-index: 1014;}
 
