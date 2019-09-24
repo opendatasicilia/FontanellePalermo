@@ -21,18 +21,21 @@ html, body {padding: 0; overflow: hidden;    margin: 0;height: 100%; font: 12px 
  
 #foia { position:fixed; bottom:80px; left:60px; z-index: 1020;}
 
-#headerprovvisorio { position:fixed; top:0px;  width:100%; height:70px; z-index: 1500; background-color:rgba(198,219,239,0.95); background-image: url(../../legend/pa_fontanelle.svg); background-repeat:no-repeat; background-size: 250px; background-position:20px 20px; box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);padding-left: 10px;padding-top: 5px;margin: 0; z-index: 1500;}
-@media (min-width: 220px) and (max-width: 736px) { #headerprovvisorio { background-position:10px 20px;}}
+#headerprovvisorio { position:fixed; top:0px;  width:100%; height:70px; z-index: 1500; /*background-color:rgba(198,219,239,0.95); background-image: url(../../legend/pa_fontanelle.svg); background-size: 250px; padding-left: 10px;padding-top: 5px;margin: 0; */box-shadow: 0 1px 2.5px rgba(0,0,0,0.65); background-position:center; background-image:url(../images/header.jpg); background-repeat:no-repeat;   z-index: 1500;}
+@media (min-width: 220px) and (max-width: 736px) { #headerprovvisorio { background-position:47.5% 50%;}}
 
-
-#logofontanelle { position:fixed; top:7px;; left:20px; z-index: 1000;}
+#logofontanelle { position:fixed; width:240px; top:15px; left:20px; z-index: 1502;}
+.logofontanelle { width:240px;}
+@media (min-width: 220px) and (max-width: 736px) { .logofontanelle { width:180px!important;}  #logofontanelle {left:5px; top:20px;}}
 
 #logoods { position:fixed; bottom:75px; right:17px; z-index: 1500;}
-@media (min-width: 220px) and (max-width: 736px) { #logoods { position:fixed; bottom:85px; right:17px; z-index: 1500;}}
+@media (min-width: 220px) and (max-width: 736px) { #logoods {  bottom:85px; }}
 
 #betah { position:fixed; top:15px; right:5px; z-index: 1000;}
+.betah{width: 110px; }
+@media (min-width: 220px) and (max-width: 736px) { .betah{width: 90px; }}
 
-.beta{width: 70px; height: 70px; border-radius: 35px;  -moz-border-radius: 35px;  -webkit-border-radius: 35px; box-shadow: 0 1px 5px rgba(0,0,0,0.6); }
+.beta{.betah{width: 110px; } }
 #beta { position:fixed; bottom:120px; left:60px; z-index: 1000;}
   	/*  spento su display 4" */
 	@media screen and (width: 320px) {  #beta {left:80px;} .beta{width: 42px; height: 42px;}}
