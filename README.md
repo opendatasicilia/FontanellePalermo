@@ -12,3 +12,5 @@ Portale OpenData Comune di Palermo [ Dataset della dislocazione delle fontanelle
 [Sheet](https://docs.google.com/spreadsheets/d/17L0PdMfRP97FyuruLhPIdkty82EhrZzKERbFWV-X8uw/edit?usp=sharing) che alimenta la [uMap](http://u.osmfr.org/m/357965/) alle informazione contenute nel file KML di Amap Spa sono state aggiunte le informazioni su: Circoscrizioni, Quartieri, Unità di primo livello e CAP.
 
 [Mappa Leaflet](https://opendatasicilia.github.io/FontanellePalermo/test_tp_300/index.html) - Test con QGIS e Leaflet, localizzazione Fontanelle e tempo di percorrenza a piedi, in 5 minuti quante fontanelle sono raggiungibili...?
+
+<a href="https://opendatasicilia.github.io/FontanellePalermo/test_tp_300/index.html"><img width="1000" src="https://opendatasicilia.github.io/FontanellePalermo/test_tp_300/images/mappa_fontanlelle_pa_test.png" Title="Mappa fontanelle pubbliche – Palermo 2019" /></a>
