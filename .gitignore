@@ -9,3 +9,4 @@ analisi/isolinee/output/tmp*
 *.ipynb
 .ipynb_checkpoints
 tmp*
+googleaction/script/generatoreMappeStatiche/api
