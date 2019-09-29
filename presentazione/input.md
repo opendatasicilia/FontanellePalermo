@@ -71,7 +71,7 @@
 
 <!-- .slide: data-background="#136CE9" -->
 
-#### Se in un anno l'1% degli abitanti 🧑‍🤝‍🧑‍🤝‍🧑 di Palermo cambiasse abitudini
+#### Se in un anno l'1% degli abitanti 🧑‍🤝‍🧑 di Palermo cambiasse abitudini
 
 ## 1.500.000 bottiglie di plastica non verrebbero consumate<!-- .element: class="fragment grow" -->
 
