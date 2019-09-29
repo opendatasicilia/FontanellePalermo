@@ -85,25 +85,24 @@
 
 --
 
-<!-- .slide: data-background="#136CE9" -->
 
 ### Grazie a
 
   <div class="lt-grid-container">
     <div>
-      Andrea Borruso
+      <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
     </div>
     <div>
-      Salvatore Fiandaca
+      <a href="https://twitter.com/totofiandaca" target="_blank">Salvatore Fiandaca</a>
     </div>
     <div>
-      Giovanni Pirrotta
+      <a href="https://twitter.com/gpirrotta" target="_blank">Giovanni Pirrotta</a>
     </div>
     <div>
-      Ciro Spataro
+      <a href="https://twitter.com/cirospat" target="_blank">Ciro Spataro</a>
     </div>
     <div>
-      Gianni Vitrano
+      <a href="https://twitter.com/gbvitrano" target="_blank">Gianni Vitrano</a>
     </div>
     <div>
       &nbsp;
