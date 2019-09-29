@@ -6,4 +6,4 @@ Per generare queste immagini è stato creato uno script bash che sfrutta le [API
 
 ![](./mappeStatiche.png)
 
-Lo script è il file [`staticImages.sh`](./script/generatoreMappeStatiche/staticImages.sh)
+Lo script è il file [`staticImages.sh`](./staticImages.sh)
