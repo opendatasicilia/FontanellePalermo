@@ -74,3 +74,21 @@ html.usala h1 {
 html.usala h2 {
 	background-color: rgba(44, 44, 44, 0.5);
 }
+
+
+.lt-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: ". ." ". ." ". .";
+}
+
+
+@media all and (-ms-high-contrast:none) {
+  .lt-grid-container {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+  }
+
+}

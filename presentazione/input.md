@@ -83,3 +83,29 @@
 
 # 🙏 usala!!<!-- .element: class="fragment" -->
 
+--
+
+<!-- .slide: data-background="#136CE9" -->
+
+### Grazie a
+
+  <div class="lt-grid-container">
+    <div>
+      Andrea Borruso
+    </div>
+    <div>
+      Salvatore Fiandaca
+    </div>
+    <div>
+      Giovanni Pirrotta
+    </div>
+    <div>
+      Ciro Spataro
+    </div>
+    <div>
+      Gianni Vitrano
+    </div>
+    <div>
+      &nbsp;
+    </div>
+  </div>
