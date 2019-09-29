@@ -1,0 +1,76 @@
+.progettodi a {
+  display: inline-block;
+  height: 34px;
+  line-height: 32px;
+  padding: 0 0px;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+  font-size: 12px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.progettodi  {
+  display: inline-block;
+  height: 34px;
+  line-height: 32px;
+  padding: 0 10px;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+@media (max-width: 355px), (max-height: 450px) {
+  .nascosto {
+    display: none !important;
+  }
+}
+
+
+html.tabella table {
+	background-color: rgba(44, 44, 44, 0.4);
+}
+
+html.tabella .reveal .slides section, .reveal .slides section > section {
+  line-height: 1.0;
+  font-weight: inherit;
+}
+
+
+.reveal .slides section .fragment.highlight-acqua.visible {
+  color: #FF5500;
+}
+.reveal .slides section .fragment.highlight-verde.visible {
+  color: #17ff2e;
+}
+.reveal .slides section .fragment.highlight-orange.visible {
+  color: #E1AC00;
+}
+
+
+html.lista div {
+	text-align: left !important;
+}
+
+html.lista h1 {
+	text-align: center !important;
+}
+
+html.titolo h2 {
+	background-color: rgba(44, 44, 44, 0.6);
+}
+
+
+html.usala h1 {
+  background-color: rgba(44, 44, 44, 0.5);
+  color: #FFC83D;
+}
+
+html.usala h2 {
+	background-color: rgba(44, 44, 44, 0.5);
+}
