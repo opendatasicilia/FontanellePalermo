@@ -83,19 +83,3 @@
 
 # 🙏 usala!!<!-- .element: class="fragment" -->
 
-
----
-
-<!-- .slide: data-background="./imgs/background_01.jpeg" data-background-transition="zoom" -->
-
-## Slide 1
-
-Inserisci un'immagine di sfondo
-
---
-
-# Note
-
-- open data
-- persone
-- tool
