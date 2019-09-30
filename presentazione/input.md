@@ -105,6 +105,6 @@
       <a href="https://twitter.com/gbvitrano" target="_blank">Gianni Vitrano</a>
     </div>
     <div>
-      &nbsp;
+      <a href="#" target="_blank">Emilio Di Gristina</a>
     </div>
   </div>
