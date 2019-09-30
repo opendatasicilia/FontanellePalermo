@@ -77,7 +77,7 @@
 
 --
 
-<!-- .slide: data-background="#136CE9" -->
+<!-- .slide: data-background="#16C60C" -->
 
 ## ♻️ Se vuoi rifarlo per il tuo comune ... ♻️
 
