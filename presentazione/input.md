@@ -93,6 +93,9 @@
       <a href="https://twitter.com/aborruso" target="_blank">Andrea Borruso</a>
     </div>
     <div>
+      <a href="#" target="_blank">Emilio Di Gristina</a>
+    </div>
+    <div>
       <a href="https://twitter.com/totofiandaca" target="_blank">Salvatore Fiandaca</a>
     </div>
     <div>
@@ -103,8 +106,5 @@
     </div>
     <div>
       <a href="https://twitter.com/gbvitrano" target="_blank">Gianni Vitrano</a>
-    </div>
-    <div>
-      <a href="#" target="_blank">Emilio Di Gristina</a>
     </div>
   </div>
