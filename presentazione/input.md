@@ -77,6 +77,14 @@
 
 --
 
+<!-- .slide: data-background="#136CE9" -->
+
+## ♻️ Se vuoi rifarlo per il tuo comune ... ♻️
+
+Ecco come abbiamo [fatto](#)
+
+--
+
 <!-- .slide: data-background="./imgs/goccieFontana.gif"  data-state="usala" -->
 
 ## Non fare piangere una fontanella 😢<!-- .element: class="fragment" -->
