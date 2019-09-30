@@ -77,11 +77,9 @@
 
 --
 
-<!-- .slide: data-background="#16C60C" -->
+## ♻️ Se vuoi rifarlo per la tua città ... ♻️
 
-## ♻️ Se vuoi rifarlo per il tuo comune ... ♻️
-
-Ecco come abbiamo [fatto](#)
+[Ecco come abbiamo fatto](#)
 
 --
 
