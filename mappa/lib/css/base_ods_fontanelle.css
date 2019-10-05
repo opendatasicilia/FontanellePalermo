@@ -199,7 +199,7 @@ z-index: 1010;}
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
@@ -210,17 +210,19 @@ z-index: 1010;}
 }
 
 .popup {
-  /*margin: 70px auto;*/
-  bottom:20px;
-  left:145px;
-  padding: 10px;
+  margin: 90px auto;
+ /* bottom:20px;*/
+  left:auto;
+  padding: 4px;
   background: #fff;
-  border-radius: 5px;
-  width: 65%;
-  position:absolute;
-  transition: all 1s ease-in-out;
-}
-
+  border-radius: 10px;
+  width: 72%;
+  position: relative;
+  transition: all 3s ease-in-out;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  }
+@media (min-width: 1281px) and (max-width: 2000px) { .popup { width: 54%;}}
 .popup h2 {
   margin-top: 0;
   color: #333;
@@ -240,9 +242,10 @@ z-index: 1010;}
   color: #E81418;
 }
 .popup .content {
-  max-height: 35%;
+  max-height: 30%;
   overflow: auto;
   text-align: justify;
+margin:auto;
 }
 
 @media screen and (max-width: 700px){
@@ -310,6 +313,8 @@ hr {border: 0; background-color: #fff;  border-top: 1px dashed #cc0033;}
 
   /*Clip resize; */
 .clip_resize {width: 100%; /*height: 100%;*/ border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc;background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) } 
+
+.clip_resize2 {width: 99%; /*height: 100%;*/margin-left: 3px; border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc; background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) } 
 
 /* nuove classi per footer */
 .lorem {font-style: italic; color: #4E4B4B; text-align: justify; font-family:"Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif;    font-size: 11px;}
