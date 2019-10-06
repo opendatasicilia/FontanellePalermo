@@ -28,7 +28,7 @@ html, body {padding: 0; overflow: hidden;    margin: 0;height: 100%; font: 12px 
 .logofontanelle { width:240px;}
 @media (min-width: 220px) and (max-width: 736px) { .logofontanelle { width:180px!important;}  #logofontanelle {left:5px; top:20px;}}
 
-#logoods { position:fixed; bottom:75px; right:17px; z-index: 1500;}
+#logoods { position:fixed; bottom:75px; right:17px; z-index: 1002;}
 @media (min-width: 220px) and (max-width: 736px) { #logoods {  bottom:85px; }}
 
 #betah { position:fixed; top:15px; right:5px; z-index: 1000;}
