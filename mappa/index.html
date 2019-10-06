@@ -147,6 +147,7 @@ a:link {color: #cc0033;	text-decoration:none;} a:visited {	color: #cc0033;}a:hov
             </ul>
             <ul role="tablist">
        <li> <a href="#about" title="About" role="tab"><img src="legend/logoods.svg" alt="OSD" width="20" height="20"/></a></li>
+	   <li> <a href="https://ondata.it/" target="_blank" title="onData | Associazione per la promozione di trasparenza e open data" role="tab"><img src="images/ondata_clip.png" alt="OSD" width="20" height="20"/></a></li>
 <li> <a href="http://petrusino.opendatasicilia.it/index.html" target="_blank" title="Petrusino, ... perché certi siti, apps, mappe, servizi sono un po' come il prezzemolo e non è facile distinguerli ..." role="tab"><img src="legend/pitrusino.png" alt="OSD" width="24" height="24"/></a></li>
 
                 <li><a href="#settings" title="Strumenti" role="tab"><i class="fa fa-gear"></i></a></li>
@@ -484,7 +485,7 @@ var highlightLayer;
 	   
 
 var map = L.map('map', { zoomControl:false,  minZoom:13, maxZoom:17}).fitBounds([[38.045851675001444,13.195799698861464],[38.22904078206479,13.49928552140082]]);
-map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> - Palermo - Fontanelle acqua potabile - Rielaborazione di: <a href="https://twitter.com/opendatasicilia" target="_blank" title="opendatasicilia">@opendatasicilia</a>');
+map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> - Palermo - Fontanelle acqua potabile - Rielaborazione di: <a href="https://twitter.com/opendatasicilia" target="_blank" title="opendatasicilia">@opendatasicilia</a> e <a href="https://twitter.com/ondatait" target="_blank" title="onData">@ondatait</a>');
 var bounds_group = new L.featureGroup([]);
 
 <!-- mappe di base -->	  
@@ -1268,11 +1269,12 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
    </div>  
    <div id="headerprovvisorio" >
     <div id="logofontanelle"><a href="http://opendatasicilia.it/" title="opendatasicilia.it" target="_blank"> <img src="legend/pa_fontanelle.svg" width="240" title="OpenDataSicilia - Fontanelle pubbliche Palermo" alt="OpenDataSicilia - Fontanelle pubbliche Palermo" class="logofontanelle"></a></div> 
-	<div id="betah" ><img src="legend/beta2.png" title="beta version" alt="beta version" class="betah"></div>
+	<div id="betah" ><img src="images/beta2.png" title="beta version" alt="beta version" class="betah"></div>
 	</div> 
-   <!-- loghi     
-   <div id="titolo" class="leaflet-control" > <a href="index_atlante.html" title="Osservare il cambiamento di una città grazie alla cartografia: il caso di Palermo" class="btn btn--s btn--orange" target="_parent">Atlante Storico</a><br>   </div> 
-<div id="tavolab"></div>  -->         
+   <!-- loghi   -->   
+ <div id="logoondata"><a href="https://ondata.it/" title="ondata.itt" target="_blank"> 
+<img src="images/ondata.png" alt="ondata.it" width="80" border="0" title="ondata.it"></a></div>   
+     
 <div id="logoods"><a href="http://opendatasicilia.it/" title="opendatasicilia.it" target="_blank"> 
 <img src="lib/images/ods.svg" alt="opendatasicilia" width="80" border="0" title="opendatasicilia.it"></a></div>  
 <!-- beta version    

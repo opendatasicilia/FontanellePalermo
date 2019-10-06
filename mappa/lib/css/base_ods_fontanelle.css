@@ -31,6 +31,9 @@ html, body {padding: 0; overflow: hidden;    margin: 0;height: 100%; font: 12px 
 #logoods { position:fixed; bottom:75px; right:17px; z-index: 1002;}
 @media (min-width: 220px) and (max-width: 736px) { #logoods {  bottom:85px; }}
 
+#logoondata { position:fixed; bottom:120px; right:18px; z-index: 1002;}
+@media (min-width: 220px) and (max-width: 736px) { #logoondata {  bottom:85px; right:110px;}}
+
 #betah { position:fixed; top:15px; right:5px; z-index: 1000;}
 .betah{width: 110px; }
 @media (min-width: 220px) and (max-width: 736px) { .betah{width: 90px; }}
