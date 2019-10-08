@@ -22,11 +22,14 @@ html, body {padding: 0; overflow: hidden;    margin: 0;height: 100%; font: 12px 
 #foia { position:fixed; bottom:80px; left:60px; z-index: 1020;}
 
 #headerprovvisorio { position:fixed; top:0px;  width:100%; height:70px; z-index: 1499; /*background-color:rgba(198,219,239,0.95); background-image: url(../../legend/pa_fontanelle.svg); background-size: 250px; padding-left: 10px;padding-top: 5px;margin: 0; */box-shadow: 0 1px 2.5px rgba(0,0,0,0.65); background-position:center; background-image:url(../images/header.jpg); background-repeat:no-repeat;   z-index: 1500;}
-@media (min-width: 220px) and (max-width: 736px) { #headerprovvisorio { background-position:47.5% 50%;}}
+/*@media (min-width: 220px) and (max-width: 736px) { #headerprovvisorio { background-position:47.5% 50%;}}*/
 
-#logofontanelle { position:fixed; width:240px; top:15px; left:20px; z-index: 1502;}
-.logofontanelle { width:240px;}
-@media (min-width: 220px) and (max-width: 736px) { .logofontanelle { width:180px!important;}  #logofontanelle {left:5px; top:20px;}}
+#logofontanelle {height:65px; width:420px; position:fixed; background-image:url(../../images/header_01.png); background-repeat:no-repeat; background-size:contain; top:4px; left:15px; z-index: 1500;}
+#logofontanelle2 {height:65px; width:420px; position:fixed; background-image:url(../../images/header_02.png); background-repeat:no-repeat; background-size:contain; top:4px; right:0px; z-index: 1500;}
+
+@media (min-width: 220px) and (max-width: 384px) { #logofontanelle {width:160px;left:5px;} #logofontanelle2 {width:170px;right:5px;top:40px;}}
+@media (min-width: 385px) and (max-width: 639px) { #logofontanelle {width:190px;left:5px;} #logofontanelle2 {width:170px;right:5px;top:40px;}}
+@media (min-width: 640px) and (max-width: 900px) { #logofontanelle {width:280px;left:5px;} #logofontanelle2 {width:280px;right:5px;top:20px;}}
 
 #logoods { position:fixed; bottom:90px; right:17px; z-index: 1002;}
 @media (min-width: 220px) and (max-width: 736px) { #logoods {  bottom:85px; right:100px;}}
