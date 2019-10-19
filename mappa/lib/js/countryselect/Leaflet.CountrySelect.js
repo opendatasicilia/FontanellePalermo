@@ -19,10 +19,10 @@ L.CountrySelect.countries =
 "Via F. Lo Iacono, 20": { "type": "Feature", "properties": { "fid": "15", "Coordinate": "38.132622, 13.345516", "name": "Via F. Lo Iacono, 20" }, "geometry": { "type": "Point", "coordinates": [ 13.345516, 38.132622 ] } },
 "Via G. Sciuti, 2": { "type": "Feature", "properties": { "fid": "16", "Coordinate": "38.132229, 13.34349", "name": "Via G. Sciuti, 2" }, "geometry": { "type": "Point", "coordinates": [ 13.34349, 38.132229 ] } },
 "Via Nostra Donna Del Rotolo, 50": { "type": "Feature", "properties": { "fid": "17", "Coordinate": "38.141415, 13.35695", "name": "Cortile Seminario Greco,3" }, "geometry": { "type": "Point", "coordinates": [ 13.35695, 38.141415 ] } },
-"inserire la via": { "type": "Feature", "properties": { "fid": "18", "Coordinate": "38.166993, 13.366562", "name": "Via Nostra Donna Del Rotolo, 50" }, "geometry": { "type": "Point", "coordinates": [ 13.366562, 38.166993 ] } },
+"Via Nostra Donna Del Rotolo, 50": { "type": "Feature", "properties": { "fid": "18", "Coordinate": "38.166993, 13.366562", "name": "Via Nostra Donna Del Rotolo, 50" }, "geometry": { "type": "Point", "coordinates": [ 13.366562, 38.166993 ] } },
 "Via Perpignano, 177": { "type": "Feature", "properties": { "fid": "19", "Coordinate": "38.119107, 13.331853", "name": "Via Perpignano, 177" }, "geometry": { "type": "Point", "coordinates": [ 13.331853, 38.119107 ] } },
 "Via Mazzarella, 45": { "type": "Feature", "properties": { "fid": "20", "Coordinate": "38.126114, 13.308807", "name": "Via Mazzarella, 45" }, "geometry": { "type": "Point", "coordinates": [ 13.308807, 38.126114 ] } },
-"Via Aloi, 123": { "type": "Feature", "properties": { "fid": "21", "Coordinate": "38.075049, 13.355524", "name": "Via Aloi, 123" }, "geometry": { "type": "Point", "coordinates": [ 13.355524, 38.075049 ] } },
+"Via Aloi, 123": { "type": "Feature", "properties": { "fid": "21", "Coordinate": "38.075049, 13.355524", "name": "Via Aloi, 123" }, "geometry": { "type": "Point", "coordinates": [ 13.355524, 38.075049 ] } }, // Fontanelle Palermo 2019 rielaborazione @opendatasicilia
 "Via Castellana, 95": { "type": "Feature", "properties": { "fid": "22", "Coordinate": "38.125687, 13.308799", "name": "Via Castellana, 95" }, "geometry": { "type": "Point", "coordinates": [ 13.308799, 38.125687 ] } },
 "Cortile Rapallo, 14": { "type": "Feature", "properties": { "fid": "23", "Coordinate": "38.067715, 13.425265", "name": "Cortile Rapallo, 14" }, "geometry": { "type": "Point", "coordinates": [ 13.425265, 38.067715 ] } },
 "Via Conte Federico, 178": { "type": "Feature", "properties": { "fid": "24", "Coordinate": "38.093007, 13.388577", "name": "Via Conte Federico, 178" }, "geometry": { "type": "Point", "coordinates": [ 13.388577, 38.093007 ] } },
@@ -46,7 +46,7 @@ L.CountrySelect.countries =
 "Piazza Ritiro San Pietro, 20": { "type": "Feature", "properties": { "fid": "42", "Coordinate": "38.109595, 13.35887", "name": "Piazza Ritiro San Pietro, 20" }, "geometry": { "type": "Point", "coordinates": [ 13.35887, 38.109595 ] } },
 "Piazzetta delle Api, 6": { "type": "Feature", "properties": { "fid": "43", "Coordinate": "38.1169, 13.358557", "name": "Piazzetta delle Api, 6" }, "geometry": { "type": "Point", "coordinates": [ 13.358557, 38.1169 ] } },
 "Piazza Villagrazia": { "type": "Feature", "properties": { "fid": "44", "Coordinate": "38.131958, 13.350762", "name": "Via della Libertà Giardino Inglese" }, "geometry": { "type": "Point", "coordinates": [ 13.350762, 38.131958 ] } },
-"inserire la via": { "type": "Feature", "properties": { "fid": "45", "Coordinate": "38.07816, 13.333445", "name": "Piazza Villagrazia" }, "geometry": { "type": "Point", "coordinates": [ 13.333445, 38.07816 ] } },
+"Piazza Villagrazia": { "type": "Feature", "properties": { "fid": "45", "Coordinate": "38.07816, 13.333445", "name": "Piazza Villagrazia" }, "geometry": { "type": "Point", "coordinates": [ 13.333445, 38.07816 ] } },
 "Fondo Pecoraro (Via Falsomiele)": { "type": "Feature", "properties": { "fid": "46", "Coordinate": "38.076736, 13.369887", "name": "Fondo Pecoraro (Via Falsomiele)" }, "geometry": { "type": "Point", "coordinates": [ 13.369887, 38.076736 ] } },
 "Via Madonna Del Soccorso 3": { "type": "Feature", "properties": { "fid": "47", "Coordinate": "38.110006, 13.325337", "name": "Via Madonna Del Soccorso 3" }, "geometry": { "type": "Point", "coordinates": [ 13.325337, 38.110006 ] } },
 "Via Lorenzo Iandolino, 54": { "type": "Feature", "properties": { "fid": "48", "Coordinate": "38.196577, 13.312688", "name": "Via Lorenzo Iandolino, 54" }, "geometry": { "type": "Point", "coordinates": [ 13.312688, 38.196577 ] } },
@@ -60,7 +60,7 @@ L.CountrySelect.countries =
 "Via Baida 106": { "type": "Feature", "properties": { "fid": "56", "Coordinate": "38.109069, 13.305624", "name": "Via Baida 106" }, "geometry": { "type": "Point", "coordinates": [ 13.305624, 38.109069 ] } },
 "Piazza Rossi, 1": { "type": "Feature", "properties": { "fid": "57", "Coordinate": "38.190045, 13.2863", "name": "Piazza Rossi, 1" }, "geometry": { "type": "Point", "coordinates": [ 13.2863, 38.190045 ] } },
 "Fondo Napolitano": { "type": "Feature", "properties": { "fid": "58", "Coordinate": "38.103486, 13.370337", "name": "Fondo Napolitano" }, "geometry": { "type": "Point", "coordinates": [ 13.370337, 38.103486 ] } },
-"Villa a Mare": { "type": "Feature", "properties": { "fid": "59", "Coordinate": "38.114806, 13.378209", "name": "Villa a Mare" }, "geometry": { "type": "Point", "coordinates": [ 13.378209, 38.114806 ] } },
+"Villa a Mare": { "type": "Feature", "properties": { "fid": "59", "Coordinate": "38.114806, 13.378209", "name": "Villa a Mare" }, "geometry": { "type": "Point", "coordinates": [ 13.378209, 38.114806 ] } }, // Fontanelle Palermo 2019 rielaborazione @opendatasicilia
 "Piazza Gen. Cascino": { "type": "Feature", "properties": { "fid": "60", "Coordinate": "38.148121, 13.357784", "name": "Piazza Gen. Cascino" }, "geometry": { "type": "Point", "coordinates": [ 13.357784, 38.148121 ] } },
 "Via Volturno, 2": { "type": "Feature", "properties": { "fid": "61", "Coordinate": "38.119865, 13.355500", "name": "Via Volturno, 2" }, "geometry": { "type": "Point", "coordinates": [ 13.3555, 38.119865 ] } },
 "Piazza Sferracavallo, 8": { "type": "Feature", "properties": { "fid": "62", "Coordinate": "38.197942, 13.276838", "name": "Piazza Sferracavallo, 8" }, "geometry": { "type": "Point", "coordinates": [ 13.276838, 38.197942 ] } },
@@ -79,7 +79,7 @@ L.CountrySelect.countries =
 "Corso Calatafimi,1157": { "type": "Feature", "properties": { "fid": "75", "Coordinate": "38.093992, 13.307838", "name": "Corso Calatafimi,1157" }, "geometry": { "type": "Point", "coordinates": [ 13.307838, 38.093992 ] } },
 "Via Altarello, 7": { "type": "Feature", "properties": { "fid": "76", "Coordinate": "38.109835, 13.323331", "name": "Via Altarello, 76" }, "geometry": { "type": "Point", "coordinates": [ 13.323331, 38.109835 ] } },
 "Piazza Ss. Cosima E Damiano": { "type": "Feature", "properties": { "fid": "77", "Coordinate": "38.19924, 13.276028", "name": "Via Amorello, 1" }, "geometry": { "type": "Point", "coordinates": [ 13.276028, 38.19924 ] } },
-"inserire la via": { "type": "Feature", "properties": { "fid": "78", "Coordinate": "38.198393, 13.276254", "name": "Piazza Ss. Cosima E Damiano" }, "geometry": { "type": "Point", "coordinates": [ 13.276254, 38.198393 ] } },
+"Piazza Ss. Cosima E Damiano": { "type": "Feature", "properties": { "fid": "78", "Coordinate": "38.198393, 13.276254", "name": "Piazza Ss. Cosima E Damiano" }, "geometry": { "type": "Point", "coordinates": [ 13.276254, 38.198393 ] } },
 "Piazza Marina Di Sferracavallo": { "type": "Feature", "properties": { "fid": "79", "Coordinate": "38.198261, 13.274645", "name": "Piazza Marina Di Sferracavallo" }, "geometry": { "type": "Point", "coordinates": [ 13.274645, 38.198261 ] } },
 "Via Sferracavallo, 198": { "type": "Feature", "properties": { "fid": "80", "Coordinate": "38.196957, 13.277935", "name": "Via Sferracavallo, 198" }, "geometry": { "type": "Point", "coordinates": [ 13.277935, 38.196957 ] } },
 "Piazzetta Baglicello": { "type": "Feature", "properties": { "fid": "81", "Coordinate": "38.197802, 13.275186", "name": "Piazzetta Baglicello" }, "geometry": { "type": "Point", "coordinates": [ 13.275186, 38.197802 ] } },
@@ -112,7 +112,7 @@ L.CountrySelect.countries =
 "Vicolo Felice, 9 ": { "type": "Feature", "properties": { "fid": "108", "Coordinate": "38.137681, 13.327315", "name": "Vicolo Felice, 9" }, "geometry": { "type": "Point", "coordinates": [ 13.327315, 38.137681 ] } },
 "Via Felice, 4": { "type": "Feature", "properties": { "fid": "109", "Coordinate": "38.138468, 13.328337", "name": "Via Felice, 4" }, "geometry": { "type": "Point", "coordinates": [ 13.328337, 38.138468 ] } },
 "Pizzetta Di Cristofalo, 5": { "type": "Feature", "properties": { "fid": "110", "Coordinate": "38.125969, 13.311333", "name": "Cortile Prestigiacomo, 10 In Via Castellana" }, "geometry": { "type": "Point", "coordinates": [ 13.311333, 38.125969 ] } },
-"inserire la via": { "type": "Feature", "properties": { "fid": "111", "Coordinate": "38.145292, 13.366613", "name": "Pizzetta Di Cristofalo, 5" }, "geometry": { "type": "Point", "coordinates": [ 13.366613, 38.145292 ] } },
+"Pizzetta Di Cristofalo, 5": { "type": "Feature", "properties": { "fid": "111", "Coordinate": "38.145292, 13.366613", "name": "Pizzetta Di Cristofalo, 5" }, "geometry": { "type": "Point", "coordinates": [ 13.366613, 38.145292 ] } },
 "Fondo Mortillaro, 6": { "type": "Feature", "properties": { "fid": "112", "Coordinate": "38.096828, 13.389449", "name": "Fondo Mortillaro, 6" }, "geometry": { "type": "Point", "coordinates": [ 13.389449, 38.096828 ] } },
 "Via Caruso, 43": { "type": "Feature", "properties": { "fid": "113", "Coordinate": "38.154404, 13.373851", "name": "Via Caruso, 43" }, "geometry": { "type": "Point", "coordinates": [ 13.373851, 38.154404 ] } },
 "Via Giardina, 2": { "type": "Feature", "properties": { "fid": "114", "Coordinate": "38.068478, 13.418855", "name": "Via Giardina, 2" }, "geometry": { "type": "Point", "coordinates": [ 13.418855, 38.068478 ] } },
@@ -147,7 +147,7 @@ L.CountrySelect.countries =
 "Via Mater Dolorosa, 97": { "type": "Feature", "properties": { "fid": "143", "Coordinate": "38.173522, 13.330118", "name": "Via Mater Dolorosa, 97" }, "geometry": { "type": "Point", "coordinates": [ 13.330118, 38.173522 ] } },
 "Via SS. Salvatore, 30": { "type": "Feature", "properties": { "fid": "144", "Coordinate": "38.114269, 13.358899", "name": "Via SS. Salvatore, 30" }, "geometry": { "type": "Point", "coordinates": [ 13.358899, 38.114269 ] } },
 "Via Conte Federico, 61": { "type": "Feature", "properties": { "fid": "145", "Coordinate": "38.093773, 13.385614", "name": "Via Conte Federico, 61" }, "geometry": { "type": "Point", "coordinates": [ 13.385614, 38.093773 ] } },
-"Cortile Lombino": { "type": "Feature", "properties": { "fid": "146", "Coordinate": "38.095768, 13.381778", "name": "Cortile Lombino" }, "geometry": { "type": "Point", "coordinates": [ 13.381778, 38.095768 ] } },
+"Cortile Lombino": { "type": "Feature", "properties": { "fid": "146", "Coordinate": "38.095768, 13.381778", "name": "Cortile Lombino" }, "geometry": { "type": "Point", "coordinates": [ 13.381778, 38.095768 ] } }, // Fontanelle Palermo 2019 rielaborazione @opendatasicilia
 "Piazzetta Cinà, 97": { "type": "Feature", "properties": { "fid": "147", "Coordinate": "38.066279, 13.416", "name": "Piazzetta Cinà, 97" }, "geometry": { "type": "Point", "coordinates": [ 13.415977, 38.066279 ] } },
 "Foro Italico Umberto I": { "type": "Feature", "properties": { "fid": "148", "Coordinate": "38.117118, 13.374003", "name": "Foro Italico Umberto I" }, "geometry": { "type": "Point", "coordinates": [ 13.374003, 38.117118 ] } },
 "Via San Lorenzo, 202": { "type": "Feature", "properties": { "fid": "149", "Coordinate": "38.162785, 13.323633", "name": "Via San Lorenzo, 202" }, "geometry": { "type": "Point", "coordinates": [ 13.323633, 38.162785 ] } },
@@ -206,7 +206,3 @@ L.CountrySelect = L.Control.extend({
 L.countrySelect = function(id,options){
 	return new L.CountrySelect(id,options);
 };
-
-
-
-
