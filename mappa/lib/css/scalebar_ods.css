@@ -22,8 +22,7 @@
   z-index:800;
 
   }
-    @media (min-width: 320px) and (max-width: 667px) {
-	.leaflet-control-graphicscale {bottom:-10px; right: 30px;}}
+    @media (min-width: 200px) and (max-width: 850px) {.leaflet-control-graphicscale {bottom:-10px; right: 30px; display: none;}}
 	   
 	 
   	/*  spento su display 4" */

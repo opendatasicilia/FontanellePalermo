@@ -119,6 +119,9 @@
 .leaflet-top {
 	top: 72px;
 	}
+	/*top mappa mobile*/
+@media (min-width: 200px) and (max-width: 850px) {.leaflet-top {top: 10px; }}
+
 .leaflet-right {
 	right: 0;
 	}
@@ -226,7 +229,7 @@
 	top:-10px;
 	}
 
-@media (min-width: 220px) and (max-width: 736px) { .leaflet-marker-icon,
+@media (min-width: 200px) and (max-width: 850px) { .leaflet-marker-icon,
 .leaflet-marker-shadow,
 .leaflet-image-layer,
 .leaflet-pane > svg path,
@@ -379,7 +382,7 @@
 	
 	
 		}
-	 @media (min-width: 320px) and (max-width: 736px) {.leaflet-control-layers .leaflet-control-layers-list,
+	 @media (min-width: 200px) and (max-width: 850px) {.leaflet-control-layers .leaflet-control-layers-list,
 .leaflet-control-layers-expanded .leaflet-control-layers-toggle{width:170px;  }}
 	 
 .leaflet-control-layers-expanded .leaflet-control-layers-list {
@@ -387,7 +390,7 @@
 	position: relative;
 		}
 /* dimensione testo legenda mobile */		
- @media (min-width: 320px) and (max-width: 736px) {.leaflet-control-layers-expanded {font-size:9px;  }}
+ @media (min-width: 200px) and (max-width: 850px) {.leaflet-control-layers-expanded {font-size:9px;  }}
 
 .leaflet-control-layers-expanded {
 	max-height:620px;
@@ -400,7 +403,7 @@
 	box-shadow: 0 1px 5px rgba(0,0,0,0.65);
 	/*z-index: 2000 !important;*/
 	}
- @media (min-width: 320px) and (max-width: 736px) {.leaflet-control-layers-expanded {max-height:500px;  }}
+ @media (min-width: 200px) and (max-width: 850px) {.leaflet-control-layers-expanded {max-height:500px;  }}
 
 .leaflet-control-layers-scrollbar {
 	overflow-y: scroll;
@@ -408,7 +411,7 @@
 	max-height:600px;
 	}
 	
- @media (min-width: 320px) and (max-width: 736px) {.leaflet-control-layers-scrollbar {max-height:480px;  }}
+ @media (min-width: 200px) and (max-width: 850px) {.leaflet-control-layers-scrollbar {max-height:480px;  }}
 
 .leaflet-control-layers-selector {
 	margin-top: 2px;
@@ -510,7 +513,7 @@
 		width: 330px;
 			}
 /* popup  su mobile" */
-	 @media (min-width: 320px) and (max-width: 736px) {.leaflet-popup-content-wrapper {font-size:9px; width: 260px; }}	
+	 @media (min-width: 200px) and (max-width: 850px) {.leaflet-popup-content-wrapper {font-size:9px; width: 260px; }}	
 	 
 .leaflet-popup-content {
 	margin: 5px 10px;

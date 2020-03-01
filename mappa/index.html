@@ -94,7 +94,7 @@ a:link {color: #cc0033;	text-decoration:none;} a:visited {	color: #cc0033;}a:hov
 <script src="lib/js/qgi2web/leaflet-measure.js"></script>
 <script src="lib/js/qgi2web/leaflet.markercluster.js"></script>
 <script src="lib/js/qgi2web/leaflet-search.js"></script>
-<script src="lib/js/sidebar/leaflet-sidebar.js"></script>
+<script  src="lib/js/sidebar/leaflet-sidebar.js" ></script>
 <script src="lib/js/qgi2web/leaflet.pattern.js"></script>
 <script src="lib/js/qgi2web/rbush.min.js"></script>
 <script src="lib/js/qgi2web/labelgun.min.js"></script>
@@ -486,7 +486,7 @@ Siamo un gruppo di cittadini con diverse storie, competenze, professioni. Siamo 
       </ul> </div></div> </div>
 
 <!-- Mappa  -->
-<div id="map" class="sidebar-map"></div>
+<div id="map" class="sidebar-map" ></div>
         <script>
 var highlightLayer;
         function highlightFeature(e) {
@@ -873,8 +873,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
                                             </tr>\
 					<tr>\
                     <tr>\
-                        <th scope="row"><img src="legend/omino-bivio.png" width="64" height="46" alt=""/ Title="Clicca il link sulla via per caricare il percorso più veloce con Google Maps "></th>\
-						<td>Clicca il link sulla via per<br>caricare il percorso più veloce<br>con Google Maps</td>\
+                        <th class="no_mobile" scope="row"><img src="legend/omino-bivio.png" width="64" height="46" alt=""/ Title="Clicca il link sulla via per caricare il percorso più veloce con Google Maps" class="no_mobile"></th>\
+						<td class="no_mobile" >Clicca il link sulla via per<br>caricare il percorso più veloce<br>con Google Maps</td>\
                        </tr>\
 						<tr>\
                     <tr>\
@@ -1295,10 +1295,10 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
 
          <!-- header -->
    </div>
-   <div id="headerprovvisorio" ></div>
-    <div id="logofontanelle"></div>
+   <div id="headerprovvisorio" class="no_mobile">></div>
+    <div id="logofontanelle" class="no_mobile"></div>
 	<!-- <a href="http://opendatasicilia.it/" title="opendatasicilia.it" target="_blank"> <img src="images/header_01.svg" width="350" title="OpenDataSicilia - Fontanelle pubbliche Palermo" alt="OpenDataSicilia - Fontanelle pubbliche Palermo" ></a>-->
-	<div id="logofontanelle2"></div>
+	<div id="logofontanelle2" class="no_mobile"></div>
 
 
 		<!-- beta version    -->
@@ -1311,6 +1311,6 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
 <img src="lib/images/ods.svg" alt="opendatasicilia" width="80" border="0" title="opendatasicilia.it"></a></div>
 
    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b56cbd38a5ba708"></script>
+<script class="no_mobile" type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b56cbd38a5ba708" ></script>
 </body>
 </html>

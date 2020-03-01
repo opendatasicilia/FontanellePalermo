@@ -13,6 +13,7 @@
 	text-align:center;
 	z-index:50;
 }
+@media (min-width: 200px) and (max-width: 850px) {.leaflet-container .leaflet-control-mouseposition { display: none;}}
 
   	/*  spento su display 4" */
 	@media screen and (width: 320px) {  .leaflet-container .leaflet-control-mouseposition {display: none;  } }
@@ -20,22 +21,22 @@
    
 /*  spento su display 5" */
 
-@media (min-width: 360px) and (max-width: 568px)  {  .leaflet-container .leaflet-control-mouseposition {left:10px; bottom:55px;  } }
+@media (min-width: 360px) and (max-width: 568px)  {  .leaflet-container .leaflet-control-mouseposition {left:10px; bottom:55px; display: none;  } }
 
-  /*@media screen and (width: 360px) {.leaflet-container .leaflet-control-mouseposition { left:10px; bottom:55px; } }
-    @media screen and (width: 384px) {  .leaflet-container .leaflet-control-mouseposition {left:10px; bottom:55px;  } }
-	@media screen and (width: 533px) {  .leaflet-container .leaflet-control-mouseposition {left:60px; bottom:55px;  }
-	@media screen and (width: 568px) {  .leaflet-container .leaflet-control-mouseposition {left:60px; bottom:55px;  }}*/
-	@media screen and (width: 640px) { .leaflet-container .leaflet-control-mouseposition {left:10px; bottom:55px; } #ods {display:none}}
+  /*@media screen and (width: 360px) {.leaflet-container .leaflet-control-mouseposition { left:10px; bottom:55px; display: none; } }
+    @media screen and (width: 384px) {  .leaflet-container .leaflet-control-mouseposition {left:10px; bottom:55px; display: none; } }
+	@media screen and (width: 533px) {  .leaflet-container .leaflet-control-mouseposition {left:60px; bottom:55px; display: none; }
+	@media screen and (width: 568px) {  .leaflet-container .leaflet-control-mouseposition {left:60px; bottom:55px; display: none; }}*/
+	@media screen and (width: 640px) { .leaflet-container .leaflet-control-mouseposition {left:10px; bottom:55px; display: none;} #ods {display:none}}
 
 /*  spento su display 6" portrait */
 
-    @media screen and (width: 375px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; }}
-	@media screen and (width: 412px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; }}
-	@media screen and (width: 414px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; }}
-	@media screen and (width: 667px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; }}
-	@media screen and (width: 732px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; }}
-	@media screen and (width: 736px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; }}
+    @media screen and (width: 375px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; display: none; }}
+	@media screen and (width: 412px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; display: none;}}
+	@media screen and (width: 414px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; display: none;}}
+	@media screen and (width: 667px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; display: none; }}
+	@media screen and (width: 732px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; display: none; }}
+	@media screen and (width: 736px) {.leaflet-container .leaflet-control-mouseposition {left:10px; bottom:45px; display: none;}}
 
 	 @media (min-width: 737px) and (max-width: 1280px) { #ods { position:fixed; bottom:200px; right:17px; z-index: 400;}}
 	 
