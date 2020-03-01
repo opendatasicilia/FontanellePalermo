@@ -10,3 +10,4 @@ analisi/isolinee/output/tmp*
 .ipynb_checkpoints
 tmp*
 googleaction/script/generatoreMappeStatiche/api
+fetch_map_ods.php
