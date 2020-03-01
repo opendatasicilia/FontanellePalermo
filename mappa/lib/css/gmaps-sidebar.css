@@ -162,6 +162,7 @@
   
   /*disattiva la fascia bianca*/
      @media (min-width: 200px) and (max-width: 850px) {.sidebar-left ~ .sidebar-map {margin-left: 0; }}
+	   @media (min-width: 851px) and (max-width: 4000px) {.sidebar-left ~ .sidebar-map {margin-left: 0; }}
    /* @media (min-width: 768px) {.sidebar-left ~ .sidebar-map { margin-left: 0; } }*/
 
 .sidebar-right ~ .sidebar-map {
