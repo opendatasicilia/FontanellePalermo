@@ -13,8 +13,8 @@
         <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="shortcut icon" href="favicon.ico"/> 
-        <link rel="icon" href="favicon.png" type="image/png"/> 
+        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="icon" href="favicon.png" type="image/png"/>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87653723-4"></script>
@@ -25,7 +25,7 @@
 
   gtag('config', 'UA-87653723-4');
 </script>
-       
+
  <!-- Open Graph Protocol 1200x630 px -->
 <meta property="og:title" content="Mappa delle Fontanelle a Palermo" />
 <meta property="og:description" content="Un progetto per scoprire quelle di acqua potabile - Rielaborazione dati OpenDataSicilia.it e onData.it" />
@@ -43,24 +43,24 @@
 <meta name="twitter:creator" content="@gbvitrano Giovan Battista Vitrano per OpenDataSicilia.it e Associazione onData.it">
 <meta name="twitter:site" content="palermohub.opendatasicilia.it" />
 <meta name="twitter:url" content="https://palermohub.opendatasicilia.it">
-<!-- twitter -->   
+<!-- twitter -->
 
  <!-- css mappa -->
 <link rel="stylesheet" href="lib/css/leaflet_fontanelle.css">
-<link rel="stylesheet" href="lib/css/base_ods_fontanelle.css">  
+<link rel="stylesheet" href="lib/css/base_ods_fontanelle.css">
 <link rel="stylesheet" href="lib/css/btns.min.css" type="text/css">
 <link rel="stylesheet" href="lib/css/qgis2web.css" type="text/css">
 <link href="lib/css/L.Control.Locate.min.css" rel="stylesheet" type="text/css">
 <link href="lib/css/leaflet-search.css" rel="stylesheet" type="text/css">
 <link href="lib/css/MarkerCluster.css" rel="stylesheet" type="text/css">
 <link href="lib/css/MarkerCluster.Default.css" rel="stylesheet" type="text/css">
-<link href="lib/css/leaflet-measure.css" rel="stylesheet" type="text/css"> 
+<link href="lib/css/leaflet-measure.css" rel="stylesheet" type="text/css">
 <link href="lib/css/L.Control.Basemaps.css" rel="stylesheet" type="text/css">
 <link href="lib/css/LControlMousePosition_ods.css" rel="stylesheet" type="text/css">
 <link href="lib/css/scalebar_ods.css" rel="stylesheet" type="text/css">
 <link href="lib/css/Leaflet_GraphicScale_min.css" rel="stylesheet" type="text/css">
 <link href="lib/css/leaflet-sidebar.css" rel="stylesheet" type="text/css">
-<link href="lib/css/gmaps-sidebar.css" rel="stylesheet" type="text/css"> 
+<link href="lib/css/gmaps-sidebar.css" rel="stylesheet" type="text/css">
 <link href="lib/css/leaflet.zoomhome.css" rel="stylesheet" type="text/css">
 <link href="lib/css/L.countryselect.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="lib/css/MarkerCluster.css">
@@ -73,15 +73,15 @@
 <!--  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/> -->
 <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css"/> 
+<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
 
 <style type="text/css">
 a:link {color: #cc0033;	text-decoration:none;} a:visited {	color: #cc0033;}a:hover {color: #cc0033; text-decoration:underline; }a:active {color: #FF0000; text-decoration:none; }
-</style>  
-     
+</style>
+
 <!-- script mappa -->
 <script src="lib/js/qgi2web/qgis2web_expressions.js"></script>
-<script src="lib/js/qgi2web/leaflet.js"></script> 
+<script src="lib/js/qgi2web/leaflet.js"></script>
 <script src="lib/js/qgi2web/L.Control.Locate.min.js"></script>
 <script src="lib/js/qgi2web/multi-style-layer.js"></script>
 <script src="lib/js/qgi2web/leaflet-heat.js"></script>
@@ -91,34 +91,34 @@ a:link {color: #cc0033;	text-decoration:none;} a:visited {	color: #cc0033;}a:hov
 <script src="lib/js/qgi2web/leaflet-hash.js"></script>
 <script src="lib/js/qgi2web/leaflet-tilelayer-wmts.js"></script>
 <script src="lib/js/qgi2web/Autolinker.min.js"></script>
-<script src="lib/js/qgi2web/leaflet-measure.js"></script> 
+<script src="lib/js/qgi2web/leaflet-measure.js"></script>
 <script src="lib/js/qgi2web/leaflet.markercluster.js"></script>
-<script src="lib/js/qgi2web/leaflet-search.js"></script>  
+<script src="lib/js/qgi2web/leaflet-search.js"></script>
 <script src="lib/js/sidebar/leaflet-sidebar.js"></script>
 <script src="lib/js/qgi2web/leaflet.pattern.js"></script>
 <script src="lib/js/qgi2web/rbush.min.js"></script>
 <script src="lib/js/qgi2web/labelgun.min.js"></script>
 <script src="lib/js/qgi2web/labels.js"></script>
 <script src="lib/js/qgi2web/leaflet-control-geocoder.Geocoder.js"></script>
-		<!-- script funzioni --> 
+		<!-- script funzioni -->
 <script src="lib/js/mouseposition/LControlMousePosition.js"></script>
-<script src="lib/js/zoomhome/leaflet.zoomhome.js"></script>     
+<script src="lib/js/zoomhome/leaflet.zoomhome.js"></script>
 <script src="lib/js/basemap/L.Control.Basemaps.js"></script>
 <script src="lib/js/print/leaflet.easyPrint.js"></script>
 <script src="lib/js/countryselect/Leaflet.CountrySelect.js" charset="UTF-8"></script>
 
-  <!-- script automatico mobile/desktop --> 
+  <!-- script automatico mobile/desktop -->
 <script> if (screen && screen.width < 737) { document.write('<script type="text/javascript" src="lib/js/graphicscale/Leaflet_GraphicScale_min_mobile.js"><\/script>'); } </script>
-<script> if (screen && screen.width > 738) { document.write('<script type="text/javascript" src="lib/js/graphicscale/Leaflet_GraphicScale_min.js"><\/script>'); } </script> 
- 
-  <!-- script mappa remoto -->  
+<script> if (screen && screen.width > 738) { document.write('<script type="text/javascript" src="lib/js/graphicscale/Leaflet_GraphicScale_min.js"><\/script>'); } </script>
+
+  <!-- script mappa remoto -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>  
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
- 
-<!-- script menu includes --> 
-<!-- <script type="text/javascript" src="script.js"></script>   --> 
+
+<!-- script menu includes -->
+<!-- <script type="text/javascript" src="script.js"></script>   -->
 
 <!-- script dati mappa -->
 <script src="data/fontanelle_comune_pa_ok_2.js"></script>
@@ -129,7 +129,7 @@ a:link {color: #cc0033;	text-decoration:none;} a:visited {	color: #cc0033;}a:hov
 </head>
 
 <body>
-   
+
 <!-- Sidebar SX -->
 <div id="sidebar" class="sidebar collapsed">
 <!-- Nav tabs -->
@@ -142,9 +142,9 @@ a:link {color: #cc0033;	text-decoration:none;} a:visited {	color: #cc0033;}a:hov
     			 <li><a href="#appvocal" target="_blank" title="App vocale Fontanelle a Palermo (Ok Google) di Giovanni Pirrota" role="tab"><i class="fa fa-microphone"></i></a></li>
 				<li> <a href="#umap" target="_blank" title="Fontanelle a Palermo, prima localizzazione con uMap" role="tab"><img src="legend/umap_bn.png" alt="OSD" width="20" height="20"/></a></li>
                 <li><a href="#" target="_blank" title="Post ODS - Fontanelle a Palermo" role="tab"><i class="fa fa-bookmark"></i></a></li>
-               <li><a href="https://github.com/opendatasicilia/FontanellePalermo" target="_blank" title="Come abbiamo fatto" role="tab"><i class="fa fa-github"></i></a></li> 
+               <li><a href="https://github.com/opendatasicilia/FontanellePalermo" target="_blank" title="Come abbiamo fatto" role="tab"><i class="fa fa-github"></i></a></li>
 			   <li><a href="#info"  title="Informazioni"role="tab"><i class="fa fa-info"></i></a></li>
-                            
+
             </ul>
             <ul role="tablist">
        <li> <a href="#about" title="About" role="tab"><img src="legend/logoods.svg" alt="OSD" width="20" height="20"/></a></li>
@@ -155,7 +155,7 @@ a:link {color: #cc0033;	text-decoration:none;} a:visited {	color: #cc0033;}a:hov
                 <li><a href="#settings" title="Strumenti" role="tab"><i class="fa fa-gear"></i></a></li>
             </ul>
         </div>
-        
+
  <!-- Tab intro -->
 <div class="sidebar-content">
 <div class="sidebar-pane" id="home">
@@ -226,15 +226,15 @@ a:link {color: #cc0033;	text-decoration:none;} a:visited {	color: #cc0033;}a:hov
 <p class="lorem2">Per alcune bastano <strong>5 minuti</strong> a piedi, se ti piace camminare, in <strong>10 minuti</strong> sono ancora di più<br>
 da tutta la città almeno una in auto in 5 minuti<br><br>
 <strong>Se in un anno l'1% degli abitanti di Palermo cambiasse abitudini 1.500.000 bottiglie di plastica non verrebbero consumate!</strong></p>
-</div>    
-          
+</div>
+
 <!-- Tab immago -->
        <div class="sidebar-pane" id="immago">
 <h2 class="sidebar-header">Quanta plastica si consuma...?<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h2>
-<p class="legenda"> <strong>Dimensioni di una bottiglia tipo PET di 2 litri</strong></p>         
+<p class="legenda"> <strong>Dimensioni di una bottiglia tipo PET di 2 litri</strong></p>
 <img src="images/bottiglia_tipo.jpg" class="clip_resize" title="01 - immago" border="0" /><br>
-<p class="lorem2"><strong>Bottiglia:</strong><br>Diametro: 9 cm<br>Altezza: 34 cm<br><strong>Confezione:</strong><br>Fardello in plastica da 6 bottiglie termoretratte<br><strong>Pallettizazione:</strong><br>Bancali: EPAL 80x120<br>Confezioni per strato: 19<br>Strati per pedana: 4<br>Confezioni per pedana: 76<br>Bottiglie per pedana: 456<br>Altezza: 150 cm<br><strong>1 Tir trasporta:</strong><br>34 bancali ovvero 14.136 bottigle</p> 
-<p class="lorem2">1.500.000 bottiglie di plastica equivalgono 3.290 bancali e 250.000 confezioni da 6 bottiglie, e 106 Tir non entrerebbero in città</p> 
+<p class="lorem2"><strong>Bottiglia:</strong><br>Diametro: 9 cm<br>Altezza: 34 cm<br><strong>Confezione:</strong><br>Fardello in plastica da 6 bottiglie termoretratte<br><strong>Pallettizazione:</strong><br>Bancali: EPAL 80x120<br>Confezioni per strato: 19<br>Strati per pedana: 4<br>Confezioni per pedana: 76<br>Bottiglie per pedana: 456<br>Altezza: 150 cm<br><strong>1 Tir trasporta:</strong><br>34 bancali ovvero 14.136 bottigle</p>
+<p class="lorem2">1.500.000 bottiglie di plastica equivalgono 3.290 bancali e 250.000 confezioni da 6 bottiglie, e 106 Tir non entrerebbero in città</p>
 <p class="legenda">Simulazione fotografica ed elaborazioni 3D</p>
 <!--clip immago -->
 <div> <a href="#immago3" title="Lunghezza - Clicca per ingrandire"><img src="images/bottiglia_03.jpg" class="clip_resize" border="0" /></a></div>
@@ -244,7 +244,7 @@ da tutta la città almeno una in auto in 5 minuti<br><br>
 <h2>&nbsp;&nbsp;Lunghezza - Elaborazioni 3D</h2>
 <a class="close" href="#">&times;</a>
  <div class="content"><img src="images/bottiglia_03.jpg" class="clip_resize2" title="Lunghezza" border="0" /> </div>  </div></div>
-<p class="lorem2">Lunghezza</p> 
+<p class="lorem2">Lunghezza</p>
 
 <div> <a href="#immago1" title="Superficie occupata - Clicca per ingrandire"><img src="images/bottiglia_01.jpg" class="clip_resize" border="0" /></a></div>
 <!-- popup grafico -->
@@ -253,7 +253,7 @@ da tutta la città almeno una in auto in 5 minuti<br><br>
 <h2>&nbsp;&nbsp;Superficie occupata - Elaborazioni 3D</h2>
 <a class="close" href="#">&times;</a>
  <div class="content"><img src="images/bottiglia_01.jpg" class="clip_resize2" title="Superficie occupata" border="0" /> </div>  </div></div>
-<p class="lorem2">Superficie</p> 
+<p class="lorem2">Superficie</p>
 
 <div> <a href="#immago2" title="Volume occupato - Clicca per ingrandire"><img src="images/bottiglia_02.jpg" class="clip_resize" border="0" /></a></div>
 <!-- popup grafico -->
@@ -271,7 +271,7 @@ da tutta la città almeno una in auto in 5 minuti<br><br>
 <h2>&nbsp;&nbsp;Altezza - Elaboraziona grafica</h2>
 <a class="close" href="#">&times;</a>
  <div class="content"><img src="images/bottiglia_04.jpg" class="clip_resize2" title="Altezza" border="0" /> </div>  </div></div>
-<p class="lorem2">Altezza (km)<br><br><strong>Se usi una fontanella, ti prendi cura del mondo.</strong> <br>Milioni di bottiglie di plastica non verrebbero consumate.</p> 
+<p class="lorem2">Altezza (km)<br><br><strong>Se usi una fontanella, ti prendi cura del mondo.</strong> <br>Milioni di bottiglie di plastica non verrebbero consumate.</p>
 
 <div> <a href="#immago5" title="La Cattedrale - Clicca per ingrandire"><img src="images/bottiglia_05.jpg" class="clip_resize" border="0" /></a></div>
 <!-- popup grafico -->
@@ -280,7 +280,7 @@ da tutta la città almeno una in auto in 5 minuti<br><br>
 <h2>&nbsp;&nbsp;La Cattedrale - Simulazione fotografica</h2>
 <a class="close" href="#">&times;</a>
  <div class="content"><img src="images/bottiglia_05.jpg" class="clip_resize2" title="La Cattedrale" border="0" /> </div>  </div></div>
-<p class="lorem2">La Cattedrale</p> 
+<p class="lorem2">La Cattedrale</p>
 
 <div> <a href="#immago6" title="Teatro Massimo - Clicca per ingrandire"><img src="images/bottiglia_06.jpg" class="clip_resize" border="0" /></a></div>
 <!-- popup grafico -->
@@ -289,7 +289,7 @@ da tutta la città almeno una in auto in 5 minuti<br><br>
 <h2>&nbsp;&nbsp;Teatro Massimo - Simulazione fotografica</h2>
 <a class="close" href="#">&times;</a>
  <div class="content"><img src="images/bottiglia_06.jpg" class="clip_resize2" title="Teatro Massimo" border="0" /> </div>  </div></div>
-<p class="lorem2">Teatro Massimo</p> 
+<p class="lorem2">Teatro Massimo</p>
 
 <div> <a href="#immago7" title="Piazza Pretoria - Clicca per ingrandire"><img src="images/bottiglia_07.jpg" class="clip_resize" border="0" /></a></div>
 <!-- popup grafico -->
@@ -298,7 +298,7 @@ da tutta la città almeno una in auto in 5 minuti<br><br>
 <h2>&nbsp;&nbsp;Piazza Pretoria - Simulazione fotografica</h2>
 <a class="close" href="#">&times;</a>
  <div class="content"><img src="images/bottiglia_07.jpg" class="clip_resize2" title="Piazza Pretoria" border="0" /> </div>  </div></div>
-<p class="lorem2">Piazza Pretoria</p> 
+<p class="lorem2">Piazza Pretoria</p>
 
 <div> <a href="#immago8" title="Palazzo Reale - Clicca per ingrandire"><img src="images/bottiglia_08.jpg" class="clip_resize" border="0" /></a></div>
 <!-- popup grafico -->
@@ -307,7 +307,7 @@ da tutta la città almeno una in auto in 5 minuti<br><br>
 <h2>&nbsp;&nbsp;Palazzo Reale - Simulazione fotografica</h2>
 <a class="close" href="#">&times;</a>
  <div class="content"><img src="images/bottiglia_08.jpg" class="clip_resize2" title="Palazzo Reale" border="0" /> </div>  </div></div>
-<p class="lorem2">Palazzo Reale</p> 
+<p class="lorem2">Palazzo Reale</p>
 
 <div> <a href="#immago9" title="Teatro Politeama Garibaldi - Clicca per ingrandire"><img src="images/bottiglia_09.jpg" class="clip_resize" border="0" /></a></div>
 <!-- popup grafico -->
@@ -316,7 +316,7 @@ da tutta la città almeno una in auto in 5 minuti<br><br>
 <h2>&nbsp;&nbsp;Teatro Politeama Garibaldi - Simulazione fotografica</h2>
 <a class="close" href="#">&times;</a>
  <div class="content"><img src="images/bottiglia_09.jpg" class="clip_resize2" title="Teatro Politeama Garibaldi" border="0" /> </div>  </div></div>
-<p class="lorem2">Teatro Politeama Garibaldi</p> 
+<p class="lorem2">Teatro Politeama Garibaldi</p>
 
 <p class="lorem2"><strong>Le foto utilizzate per la simulazione sono di: </strong>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="lorem2">
@@ -374,19 +374,19 @@ da tutta la città almeno una in auto in 5 minuti<br><br>
    <em>Per accedere agli atti ufficiali si rinvia agli elaborati definitivi allegati alle specifiche deliberazioni.</em><br><br>
 <strong>Si declina ogni responsabilit&agrave; sulla veridicit&agrave; dei dati.</strong></p>
 </div>
-	
+
 <!-- Tab umap -->
        <div class="sidebar-pane" id="umap">
        <h2 class="sidebar-header">Prima localizzazione con uMap<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h2></br>
-	<p class="lorem2">Palermo, mappa delle fontane e fontanelle pubbliche di aqcua potabile più vicono casa. Si potrà fare approvvigionamento di acqua potabile e frenare il consumo di plastica. Un piccolo gesto per la difesa dell'ambiente. <strong>#PalermoPlasticFree</strong></p>	
- <a href="http://palermohub.opendatasicilia.it/fontanelle_pa.html" title="PalermoHub | Fontanelle a Palermo | Prima localizzazione con uMap" target="_blank"><img src="images/umap.jpg" class="clip_resize" title="PalermoHub | Fontanelle a Palermo | Prima localizzazione con uMap" border="0" /></a><br>	
+	<p class="lorem2">Palermo, mappa delle fontane e fontanelle pubbliche di aqcua potabile più vicono casa. Si potrà fare approvvigionamento di acqua potabile e frenare il consumo di plastica. Un piccolo gesto per la difesa dell'ambiente. <strong>#PalermoPlasticFree</strong></p>
+ <a href="http://palermohub.opendatasicilia.it/fontanelle_pa.html" title="PalermoHub | Fontanelle a Palermo | Prima localizzazione con uMap" target="_blank"><img src="images/umap.jpg" class="clip_resize" title="PalermoHub | Fontanelle a Palermo | Prima localizzazione con uMap" border="0" /></a><br>
 	<strong>Link mappa su PalermoHub <a href="http://palermohub.opendatasicilia.it/fontanelle_pa.html" Title="PalermoHub | Fontanelle a Palermo | Prima localizzazione con uMap" target="_blank"> Fontanelle a Palermo</a></strong><br>
 	<p class="lorem2"><strong>Post Social: <br>Gruppo facebook <a href="https://www.facebook.com/groups/opendatasicilia/permalink/2315735108545131/" Title="Facebook gruppo Opendata Sicilia" target="_blank">OpenDataSicilia</a></strong>;<br>
 	<strong>Twitter <a href="https://twitter.com/gbvitrano/status/1165867361561395201" Title="@OpendataSicilia" target="_blank">@OpenDataSicilia</a></strong> 	</p>
- <p class="lorem2"><strong>Fonte dati:<br></strong> <a href="https://opendata.comune.palermo.it/index.php" title="Comune di Palermo" target="_blank">Comune di Palermo</a> – <a href="https://opendata.comune.palermo.it/opendata-archivio-dataset.php" title="Ambiente" target="_blank">Ambiente</a> - <a href="https://opendata.comune.palermo.it/opendata-dataset.php?dataset=1249" title="Dataset della dislocazione delle fontanelle per acqua potabile (AMAP)" target="_blank">Dataset della dislocazione delle fontanelle per acqua potabile (AMAP)</a>. <br>	 
+ <p class="lorem2"><strong>Fonte dati:<br></strong> <a href="https://opendata.comune.palermo.it/index.php" title="Comune di Palermo" target="_blank">Comune di Palermo</a> – <a href="https://opendata.comune.palermo.it/opendata-archivio-dataset.php" title="Ambiente" target="_blank">Ambiente</a> - <a href="https://opendata.comune.palermo.it/opendata-dataset.php?dataset=1249" title="Dataset della dislocazione delle fontanelle per acqua potabile (AMAP)" target="_blank">Dataset della dislocazione delle fontanelle per acqua potabile (AMAP)</a>. <br>
  <a href="https://www.amapspa.it/it/azienda/le-fontanelle-di-palermo/9" title="Dataset della dislocazione delle fontanelle per acqua potabile (AMAP)" target="_blank">Amap - Le Fontanelle di Palermo</a> - <a href="https://www.amapspa.it/wp-content/uploads/2019/07/Libro_Fontane_AMAP.pdf" title="Brochure sulle Fontanelle realizzata da AMAPSPA" target="_blank">Brochure</a> sulle Fontanelle realizzata da <a href="https://www.amapspa.it/" title="AMAPSPA" target="_blank">AMAPSPA</a>.</p>
  <p class="lorem2"><strong>Licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" Title="CC BY-SA 4.0 - Attribuzione - Condividi allo stesso modo 4.0 Internazionale (CC BY-SA 4.0) tranne diversa indicazione" target="_blank">CC BY-SA 4.0</a></strong> - Attribuzione - Condividi allo stesso modo 4.0 Internazionale (CC BY-SA 4.0). </p>
-</div>	
+</div>
 
 	<!-- Tab appvocal -->
        <div class="sidebar-pane" id="appvocal">
@@ -395,9 +395,9 @@ da tutta la città almeno una in auto in 5 minuti<br><br>
  <a href="#" title="App vocale Fontanelle a Palermo (Ok Google) Giovanni Pirrota" target="_blank"><img src="images/app_vocal.jpg" class="clip_resize" title="App vocale Fontanelle a Palermo (Ok Google) Giovanni Pirrota" border="0" /></a><br>
 
 
-</div>	
-	
-    
+</div>
+
+
 <!-- Tab about -->
 <div class="sidebar-pane" id="about">
 <h2 class="sidebar-header">#OpenDataSicilia<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h2>
@@ -483,8 +483,8 @@ Siamo un gruppo di cittadini con diverse storie, competenze, professioni. Siamo 
 <li><p class="lorem2"><a href="https://it.libreoffice.org/" title="LibreOffice 6.2" target="_blank">LibreOffice 6.2</a>, Software libero di produttività personale multipiattaforma prodotto da The Document Foundation, nato dal fork di OpenOffice.org;</li></p>
 
 <!--  <li><p class="lorem2"><a href="#" title="#" target="_blank">bla bla</a>, bla bla;</li></p>-->
-      </ul> </div></div> </div>  
-  
+      </ul> </div></div> </div>
+
 <!-- Mappa  -->
 <div id="map" class="sidebar-map"></div>
         <script>
@@ -502,7 +502,7 @@ var highlightLayer;
                 fillOpacity: 0.50,
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0.50, 
+                weight: 0.50,
 				             });
             }
         }
@@ -510,21 +510,19 @@ var highlightLayer;
             getBounds: function () {
                 return this._bounds;
             }
-			
-       });	
-	   
+
+       });
+
 
 var map = L.map('map', { zoomControl:false,  minZoom: 13, maxNativeZoom: 16, maxZoom: 16 }).fitBounds([[38.045851675001444,13.195799698861464],[38.22904078206479,13.49928552140082]]);
 map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> - Palermo - Fontanelle acqua potabile - Rielaborazione di: <a href="https://twitter.com/opendatasicilia" target="_blank" title="opendatasicilia">@opendatasicilia</a> e <a href="https://twitter.com/ondatait" target="_blank" title="onData">@ondatait</a>');
 var bounds_group = new L.featureGroup([]);
 
-<!-- mappe di base -->	  
-var basemaps = [ L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="http://cartodb.com/attributions">CartoDB</a> - <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>', minZoom: 13,  maxZoom: 17, maxNativeZoom: 16,label: 'Map tiles by CartoDB'}),
-
-L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {attribution: 'Source: Google Satellite - Map data ©2015 Google',
-				minZoom: 13,  maxZoom: 17, maxNativeZoom: 16, label: 'Google Satellite'}),
+<!-- mappe di base -->
+var basemaps = [ L.tileLayer('https://fontanelle.ondata.it/fetch_map_ods.php?z={z}&x={x}&y={y}', {attribution: 'Mappa base: <a href="https://developer.here.com/" target="_blank">Here Maps API</a>',
+				minZoom: 4,  maxZoom: 19, maxNativeZoom: 16, label: 'Here Maps'}),L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="http://cartodb.com/attributions">CartoDB</a> - <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>', minZoom: 4,  maxZoom: 19, maxNativeZoom: 16,label: 'Map tiles by CartoDB'})
 ];
-<!-- selettore fontanelle -->	
+<!-- selettore fontanelle -->
 var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 			select.addTo(map);
 			select.on('change', function(e){
@@ -539,31 +537,31 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 
 				map.addLayer(country);
 				map.fitBounds(country.getBounds());
-				
-												
-			});	
 
-<!-- Sposta il popup/mappa in base alle coordinate -->	
+
+			});
+
+<!-- Sposta il popup/mappa in base alle coordinate -->
 //    map.on('popupopen', function(e) {
 //    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
 //    px.y -= e.popup._container.clientHeight/2 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
 //    map.panTo(map.unproject(px),{animate: true}); // pan to new center
 //    });
-	<!-- Sposta il popup/mappa in base alle coordinate - fine -->	
-	
-	<!-- scala mappa -->		
+	<!-- Sposta il popup/mappa in base alle coordinate - fine -->
+
+	<!-- scala mappa -->
     var graphicScale = L.control.graphicScale({
 		doubleLine: true,
 		fill: 'hollow',
         showSubunits: true
-	}).addTo(map);	
-		
-<!-- muose coordinate -->	
+	}).addTo(map);
+
+<!-- muose coordinate -->
 		   L.control.mousePosition().addTo(map);
 	    map.on("mousemove", function(e) {
 		baselayer.setCenter(e.containerPoint.x, e.containerPoint.y); e_sat.setCenter(e.containerPoint.x, e.containerPoint.y);
-         }) 		
-			
+         })
+
 <!-- funzioni mappa -->
         function setBounds() {
         }
@@ -585,8 +583,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
             ];
           });
         }
-		
-<!-- Poligono fantasma  inizio -->	
+
+<!-- Poligono fantasma  inizio -->
         function pop_poligonoisola0(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -608,7 +606,7 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fillOpacity: 0,
             }
         }
@@ -622,10 +620,10 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
         style: style_poligonoisola0_0,
     });
         bounds_group.addLayer(layer_poligonoisola0);
-        // map.addLayer(layer_poligonoisola0);	
-		
-<!-- Poligono fantasma  fine -->	
-  
+        // map.addLayer(layer_poligonoisola0);
+
+<!-- Poligono fantasma  fine -->
+
 				// Perimetro OSM
         function pop_osm_confine_palermo_epsg_3004_0(feature, layer) {
             var popupContent = '<table>\
@@ -649,7 +647,7 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
                 dashArray: '10,5',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 2.0, 
+                weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(224,209,134,0.0)',
@@ -666,9 +664,9 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
         });
         bounds_group.addLayer(layer_osm_confine_palermo_epsg_3004_0);
 		// map.addLayer(layer_osm_confine_palermo_epsg_3004_0);
-		
-		
-		 
+
+
+
 // Fontanelle Palermo 2019
 
         function pop_tp_300_1(feature, layer) {
@@ -707,7 +705,7 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
+                weight: 0,
 				stroke: true,
 				fill: true,
                 fillOpacity: 1,
@@ -722,9 +720,9 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
+                weight: 0,
 				opacity: 1,
-                stroke: true, 
+                stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(198,219,239,0.75)',
@@ -737,9 +735,9 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				color: 'rgba(0,0,0,1.0)',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
+                weight: 0,
 				opacity: 1,
-                stroke: true, 
+                stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(158,202,225,0.75)',
@@ -753,9 +751,9 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
+                weight: 0,
 				opacity: 1,
-                stroke: true, 
+                stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(107,174,214,0.75)',
@@ -769,9 +767,9 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
+                weight: 0,
 				opacity: 1,
-                stroke: true, 
+                stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(66,146,198,0.75)',
@@ -785,9 +783,9 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
+                weight: 0,
 				opacity: 1,
-                stroke: true, 
+                stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(33,113,181,0.75)',
@@ -801,9 +799,9 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
+                weight: 0,
 				opacity: 1,
-                stroke: true, 
+                stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(8,81,156,0.75)',
@@ -817,9 +815,9 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
+                weight: 0,
 				opacity: 1,
-                stroke: true, 
+                stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(8,48,107,0.75)',
@@ -833,9 +831,9 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
 				opacity: 1,
-                stroke: false, 
+                stroke: false,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(8,48,107,0.75)',
@@ -850,7 +848,7 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
         var layer_tp_300_1 = new L.geoJson(json_tp_300_1, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_tp_300_1',	
+            dataVar: 'json_tp_300_1',
             layerName: 'layer_tp_300_1',
             pane: 'pane_tp_300_1',
             onEachFeature: pop_tp_300_1,
@@ -858,9 +856,9 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
         });
         bounds_group.addLayer(layer_tp_300_1);
         map.addLayer(layer_tp_300_1);
-		
+
 		<!-- tp 600 bucati -->
-		
+
         function pop_tp_600_bucato_link_1(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -897,7 +895,7 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
+                weight: 0,
 				stroke: true,
                 fill: true,
                 fillOpacity: 1,
@@ -913,8 +911,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true, 
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(254,213,196,0.75)',
@@ -929,8 +927,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true, 
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(253,202,181,0.75)',
@@ -945,8 +943,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true, 
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(253,191,167,0.75)',
@@ -961,8 +959,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true, 
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,172,144,0.75)',
@@ -977,8 +975,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true, 
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,148,116,0.75)',
@@ -993,8 +991,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true, 
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,124,92,0.75)',
@@ -1009,8 +1007,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true, 
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(250,99,70,0.75)',
@@ -1026,8 +1024,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true,  
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(243,71,52,0.75)',
@@ -1042,8 +1040,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true, 
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(228,47,39,0.75)',
@@ -1058,8 +1056,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true, 
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(206,27,30,0.75)',
@@ -1074,8 +1072,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true, 
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(182,19,24,0.75)',
@@ -1090,8 +1088,8 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				dashArray: '',
 				lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0, 
-				stroke: true, 
+                weight: 0,
+				stroke: true,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(151,11,19,0.75)',
@@ -1114,10 +1112,10 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
         });
         bounds_group.addLayer(layer_tp_600_bucato_link_1);
         map.addLayer(layer_tp_600_bucato_link_1);
-	
-		
+
+
 		<!-- Fontanelle -->
-		
+
         function pop_fontanelle_comune_pa_ok_2(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1195,20 +1193,20 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
         });
         bounds_group.addLayer(layer_fontanelle_comune_pa_ok_2);
         map.addLayer(layer_fontanelle_comune_pa_ok_2);
-		
+
 <!-- Legenda mappa -->
         var baseMaps = {};
 L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle Palermo</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PalermoHub':layer_poligonoisola0,
 '<img src="legend/osm_confine_palermo_epsg_3004_0.png" /> Confine Comunale': layer_osm_confine_palermo_epsg_3004_0,'<img src="legend/fontanelle_comune_pa_ok_2.png" /> Fontanelle<br><br><span class="legenda1">Tempo a piedi necessario per raggiungere una o più fontanelle</span><br /><br /><span class="legenda1">5 minuti a piedi</span><br /><table><tr><td style="text-align: center;"><img src="legend/tp_300_1_10.png" /></td><td>1 fontanella</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_21.png" /></td><td>2 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_32.png" /></td><td>3 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_43.png" /></td><td>4 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_54.png" /></td><td>5 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_65.png" /></td><td>6 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_76.png" /></td><td>7 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_300_1_87.png" /></td><td>8 fontanelle</td></tr></table><span class="legenda1">10 minuti a piedi </span><br /><table><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_10.png" /></td><td>1 fontanella</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_21.png" /></td><td>2 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_32.png" /></td><td>3 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_43.png" /></td><td>4 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_54.png" /></td><td>5 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_65.png" /></td><td>6 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_76.png" /></td><td>7 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_87.png" /></td><td>8 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_98.png" /></td><td>9 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_109.png" /></td><td>10 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_1110.png" /></td><td>11 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_1211.png" /></td><td>12 fontanelle</td></tr><tr><td style="text-align: center;"><img src="legend/tp_600_bucato_link_1_1312.png" /></td><td>13 fontanelle</td></tr></table>': layer_fontanelle_comune_pa_ok_2,
 }).addTo(map);
       setBounds();
-		
+
 		<!-- strumenti di leaflet -->
 		var zoomHome = L.Control.zoomHome();zoomHome.addTo(map);
 		var hash = new L.Hash(map);
-		
+
 		  var sidebar = L.control.sidebar('sidebar').addTo(map);
-		  	<!-- osmGeocoder -->	
+		  	<!-- osmGeocoder -->
 		     var osmGeocoder = new L.Control.Geocoder({
             collapsed: true,
             position: 'topleft',
@@ -1228,19 +1226,19 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
             primaryAreaUnit: 'sqmeters',
             secondaryAreaUnit: 'hectares'
         });
-		
-		
+
+
         measureControl.addTo(map);
-		L.easyPrint({title: 'Stampa la mappa',	position: 'topleft'}) <!-- .addTo(map) --> ; 
+		L.easyPrint({title: 'Stampa la mappa',	position: 'topleft'}) <!-- .addTo(map) --> ;
 		 map.addControl(L.control.basemaps({
             basemaps: basemaps,
             tileX: 0,
             tileY: 0,
             tileZ: 1
         }));
-		
+
 		<!-- etichette tooltip -->
-		
+
 		    layer_tp_600_bucato_link_1.eachLayer(function(layer) {
             var context = {
                 feature: layer.feature,
@@ -1266,8 +1264,8 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
               addLabel(layer, i);
               i++;
         });
-		
-		
+
+
         var i = 0;
         layer_fontanelle_comune_pa_ok_2.eachLayer(function(layer) {
             var context = {
@@ -1290,29 +1288,29 @@ L.control.layers(baseMaps,{'<span class="legenda">&nbsp;&nbsp;&nbsp;Fontanelle P
         });
         map.on("layerremove", function(){
             resetLabels([layer_tp_600_bucato_link_1,layer_tp_300_1,layer_fontanelle_comune_pa_ok_2]);
-        });	
-		
+        });
+
 
         </script>
-        
-         <!-- header -->       
-   </div>  
-   <div id="headerprovvisorio" ></div> 
-    <div id="logofontanelle"></div> 
-	<!-- <a href="http://opendatasicilia.it/" title="opendatasicilia.it" target="_blank"> <img src="images/header_01.svg" width="350" title="OpenDataSicilia - Fontanelle pubbliche Palermo" alt="OpenDataSicilia - Fontanelle pubbliche Palermo" ></a>--> 
-	<div id="logofontanelle2"></div> 
-	
-	
+
+         <!-- header -->
+   </div>
+   <div id="headerprovvisorio" ></div>
+    <div id="logofontanelle"></div>
+	<!-- <a href="http://opendatasicilia.it/" title="opendatasicilia.it" target="_blank"> <img src="images/header_01.svg" width="350" title="OpenDataSicilia - Fontanelle pubbliche Palermo" alt="OpenDataSicilia - Fontanelle pubbliche Palermo" ></a>-->
+	<div id="logofontanelle2"></div>
+
+
 		<!-- beta version    -->
 <!--  <div id="beta"><img src="legend/beta.png" width="65" title="beta version" alt="beta version"></div>   -->
-   <!-- loghi   -->   
- <div id="logoondata"><a href="https://ondata.it/" title="ondata.itt" target="_blank"> 
-<img src="images/ondata.png" alt="ondata.it" width="80" border="0" title="ondata.it"></a></div>   
-     
-<div id="logoods"><a href="http://opendatasicilia.it/" title="opendatasicilia.it" target="_blank"> 
-<img src="lib/images/ods.svg" alt="opendatasicilia" width="80" border="0" title="opendatasicilia.it"></a></div>  
+   <!-- loghi   -->
+ <div id="logoondata"><a href="https://ondata.it/" title="ondata.itt" target="_blank">
+<img src="images/ondata.png" alt="ondata.it" width="80" border="0" title="ondata.it"></a></div>
 
-   <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<div id="logoods"><a href="http://opendatasicilia.it/" title="opendatasicilia.it" target="_blank">
+<img src="lib/images/ods.svg" alt="opendatasicilia" width="80" border="0" title="opendatasicilia.it"></a></div>
+
+   <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b56cbd38a5ba708"></script>
 </body>
-</html>  
+</html>
