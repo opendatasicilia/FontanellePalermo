@@ -688,7 +688,7 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
                 mouseover: highlightFeature,
             });
             var popupContent = '<table>\
-				<tr>\<strong style="text-align: center; color: #FF0000;font-size:12px;">Da questo punto raggiungeresti entro 5 minuti di strada a piedi&nbsp;&nbsp;[&nbsp;' + (feature.properties['nro'] !== null ? Autolinker.link(String(feature.properties['nro'])) : '') + '&nbsp;]&nbsp;&nbsp;fontanella/e </strong></br></br></tr>\
+				<tr>\<strong style="text-align: center; font-size:12px;">Da questo punto raggiungeresti entro 5 minuti di strada a piedi&nbsp;&nbsp;<span style="color: #FF0000">[&nbsp;' + (feature.properties['nro'] !== null ? Autolinker.link(String(feature.properties['nro'])) : '') + '&nbsp;]&nbsp;&nbsp;fontanella/e</span> </strong></br></br></tr>\
                 <tr>\
                         <td>La/e fontanella/e più vicina/e sono in:&nbsp; <br>' + (feature.properties['indirizzo_links'] !== null ? Autolinker.link(String(feature.properties['indirizzo_links'])) : '') + '</td>\
                     </tr>\
