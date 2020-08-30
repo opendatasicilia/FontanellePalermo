@@ -10,7 +10,7 @@ url("fonts/fontawesome-webfont.ttf") format("truetype"),
 url("fontst/fontawesome-webfont.svg#fontawesome") format("svg");
 font-weight:normal; font-style:normal;}
 
-html, body {padding: 0; overflow: hidden;    margin: 0;height: 100%; font: 12px "Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif; background-color:#ffffff; 
+html, body {padding: 0; overflow: hidden;    margin: 0;height: 100%; font: 12px "Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif; background-color:#ffffff;
 /*background-image:url(../images/ods_02.png); background-size: 30px 30px;background-repeat:no-repeat;background-position:5px 3px;background-attachment: fixed;*/}
 
 #header { margin-top:0px;}
@@ -18,7 +18,7 @@ html, body {padding: 0; overflow: hidden;    margin: 0;height: 100%; font: 12px 
 /* foglio di stile atlante cartografico palermo - giovan battista vitrano per opendatasicilia.it  */
 
  #map { height: 100%; top:0px; /*top:-86px;*/ /*menu seconda versione*/ font: 11px "Open Sans", Helvetica Neue, fontawesome, Arial, Helvetica, sans-serif; background-color: #fff; z-index: 1000;}
- 
+
 #foia { position:fixed; bottom:80px; left:60px; z-index: 1020;}
 
 #headerprovvisorio { position:fixed; top:0px;  width:100%; height:70px; /*background-color:rgba(198,219,239,0.95); background-image: url(../../legend/pa_fontanelle.svg); ; padding-left: 10px;padding-top: 5px;margin: 0; */  box-shadow: 0 1px 2.5px rgba(0,0,0,0.65); background-position:center; background-image:url(../../legend/fontanelle_logo.png); background-repeat:no-repeat;background-size: 50px;   z-index: 1501;}
@@ -56,7 +56,7 @@ html, body {padding: 0; overflow: hidden;    margin: 0;height: 100%; font: 12px 
 	@media screen and (width: 640px) { #beta {left:90px; bottom:50px;} .beta{width: 40px; height: 40px;}}
 
 /*  spento su display 6" portrait */
-   
+
 	@media screen and (width: 375px) {#beta {left:50px; bottom:80px;}.beta{width: 42px; height: 42px;}}
 	@media screen and (width: 414px) {#beta {left:50px; bottom:70px;}.beta{width: 42px; height: 42px;}}
 	@media screen and (width: 412px) {#beta {left:50px; bottom:70px;}.beta{width: 42px; height: 42px;}}
@@ -74,18 +74,18 @@ html, body {padding: 0; overflow: hidden;    margin: 0;height: 100%; font: 12px 
 .lorem1 {font-style: italic; color: #4E4B4B; text-align: justify; font-family:"Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif;    font-size: 11px;}.awesome {font-style:fontawesome;  color: #4E4B4B; }
 
  @media (min-width: 320px) and (max-width: 1024px) { .lorem1 {font-style: italic; color: #4E4B4B; text-align: justify; font-family:"Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif;    font-size: 8.5px;}.awesome {font-style:fontawesome;  color: #4E4B4B; }}
- 
+
 a:link {color: #cc0033;	text-decoration:none;}
 a:visited {	color: #cc0033;}/* foglio di stile atlante cartografico palermo - giovan battista vitrano per opendatasicilia.it */
-a:hover {color: ##4E4B4B; text-decoration:underline; } 
-a:active {color: #FF0000; text-decoration:none; } 
+a:hover {color: ##4E4B4B; text-decoration:underline; }
+a:active {color: #FF0000; text-decoration:none; }
 .clip_omira {width: 60px; height: 69px; border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px; border: 1px solid #ccc;background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) }
-.clip_omira:hover {opacity: 1;  -webkit-filter: grayscale(100%); } 
-.clip_irta {width: 370px; height: 524px; border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc;background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) } 
+.clip_omira:hover {opacity: 1;  -webkit-filter: grayscale(100%); }
+.clip_irta {width: 370px; height: 524px; border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc;background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) }
 .clip_irta:hover {opacity: 1;  -webkit-filter: grayscale(100%); }
 
 .clip_tav { width: 138px; height: 20px; /*border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc;background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) */}
-.clip_tav:hover {opacity: 1;  -webkit-filter: grayscale(100%); } 
+.clip_tav:hover {opacity: 1;  -webkit-filter: grayscale(100%); }
 
 #bot {	position: fixed; width: 100%;	height: 40px;	/*background-color: rgba(255,255,255,1); rgba(78,75,75,1.00);*/	box-shadow: 0 1px 5px rgba(0,0,0,0.65);	padding: 0;	margin: 0;top: 0px;	right: 0px;	z-index: 2000;	text-align: left;}
 
@@ -105,7 +105,7 @@ a:active {color: #FF0000; text-decoration:none; }
     width: 100%,;
     height: 100%;
 	opacity: .95;
-   	
+
 	}*/
 
 #page {	position: fixed; width: 100%;	height: 100%;	/*background: #fff;/*	background-color: /*rgba(255,255,255,1);*/ rgba(78,75,75,1.00);	box-shadow: 0 1px 5px rgba(0,0,0,0.65);	padding: 0;	margin: 0;top: 0px;	right: 0px;	z-index: 1000;	text-align: left;}
@@ -123,13 +123,13 @@ a:active {color: #FF0000; text-decoration:none; }
 
 #clip_gra {position:fixed; bottom:60px; left:55px; z-index: 1002; background-color:rgba(255,255,255,1.00);background-size: 45px 45px; width: 42px; height: 42px; 	border: 2px solid #ccc;
     margin: 2 2px;    border-radius: 40px;    box-shadow: 0 1px 5px rgba(0,0,0,0.6); }
-	
+
 	/* popup grafico spento su mobile" */
 	 @media (min-width: 320px) and (max-width: 736px) { #clip_gra {display: none;  }}
-	 
+
 	 	/* div 3d  spento su mobile" */
 	 @media (min-width: 320px) and (max-width: 736px) { #threejs {display: none;  }}
-	
+
 #note {position: relative;left:60px; bottom: 20px; width: 290px;	padding: 0;   /*top:60px;*/ right: 0px;	z-index: 1000;	text-align: right;}
 
 .legenda  {font-style: normal; font-weight:bold; font-size:16px; color: #4E4B4B; text-align: justify; }
@@ -144,12 +144,12 @@ a:active {color: #FF0000; text-decoration:none; }
 
 .legenda1 a:link{color: #4E4B4B;	text-decoration:none;}
 .legenda1 a:visited {	color: #4E4B4B;}
-.legenda1 a:hover {color: #FFFFFF; text-decoration:underline; } 
+.legenda1 a:hover {color: #FFFFFF; text-decoration:underline; }
 
 .legenda2 {font-style: normal; font-weight:bold; font-size:12px; color: #4E4B4B; text-align: justify; }
 .legenda2 a:link{color: #4E4B4B;	text-decoration:none;}
 .legenda2 a:visited {	color: #4E4B4B;}
-.legenda2 a:hover {color: #FF9900; text-decoration:underline; } 
+.legenda2 a:hover {color: #FF9900; text-decoration:underline; }
 .legenda3 {font-style: normal; font-weight:normal; font-size:10px; color: #4E4B4B; text-align: justify; }
 
 #leg3d {	position: fixed; width: 120;	height: 101px;	background-color: /*rgba(255,255,255,1);*/ rgba(255,255,255,0.80);	box-shadow: 0 1px 5px rgba(0,0,0,0.65);	padding: 0;	top: 60px; right: 20px;	z-index: 1000;}
@@ -197,7 +197,7 @@ z-index: 1010;}
 .button:hover {
   background:#E81418;
   border: 2px solid #E81418;
-  
+
 }
 
 .overlay {
@@ -299,7 +299,7 @@ margin:auto;
     border-color: threedlightshadow;
 	  border-width: 2px;
     border-style: inset;
-  
+
     cursor: default;
     display: inline-block;
     font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
@@ -310,7 +310,7 @@ margin:auto;
     text-indent: 0;
     text-shadow: none;
     white-space: nowrap;
-	
+
 }*/
 
 
@@ -319,9 +319,9 @@ margin:auto;
 hr {border: 0; background-color: #fff;  border-top: 1px dashed #cc0033;}
 
   /*Clip resize; */
-.clip_resize {width: 100%; /*height: 100%;*/ border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc;background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) } 
+.clip_resize {width: 100%; /*height: 100%;*/ border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc;background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) }
 
-.clip_resize2 {width: 99%; /*height: 100%;*/margin-left: 3px; border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc; background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) } 
+.clip_resize2 {width: 99%; /*height: 100%;*/margin-left: 3px; border-radius: 5px;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;border: 1px solid #ccc; background-color:#fff; padding:1px; box-shadow: 0 2px 5px rgba(0,0,0,0.2) }
 
 /* nuove classi per footer */
 .lorem {font-style: italic; color: #4E4B4B; text-align: justify; font-family:"Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif;    font-size: 11px;}
@@ -330,9 +330,9 @@ hr {border: 0; background-color: #fff;  border-top: 1px dashed #cc0033;}
 
  .lorem2 {font-weight:normal !important;  color: #4E4B4B; text-align: justify; font-family:"Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif;    font-size: 12px;}
  .awesome {font-style:fontawesome;  color: #4E4B4B; }
- 
+
   @media (min-width: 320px) and (max-width: 1024px) { .lorem2 {font-style: italic; color: #4E4B4B; text-align: justify; font-family:"Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif;    font-size: 9.8px;}.awesome {font-style:fontawesome;  color: #4E4B4B; }}
-  
+
 .ods_footer {
 	font-style: italic;
 	color: #F5F5F5;
@@ -341,17 +341,17 @@ hr {border: 0; background-color: #fff;  border-top: 1px dashed #cc0033;}
 	font-size: 1.20em;
 }
 @media (min-width: 320px) and (max-width: 736px) { .footer {font-size: 0.9em } }
-	 
+
 
 .ods_footer a:link{color: #FF9900;	text-decoration:none;}
 .ods_footer a:visited {	color: #FF9900; text-decoration:none;}
-.ods_footer a:hover {color: #FF9900; text-decoration:underline; } 
+.ods_footer a:hover {color: #FF9900; text-decoration:underline; }
 
 /* icone social */
 .ods_social {font-style: italic; color: #4E4B4B; font-size: 14px;}
 .ods_social a:link{color: #4E4B4B;	text-decoration:none;}
 .ods_social a:visited {	color: #4E4B4B; text-decoration:none;}
-.ods_social a:hover {color: #FF9900; text-decoration:none; } 
+.ods_social a:hover {color: #FF9900; text-decoration:none; }
  @media (min-width: 320px) and (max-width: 736px) {.ods_social {font-size: 10px;}}
 
 .social {font-style: italic; color: #4E4B4B; font-size: 24px;}
@@ -362,12 +362,12 @@ hr {border: 0; background-color: #fff;  border-top: 1px dashed #cc0033;}
     width: 7px;
 	height:7px;
 }
- 
+
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 10px rgba(255,255,255,0.9); 
+    -webkit-box-shadow: inset 0 0 10px rgba(255,255,255,0.9);
     border-radius: 0px;
 }
- 
+
 ::-webkit-scrollbar-thumb:vertical {
 height: 50px;
 background-color: rgba(0,0,0,0.2);
@@ -420,4 +420,16 @@ background:rgba(248,248,248,0.98);
 color:#4E4B4B;
 padding:5px 5px;
 box-shadow: 0 1px 1.5px rgba(0,0,0,0.65);}
-	
+
+
+
+@media screen and (max-width: 600px) {
+  #loghilr {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
