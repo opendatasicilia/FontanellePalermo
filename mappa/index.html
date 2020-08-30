@@ -881,14 +881,7 @@ var select = L.countrySelect({title:"Elenco delle fontanelle pubbliche"});
 				<tr>\<strong style="text-align: center; color: #FF0000;font-size:12px;">Da questo punto raggiungeresti entro 10 minuti di strada a piedi&nbsp;&nbsp;[&nbsp;' + (feature.properties['nro'] !== null ? Autolinker.link(String(feature.properties['nro'])) : '') + '&nbsp;]&nbsp;&nbsp;fontanella/e </strong></br></br></tr>\
                                             </tr>\
 					<tr>\
-                    <tr>\
-                        <th class="no_mobile" scope="row"><img src="legend/omino-bivio.png" width="64" height="46" alt=""/ Title="Clicca il link sulla via per caricare il percorso più veloce con Google Maps" class="no_mobile"></th>\
-						<td class="no_mobile" >Clicca il link sulla via per<br>caricare il percorso più veloce<br>con Google Maps</td>\
-                       </tr>\
-						<tr>\
-                    <tr>\
-                        <th scope="row">Le fontanelle più vicine sono in:&nbsp;</th>\
-                        <td>' + (feature.properties['indirizzo_links'] !== null ? Autolinker.link(String(feature.properties['indirizzo_links'])) : '') + '</td>\
+                        <td>Le fontanelle più vicine sono in:&nbsp; ' + (feature.properties['indirizzo_links'] !== null ? Autolinker.link(String(feature.properties['indirizzo_links'])) : '') + '</td>\
                     </tr>\
                 </table>';;
             layer.bindPopup(popupContent, {maxHeight: 400});
