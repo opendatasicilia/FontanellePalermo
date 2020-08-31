@@ -421,15 +421,3 @@ color:#4E4B4B;
 padding:5px 5px;
 box-shadow: 0 1px 1.5px rgba(0,0,0,0.65);}
 
-
-
-@media screen and (max-width: 600px) {
-  #loghilr {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-}
