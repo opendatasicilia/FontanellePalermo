@@ -25,6 +25,7 @@ jobs:
         sudo apt-get install miller
         sudo apt-get install python3-setuptools
         pip3 install wheel
+        pip3 install lxml
         pip3 install visidata
     - name: scarica i dati
       run: |-
