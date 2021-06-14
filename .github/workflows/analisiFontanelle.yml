@@ -23,6 +23,7 @@ jobs:
         chmod +x scrape
         sudo pip install yq
         sudo apt-get install miller
+        sudo apt-get install dos2unix
         sudo apt-get install python3-setuptools
         pip3 install wheel
         pip3 install lxml

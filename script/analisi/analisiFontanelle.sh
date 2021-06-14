@@ -30,7 +30,8 @@ if [ $code -eq 200 ]; then
   mlr --csv cat "$folder"/rawdata/*.csv >"$folder"/../../dati/analisi/tmp.csv
   nome=$(mlr --c2n stats1 -a max -f dateISO "$folder"/../../dati/analisi/tmp.csv | tr -d '\r')
   mv "$folder"/../../dati/analisi/tmp.csv "$folder"/../../dati/analisi/"$nome".csv
-  mlr -I --csv filter -x -S '$dateISO==""' then uniq -a "$folder"/../../dati/analisi/"$nome".csv
+  mlr -I --csv filter -x -S '$dateISO==""' then uniq -a then sort -f dateISO,id,parametro "$folder"/../../dati/analisi/"$nome".csv
+  dos2unix "$folder"/../../dati/analisi/"$nome".csv
 fi
 
 # mlr --csv stats1 -a max -f dateISO rawdata/FW10.csv
