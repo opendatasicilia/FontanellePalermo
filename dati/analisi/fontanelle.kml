@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>MAPPA ANALISI FONTANELLE</name>
+    <description/>
+    <Style id="icon-1580-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1580-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1580-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1580-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1580-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>fontanelle.xlsx</name>
+      <Placemark>
+        <name>Fontanella Via Volturno</name>
+        <description><![CDATA[Codice Fontana: FW1<br>Indirizzo: Via Volturno<br>Coordinate: 38.119865, 13.355500<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw1-fontanella-via-volturno/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW1</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Volturno</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.119865, 13.355500</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw1-fontanella-via-volturno/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.3555,38.119865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Piazza della Vittoria</name>
+        <description><![CDATA[Codice Fontana: FW2<br>Indirizzo: Piazza della Vittoria<br>Coordinate: 38.112656, 13.355584<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw2-piazza-della-vittoria/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW2</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Piazza della Vittoria</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.112656, 13.355584</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw2-piazza-della-vittoria/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.355584,38.112656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Danisinni</name>
+        <description><![CDATA[Codice Fontana: FW3<br>Indirizzo: Via Danisinni<br>Coordinate: 38.111831, 13.346463<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw3-fontanella-via-danisinni/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW3</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Danisinni</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.111831, 13.346463</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw3-fontanella-via-danisinni/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.346463,38.111831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Piazza dei Cocchieri</name>
+        <description><![CDATA[Codice Fontana: FW4<br>Indirizzo: Piazza dei Cocchieri<br>Coordinate: 38.115299, 13.367446<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw4-fontanella-piazza-dei-cocchieri/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW4</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Piazza dei Cocchieri</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.115299, 13.367446</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw4-fontanella-piazza-dei-cocchieri/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.367446,38.115299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Piazza Mulino a vento</name>
+        <description><![CDATA[Codice Fontana: FW5<br>Indirizzo: Piazza Mulino a vento<br>Coordinate: 38.127628, 13.358786<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw5-fontanella-piazza-mulino-a-vento/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW5</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Piazza Mulino a vento</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.127628, 13.358786</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw5-fontanella-piazza-mulino-a-vento/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.358786,38.127628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Perpignano</name>
+        <description><![CDATA[Codice Fontana: FW6<br>Indirizzo: Via Perpignano<br>Coordinate: 38.119107, 13.331853<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw6-fontanella-via-perpignano/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW6</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Perpignano</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.119107, 13.331853</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw6-fontanella-via-perpignano/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.331853,38.119107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Madonna del Soccorso</name>
+        <description><![CDATA[Codice Fontana: FW7<br>Indirizzo: Via Madonna del Soccorso<br>Coordinate: 38.110006, 13.325337<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw7-fontanella-via-madonna-del-soccorso/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW7</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Madonna del Soccorso</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.110006, 13.325337</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw7-fontanella-via-madonna-del-soccorso/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.325337,38.110006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via U. Maddalena</name>
+        <description><![CDATA[Codice Fontana: FW8<br>Indirizzo: Via U. Maddalena<br>Coordinate: 38.108181, 13.308868<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw8-fontanella-via-u-maddalena/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW8</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via U. Maddalena</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.108181, 13.308868</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw8-fontanella-via-u-maddalena/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.308868,38.108181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Piazza Turba</name>
+        <description><![CDATA[Codice Fontana: FW9<br>Indirizzo: Piazza Turba<br>Coordinate: 38.101296, 13.338787<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw9-fontanella-piazza-turba/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW9</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Piazza Turba</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.101296, 13.338787</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw9-fontanella-piazza-turba/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.338787,38.101296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Piazza Pagliarelli</name>
+        <description><![CDATA[Codice Fontana: FW10<br>Indirizzo: Piazza Pagliarelli<br>Coordinate: 38.090433, 13.331536<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw10-fontanella-piazza-pagliarelli/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW10</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Piazza Pagliarelli</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.090433, 13.331536</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw10-fontanella-piazza-pagliarelli/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.331536,38.090433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Notarbartolo ang. Lo Jacono</name>
+        <description><![CDATA[Codice Fontana: FW11<br>Indirizzo: Via Notarbartolo ang. Lo Jacono<br>Coordinate: 38.132622, 13.345516<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw11-fontanella-via-notarbartolo-ang-lo-jacono/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW11</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Notarbartolo ang. Lo Jacono</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.132622, 13.345516</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw11-fontanella-via-notarbartolo-ang-lo-jacono/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.345516,38.132622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Cortile Prestigiacomo</name>
+        <description><![CDATA[Codice Fontana: FW12<br>Indirizzo: Cortile Prestigiacomo<br>Coordinate: 38.125969, 13.311333<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw12-fontanella-cortile-prestigiacomo/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW12</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Cortile Prestigiacomo</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.125969, 13.311333</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw12-fontanella-cortile-prestigiacomo/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.311333,38.125969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Piazza Uditore</name>
+        <description><![CDATA[Codice Fontana: FW13<br>Indirizzo: Piazza Uditore<br>Coordinate: 38.131648, 13.322712<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw13-fontanella-piazza-uditore/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW13</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Piazza Uditore</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.131648, 13.322712</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw13-fontanella-piazza-uditore/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.322712,38.131648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Conceria</name>
+        <description><![CDATA[Codice Fontana: FW14<br>Indirizzo: Via Conceria<br>Coordinate: 38.140232, 13.329823<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw14-fontanella-via-conceria/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW14</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Conceria</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.140232, 13.329823</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw14-fontanella-via-conceria/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.329823,38.140232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Resuttana (Briuccia)</name>
+        <description><![CDATA[Codice Fontana: FW15<br>Indirizzo: Via Resuttana (Briuccia)<br>Coordinate: 38.153186, 13.334822<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw15-via-resuttana-briuccia/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW15</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Resuttana (Briuccia)</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.153186, 13.334822</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw15-via-resuttana-briuccia/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.334822,38.153186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Cardinale Massaia</name>
+        <description><![CDATA[Codice Fontana: FW16<br>Indirizzo: Via Cardinale Massaia<br>Coordinate: 38.154213, 13.371165<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw16-fontanella-via-cardinale-massaia/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW16</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Cardinale Massaia</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.154213, 13.371165</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw16-fontanella-via-cardinale-massaia/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.371165,38.154213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via S. Lorenzo 155</name>
+        <description><![CDATA[Codice Fontana: FW17<br>Indirizzo: Via S. Lorenzo 155<br>Coordinate: 38.162785, 13.323633<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw17-fontanella-via-s-lorenzo-155/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW17</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via S. Lorenzo 155</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.162785, 13.323633</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw17-fontanella-via-s-lorenzo-155/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.323633,38.162785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Tommaso Natale 61</name>
+        <description><![CDATA[Codice Fontana: FW18<br>Indirizzo: Via Tommaso Natale 61<br>Coordinate: 38.174382, 13.301743<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw18-fontanella-via-tommaso-natale-61/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW18</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Tommaso Natale 61</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.174382, 13.301743</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw18-fontanella-via-tommaso-natale-61/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.301743,38.174382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Piazza Mandorle</name>
+        <description><![CDATA[Codice Fontana: FW19<br>Indirizzo: Piazza Mandorle<br>Coordinate: 38.188327, 13.289097<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw19-fontanella-piazza-mandorle/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW19</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Piazza Mandorle</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.188327, 13.289097</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw19-fontanella-piazza-mandorle/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.289097,38.188327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Amorello</name>
+        <description><![CDATA[Codice Fontana: FW20<br>Indirizzo: Via Amorello<br>Coordinate: 38.19924, 13.276028<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw20-fontanella-via-amorello/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW20</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Amorello</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.19924, 13.276028</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw20-fontanella-via-amorello/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.276028,38.19924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Carbone, 1 </name>
+        <description><![CDATA[Codice Fontana: FW21<br>Indirizzo: Via Carbone, 1 <br>Coordinate: 38.198446, 13.318446<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw21-fontanella-via-carbone/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW21</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Carbone, 1 </value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.198446, 13.318446</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw21-fontanella-via-carbone/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.318446,38.198446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Torre di Mondello</name>
+        <description><![CDATA[Codice Fontana: FW22<br>Indirizzo: Via Torre di Mondello<br>Coordinate: 38.20721, 13.326597<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw22-fontanella-via-torre-di-mondello/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW22</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Torre di Mondello</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.20721, 13.326597</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw22-fontanella-via-torre-di-mondello/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.326597,38.20721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Decollati 14</name>
+        <description><![CDATA[Codice Fontana: FW23<br>Indirizzo: Via Decollati 14<br>Coordinate: 38.105165, 13.371716<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw23-fontanella-via-decollati-14/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW23</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Decollati 14</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.105165, 13.371716</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw23-fontanella-via-decollati-14/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.371716,38.105165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Guadagna 50</name>
+        <description><![CDATA[Codice Fontana: FW24<br>Indirizzo: Via Guadagna 50<br>Coordinate: 38.100082, 13.368958<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw24-fontanella-via-guadagna-50/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW24</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Guadagna 50</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.100082, 13.368958</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw24-fontanella-via-guadagna-50/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.368958,38.100082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Sperone 296</name>
+        <description><![CDATA[Codice Fontana: FW25<br>Indirizzo: Via Sperone 296<br>Coordinate: 38.09916, 13.401636<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw25-fontanella-via-sperone-296/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW25</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Sperone 296</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.09916, 13.401636</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw25-fontanella-via-sperone-296/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.401636,38.09916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Conte Federico 61</name>
+        <description><![CDATA[Codice Fontana: FW26<br>Indirizzo: Via Conte Federico 61<br>Coordinate: 38.093773, 13.385614<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw26-fontanella-via-conte-federico-61/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW26</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Conte Federico 61</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.093773, 13.385614</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw26-fontanella-via-conte-federico-61/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.385614,38.093773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Barresi</name>
+        <description><![CDATA[Codice Fontana: FW27<br>Indirizzo: Via Barresi<br>Coordinate: 38.079082, 13.373998<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw27-fontanella-via-barresi/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW27</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Barresi</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.079082, 13.373998</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw27-fontanella-via-barresi/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.373998,38.079082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Corso dei Mille 1620</name>
+        <description><![CDATA[Codice Fontana: FW28<br>Indirizzo: Corso dei Mille 1620<br>Coordinate: 38.088055, 13.420907<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw28-fontanella-corso-dei-mille-1620/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW28</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Corso dei Mille 1620</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.088055, 13.420907</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw28-fontanella-corso-dei-mille-1620/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.420907,38.088055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Ciaculli 403</name>
+        <description><![CDATA[Codice Fontana: FW29<br>Indirizzo: Via Ciaculli 403<br>Coordinate: 38.075933, 13.407128<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw29-fontanella-via-ciaculli-403/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW29</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Ciaculli 403</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.075933, 13.407128</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw29-fontanella-via-ciaculli-403/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.407128,38.075933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Via Giardina 2</name>
+        <description><![CDATA[Codice Fontana: FW30<br>Indirizzo: Via Giardina 2<br>Coordinate: 38.068542, 13.418857<br>Visualizza Analisi: https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw30-fontanella-via-giardina-2/]]></description>
+        <styleUrl>#icon-1580-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="Codice Fontana">
+            <value>FW30</value>
+          </Data>
+          <Data name="Indirizzo">
+            <value>Via Giardina 2</value>
+          </Data>
+          <Data name="Coordinate">
+            <value>38.068542, 13.418857</value>
+          </Data>
+          <Data name="Visualizza Analisi">
+            <value>https://www.amapspa.it/it/analisi-fontanelle-di-palermo/fw30-fontanella-via-giardina-2/</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.418857,38.068542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
