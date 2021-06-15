@@ -39,6 +39,6 @@ curl -kL "https://www.google.com/maps/d/u/0/kml?mid=17JvcNAruYApLI5TIaNFStgAwEfi
 # converti kml in CSV
 ogr2ogr  -f CSV /vsistdout/ "$folder"/../../dati/analisi/fontanelle.kml -lco GEOMETRY=AS_XYZ  >"$folder"/../../dati/analisi/fontanelle.csv
 # estrai ID fontanelle
-mlr --csv rename Codice_Fontana,id then reorder -f id "$folder"/../../dati/analisi/fontanelle.csv
+mlr -I --csv rename Codice_Fontana,id then reorder -f id "$folder"/../../dati/analisi/fontanelle.csv
 
 dos2unix "$folder"/../../dati/analisi/fontanelle.csv
